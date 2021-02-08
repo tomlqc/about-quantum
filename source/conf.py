@@ -30,7 +30,9 @@ author = 'Thomas Germain'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_rtd_theme'
+    'sphinx.ext.autosectionlabel',
+    'sphinx_rtd_theme',
+    'sphinxcontrib.bibtex'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -55,3 +57,13 @@ html_show_sourcelink = False
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# -- Additional configuration ------------------------------------------------
+
+autosectionlabel_prefix_document = True
+
+bibtex_bibfiles = ['biblio/books.bib', 'biblio/reviews.bib', 'biblio/articles.bib']
+bibtex_default_style = 'plain'
+#bibtex_reference_style = 'author_year'  # version 2.2.0
+
+# -- EOF ---------------------------------------------------------------------

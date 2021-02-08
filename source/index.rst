@@ -5,22 +5,48 @@
 My Notes about Quantum 2.0
 ==========================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
 .. include:: qutex.rst
-	
+
 .. math::
-	
-	i \hbar \frac{\partial \ket{\psi(t)} }{\partial t} = \hat{H} \ket{\psi(t)}
+
+    i \hbar \frac{\partial \ket{\psi(t)} }{\partial t} = \hat{H} \ket{\psi(t)}
 
 More to discover soon!
 
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+    :caption: My Contribution
+    
+    intro/index
+    stories/index
 
-Indices and tables
-==================
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+    :caption: Learn more
+    
+    online/index
+    biblio/index
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+    :caption: About
+
+    about/index
+
+
+An Introduction
+---------------
+
+
+52 Stories about Quantum Science
+--------------------------------
+
+
+Learn more
+----------
+
+* :ref:`online/index:Online Resources`
+* :ref:`biblio/index:Bibliography`
