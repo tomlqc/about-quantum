@@ -15,7 +15,7 @@ More to discover soon!
 
 .. toctree::
     :hidden:
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: My Contribution
     
     intro/index
@@ -43,6 +43,8 @@ An Introduction
 
 52 Stories about Quantum Science
 --------------------------------
+
+* **Refresher:** :ref:`stories/angular-momentum:Angular Momentum`
 
 
 Learn more
