@@ -19,5 +19,5 @@ Then I delved into:
 
 These three books pretty well prepared me to two lectures of the master's degree in **Quantum Science and Technology**, offered by Technical University of Munich and Ludwig-Maximilians-University, that I attended as a guest student in Winter 2020/2021:
 
-- *Quantum Hardware* by Prof. M. Aidelsburger of LMU
-- *Quantum Information* by Prof. I. Cirac of TUM
+- *Quantum Hardware* by Prof. M. Aidelsburger of LMU :cite:`LMUQH2021`
+- *Quantum Information* by Prof. I. Cirac of TUM :cite:`TUMQI2021`

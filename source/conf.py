@@ -62,7 +62,8 @@ html_static_path = ['_static']
 
 autosectionlabel_prefix_document = True
 
-bibtex_bibfiles = ['biblio/books.bib', 'biblio/reviews.bib', 'biblio/articles.bib']
+bibtex_bibfiles = ['biblio/books.bib', 'biblio/lectures.bib',
+                   'biblio/reviews.bib', 'biblio/articles.bib']
 bibtex_default_style = 'plain'
 #bibtex_reference_style = 'author_year'  # version 2.2.0
 

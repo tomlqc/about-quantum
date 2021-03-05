@@ -9,7 +9,14 @@ Books
 .. bibliography:: books.bib
     :all:
     :labelprefix: B
-    
+
+Lectures
+--------
+
+.. bibliography:: lectures.bib
+    :all:
+    :labelprefix: L
+
 Review Papers
 -------------
 
