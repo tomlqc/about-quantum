@@ -6,8 +6,6 @@ The Story
 The story behind the stories
 ----------------------------
 
-Quantum Science from the perspective of a non-physicist.
-
 I started with:
 
 - *Quantum Mechanics* by Basdevant & Dalibard :cite:`Basdevant2005`.

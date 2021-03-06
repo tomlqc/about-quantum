@@ -1,9 +1,9 @@
 .. created by sphinx-quickstart on Sun Jan  3 18:40:01 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 My Notes about Quantum 2.0
 ==========================
+
+    *Quantum Science from the perspective of a non-physicist.*
 
 .. include:: qutex.rst
 
@@ -11,7 +11,7 @@ My Notes about Quantum 2.0
 
     i \hbar \frac{\partial \ket{\psi(t)} }{\partial t} = \hat{H} \ket{\psi(t)}
 
-More to discover soon!
+.. ---------------------------------------------------------------------------
 
 .. toctree::
     :hidden:
@@ -28,23 +28,75 @@ More to discover soon!
     
     online/index
     biblio/index
+    about/syllabus
 
 .. toctree::
     :hidden:
     :maxdepth: 2
     :caption: About
 
-    about/index
+    about/story
 
+.. ---------------------------------------------------------------------------
 
 An Introduction
 ---------------
 
+Quantum 2.0 | Quantum Communication & Cryptography | Quantum Computing | Quantum Simulation
 
-52 Stories about Quantum Science
+
+## Stories about Quantum Science
 --------------------------------
 
-* **Refresher:** :ref:`stories/angular-momentum:Angular Momentum`
+.. comment: inspired by https://docs.readthedocs.io/en/stable/
+.. comment: # 26
+    Basic 5
+    Background 7
+    Technical 2
+    Illustration 4
+    Implementation 2
+    Conceptual 4
+    History 2
+
+* **Basics:**
+  Fundamental Principles |
+  Correspondence Principle |
+  Measurements |
+  :ref:`stories/angular-momentum:Angular Momentum` |
+  Stark and Zeeman effects
+
+* **Advanced Topics:**
+  Second Quantization |
+  Unitary Operators |
+  Trace Preserving Operators |
+  Pauli Operators |
+  Phase of a Qubit |
+  Phase Damping |
+  Hamiltonians
+
+* **Technical:**
+  Interaction Picture |
+  Rotating Wave Approximation
+
+* **Illustration:**
+  Evolution of a Qubit |
+  Bell Inequality |
+  Birth and Grow of Superpositions |
+  Stabilizers
+  
+* **Physical Implementation:**
+  Entanglement |
+  Basic Gates
+
+* **Conceptual:**
+  Young Double Slit Experiment |
+  EPR Experiments |
+  Non-locality & Contextuality |
+  Conterfactual
+
+* **Background**
+  Maths for QM |
+  Nobel Prices
 
 
 Learn more
@@ -52,3 +104,6 @@ Learn more
 
 * :ref:`online/index:Online Resources`
 * :ref:`biblio/index:Bibliography`
+* :ref:`about/syllabus:Syllabus`
+
+.. ---------------------------------------------------------------------------

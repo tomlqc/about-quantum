@@ -1,11 +1,11 @@
 
 ##########
-52 Stories
+## Stories
 ##########
 
 .. toctree::
     :maxdepth: 1
-    :caption: Refresher
+    :caption: Basic
 
     angular-momentum.rst
 
