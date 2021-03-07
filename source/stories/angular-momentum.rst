@@ -82,7 +82,7 @@ terms of the angular momentum :math:`\hatb{L}`
 .. math::
 
     \Delta = \frac{1}{r} \frac{\partial^2}{\partial r^2} r -
-             \frac{1}{r^2 \hbar^2 \hatsup{L}{2}}
+             \frac{1}{r^2 \hbar^2} \hatsup{L}{2}
 
 Thus the operator associated to the kinetic energy of a particle, and hence its
 Hamiltonian :math:`\hat H`, can be expressed using :math:`\hatb{L}` too.
@@ -128,3 +128,5 @@ Spin
 
 .. [#fQM10] This story is basically a summary of *Quantum Mechanics* :cite:`Basdevant2005`,
     chapter 10. Some of the phrases are reproduced literally.
+
+.. ---------------------------------------------------------------------------
