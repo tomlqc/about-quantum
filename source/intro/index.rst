@@ -1,7 +1,7 @@
 
-############
-Introduction
-############
+###########
+Quantum 2.0
+###########
 
 .. toctree::
     :hidden:

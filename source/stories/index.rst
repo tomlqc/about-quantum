@@ -1,11 +1,11 @@
 
 ##########
-## Stories
+Background
 ##########
 
 .. toctree::
     :maxdepth: 1
-    :caption: Basic
+    :caption: Basics
 
     angular-momentum.rst
 

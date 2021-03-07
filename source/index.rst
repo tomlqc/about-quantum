@@ -3,7 +3,7 @@
 My Notes about Quantum 2.0
 ==========================
 
-    *Quantum Science from the perspective of a non-physicist.*
+*Quantum Science from the perspective of a non-physicist.*
 
 .. include:: qutex.rst
 
@@ -39,14 +39,24 @@ My Notes about Quantum 2.0
 
 .. ---------------------------------------------------------------------------
 
-An Introduction
----------------
+Quantum 2.0
+-----------
 
-Quantum 2.0 | Quantum Communication & Cryptography | Quantum Computing | Quantum Simulation
+An introduction.
+
+* **Quantum 2.0:**
+
+* **Quantum Computing:**
+
+* **Quantum Simulation:**
+
+* **Quantum Communication:**
 
 
-## Stories about Quantum Science
---------------------------------
+Background
+----------
+
+More stories about selected topics in Quantum Science.
 
 .. comment: inspired by https://docs.readthedocs.io/en/stable/
 .. comment: # 26
@@ -63,7 +73,7 @@ Quantum 2.0 | Quantum Communication & Cryptography | Quantum Computing | Quantum
   Correspondence Principle |
   Measurements |
   :ref:`stories/angular-momentum:Angular Momentum` |
-  Stark and Zeeman effects
+  Stark and Zeeman Effects
 
 * **Advanced Topics:**
   Second Quantization |
