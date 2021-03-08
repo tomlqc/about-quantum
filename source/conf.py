@@ -32,7 +32,8 @@ author = 'Thomas Germain'
 extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
-    'sphinxcontrib.bibtex'
+    'sphinxcontrib.bibtex',
+    'jupyter_sphinx'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
