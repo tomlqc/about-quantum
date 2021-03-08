@@ -7,9 +7,14 @@ Background
     :maxdepth: 1
     :caption: Basics
 
-    angular-momentum.rst
+    angular_momentum.rst
 
 .. ---------------------------------------------------------------------------
 
+.. toctree::
+    :maxdepth: 1
+    :caption: Illustration
+
+    bloch_sphere.rst
 
 .. ---------------------------------------------------------------------------

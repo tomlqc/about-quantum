@@ -72,10 +72,10 @@ More stories about selected topics in Quantum Science.
   Fundamental Principles |
   Correspondence Principle |
   Measurements |
-  :ref:`stories/angular-momentum:Angular Momentum` |
+  :ref:`stories/angular_momentum:Angular Momentum` |
   Stark and Zeeman Effects
 
-* **Advanced Topics:**
+* **Advanced:**
   Second Quantization |
   Unitary Operators |
   Trace Preserving Operators |
@@ -89,6 +89,7 @@ More stories about selected topics in Quantum Science.
   Rotating Wave Approximation
 
 * **Illustration:**
+  :ref:`stories/bloch_sphere:Bloch Sphere` |
   Evolution of a Qubit |
   Bell Inequality |
   Birth and Grow of Superpositions |
