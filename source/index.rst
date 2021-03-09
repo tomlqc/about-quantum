@@ -19,7 +19,8 @@ My Notes about Quantum 2.0
     :caption: My Contribution
     
     intro/index
-    stories/index
+    stories/complements
+    stories/background
 
 .. toctree::
     :hidden:
@@ -39,6 +40,19 @@ My Notes about Quantum 2.0
 
 .. ---------------------------------------------------------------------------
 
+.. comment: layout inspired by https://docs.readthedocs.io/en/stable/
+
+.. comment: # 26
+    Implementation 2
+    Illustration 4
+    Basic 5
+    Advanced 7
+    Technical 2
+    Conceptual 4
+    Miscellaneous 2
+
+.. ---------------------------------------------------------------------------
+
 Quantum 2.0
 -----------
 
@@ -53,20 +67,23 @@ An introduction.
 * **Quantum Communication:**
 
 
+Complements
+-----------
+
+* **Physical Implementation:**
+  Entanglement |
+  Basic Gates
+
+* **Illustration:**
+  :ref:`stories/bloch_sphere:Bloch Sphere` |
+  Evolution of a Qubit |
+  Bell Inequality |
+  Birth and Grow of Superpositions |
+  Stabilizers
+
+
 Background
 ----------
-
-More stories about selected topics in Quantum Science.
-
-.. comment: inspired by https://docs.readthedocs.io/en/stable/
-.. comment: # 26
-    Basic 5
-    Background 7
-    Technical 2
-    Illustration 4
-    Implementation 2
-    Conceptual 4
-    History 2
 
 * **Basics:**
   Fundamental Principles |
@@ -88,24 +105,13 @@ More stories about selected topics in Quantum Science.
   Interaction Picture |
   Rotating Wave Approximation
 
-* **Illustration:**
-  :ref:`stories/bloch_sphere:Bloch Sphere` |
-  Evolution of a Qubit |
-  Bell Inequality |
-  Birth and Grow of Superpositions |
-  Stabilizers
-  
-* **Physical Implementation:**
-  Entanglement |
-  Basic Gates
-
 * **Conceptual:**
   Young Double Slit Experiment |
   EPR Experiments |
   Non-locality & Contextuality |
   Conterfactual
 
-* **Background**
+* **Miscellaneous**
   Maths for QM |
   Nobel Prices
 

@@ -3,18 +3,12 @@
 Background
 ##########
 
+A few more stories about selected topics in Quantum Science.
+
 .. toctree::
     :maxdepth: 1
     :caption: Basics
 
     angular_momentum.rst
-
-.. ---------------------------------------------------------------------------
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Illustration
-
-    bloch_sphere.rst
 
 .. ---------------------------------------------------------------------------
