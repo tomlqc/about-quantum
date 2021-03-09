@@ -57,4 +57,4 @@ Finally two principle shall guide me:
 
 .. rubric:: Footnotes
 
-.. [#fof6] I am father of six. Sometimes, angels visit us, and quickly return to Heaven.
+.. [#fof6] I am father of six. Sometimes, angels visit us, and soon return to Heaven.
