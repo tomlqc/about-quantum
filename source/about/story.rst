@@ -22,7 +22,7 @@ I had precise goals in mind from the beginning.
 .. rubric:: Why writing?
 
 I have spent really a lot of time learning, in parallel to a full-time job and
-to my father-of-five [#fof6]_ duties. And because I did all this without the
+to my father-of-six duties. And because I did all this without the
 perspective of getting a degree, I wanted to make my efforts visible,
 and to find a way to conclude these self-studies.
 
@@ -34,13 +34,13 @@ published in peer-reviewed journals, many of them freely accessible.
 So it would be senseless to try explaining again these physics in details,
 when experts already explained much better than I could.
 
-But what I was missing was an overview of Quantum 2.0 that was between
-simple introductory slide shows or 20 minute lecture series on one side, and
+But what I was missing, was an overview of Quantum 2.0 that was between,
+on one side, introductory slide shows or 20 minute lecture series, and
 graduate level courses on the other.
 
-Also there are some special topics that I wanted to deepen, that in my impression,
-were to quickly addressed in textbooks or published articles,
-or where I wanted to provide some illustration.
+Also there are some special topics that, in my opinion,
+are to shortly addressed in the textbooks and articles that I know,
+and for which I want to provide some illustration.
 
 .. rubric:: The goals for this blog?
 
@@ -52,9 +52,5 @@ or where I wanted to provide some illustration.
 
 Finally two principle shall guide me:
 
-- Explain *why* rather than *what*.
+- Explain *why*.
 - Illustrate.
-
-.. rubric:: Footnotes
-
-.. [#fof6] I am father of six. Sometimes, angels visit us, and soon return to Heaven.
