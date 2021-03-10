@@ -22,7 +22,7 @@ I had precise goals in mind from the beginning.
 .. rubric:: Why writing?
 
 I have spent really a lot of time learning, in parallel to a full-time job and
-to my father-of-six duties. And because I did all this without the
+to my family duties. And because I did all this without the
 perspective of getting a degree, I wanted to make my efforts visible,
 and to find a way to conclude these self-studies.
 
