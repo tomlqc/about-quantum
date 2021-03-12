@@ -54,3 +54,22 @@ Finally two principle shall guide me:
 
 - Explain *why*.
 - Illustrate.
+
+.. rubric:: About this format
+
+To write this *blog*, I searched for a platform that allow to easily:
+
+* write mathematical equations, preferably in *LaTeX* syntax ;
+* manage a bibliography ;
+* insert links to internal or external references ;
+* present pieces of code and their output, also graphical elements (figures) ;
+* edit the contents on my local computer, without depending on a web app ;
+* use a versioning system.
+
+This is why I chose `Sphinx <https://www.sphinx-doc.org/>`_,
+that was created for documenting *python* code,
+and has everything I was looking for.
+
+In some sense, it looks like I am building a *Quantum Science Manual* :)
+
+.. EOF -----------------------------------------------------------------------
