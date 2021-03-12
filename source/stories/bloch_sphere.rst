@@ -2,81 +2,63 @@
 Bloch Sphere
 ============
 
-Or how to visualize vectors of a :math:`\mathbb C` space.
+.. toctree::
+    :hidden:
+    
+    ../code/bloch_sphere.rst
 
 .. include:: ../qutex.rst
 
-.. ---------------------------------------------------------------------------
+The Bloch sphere is used to represent the state of two-level systems.
 
-In QuTIP
---------
+It is, in fact, the visualization of vectors of a complex Hilbert space
+of dimension 2 (:math:`\mathbb C^2` space),
+in contrast to real spaces, that we are familiar with and easy to interpret.
 
 .. jupyter-execute::
     :hide-code:
 
     %matplotlib inline
-
     import matplotlib
     import matplotlib.pyplot as plt
+
     import numpy as np
     
     import qutip
     from qutip import basis
-    from qutip.operators import sigmax, sigmay, sigmaz, sigmap, sigmam
-    from qutip.qip.operations import rx, ry, rz
     from qutip.bloch import Bloch
-    # from qutip.bloch3d import Bloch3d  # requires mayavi
 
     # to avoid a distorted sphere
     box_aspect = (1, 1, 1)
 
-.. jupyter-execute::
-
-    bloch = Bloch()
-    bloch.show()
-    bloch.axes.set_box_aspect(box_aspect)
-
-.. jupyter-execute::
-
-    up = basis(2, 0)
-    down = basis(2, 1)
-    bloch.clear()
-    bloch.add_states([up, down])
-    bloch.show()
-
-Apply a rotation of :math:`\frac{\pi}{2}` around the :math:`y` axis.
-
-.. jupyter-execute::
-
-    phi = ry(np.pi / 2) * up
-    phi
-
-.. jupyter-execute::
-
-    bloch.clear()
-    bloch.add_states([up, phi])
-    bloch.show()
-
-In Qiskit
----------
+The two vectors :math:`\ket{0}` and :math:`\ket{1}` of a chosen basis
+are represented on the z-axis.
 
 .. jupyter-execute::
     :hide-code:
 
-    %matplotlib inline
+    bloch = Bloch()
 
-    import matplotlib
-    import matplotlib.pyplot as plt
-    import numpy as np
+    up = basis(2, 0)
+    down = basis(2, 1)
+    bloch.add_states([up, down])
+    bloch.show()
+    bloch.axes.set_box_aspect(box_aspect)
 
-    from qiskit.visualization import plot_bloch_vector
+While the x- and y-axis represent the following superpositions of the basis vectors:
 
-.. jupyter-execute::
+- x-axis: :math:`\ket{0} \pm \ket{1}`
+- y-axis: :math:`\ket{0} \pm i \ket{1}`
 
-    plot_bloch_vector([1,0,0], title="Bloch Sphere")
 
 .. ---------------------------------------------------------------------------
 
-Download this code: :jupyter-download:script:`bloch_sphere`.
+
+
+.. ---------------------------------------------------------------------------
+
+.. rubric:: Complements
+
+* :ref:`code/bloch_sphere:Bloch Sphere in QuTiP and Qiskit`.
 
 .. ---------------------------------------------------------------------------
