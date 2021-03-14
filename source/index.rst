@@ -48,14 +48,16 @@ My Notes about Quantum 2.0
 
 .. comment: layout inspired by https://docs.readthedocs.io/en/stable/
 
-.. comment: # 26
+.. comment: # stories in intro:
+
+.. comment: # stories in complements and background: 29
     Implementation 2
-    Illustration 4
-    Basic 5
+    Illustration 5
+    Basic 6
     Advanced 7
     Technical 2
     Conceptual 4
-    Miscellaneous 2
+    Miscellaneous 3
 
 .. ---------------------------------------------------------------------------
 
@@ -94,6 +96,7 @@ Background
 * **Basics:**
   Fundamental Principles |
   Correspondence Principle |
+  Uncertainty Principle |
   Measurements |
   :ref:`stories/angular_momentum:Angular Momentum` |
   Stark and Zeeman Effects
@@ -101,7 +104,7 @@ Background
 * **Advanced:**
   Second Quantization |
   Unitary Operators |
-  Trace Preserving Operators |
+  Trace Preservation |
   Pauli Operators |
   Phase of a Qubit |
   Phase Damping |
@@ -115,11 +118,12 @@ Background
   Young Double Slit Experiment |
   EPR Experiments |
   Non-locality & Contextuality |
-  Conterfactual
+  Conterfactuals
 
-* **Miscellaneous**
+* **Miscellaneous:**
   Maths for QM |
-  Nobel Prices
+  Nobel Prices |
+  Glossary
 
 
 Learn more
