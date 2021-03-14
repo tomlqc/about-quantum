@@ -71,7 +71,7 @@ Finally two principle shall guide me:
 Sphinx
 ======
 
-To write this *blog*, I searched for a platform that allow to easily:
+To write this *blog*, I searched for a platform that allows to easily:
 
 * write mathematical equations, preferably in *LaTeX* syntax ;
 * manage a bibliography ;
