@@ -4,7 +4,14 @@ The Story
 #########
 
 The story behind the story
---------------------------
+==========================
+
+I am an aerodynamics engineer, and I have been working for many years
+on numerical methods in the realm of Computational Fluid Dynamics (CFD)
+and High Performance Computing (HPC).
+
+I have a passion for physics and computer science, and I decided to know more about 
+quantum computing.
 
 In January 2020, I started refreshing my Quantum Mechanics,
 and by the mid of the year I was able to dive into more complex topics of Quantum Science,
@@ -21,22 +28,26 @@ I had precise goals in mind from the beginning.
 
 .. rubric:: Why writing?
 
-I have spent really a lot of time learning, in parallel to a full-time job and
-to my family duties. And because I did all this without the
-perspective of getting a degree, I wanted to make my efforts visible,
-and to find a way to conclude these self-studies.
+I have invested really a lot of time in learning, parallely to a full-time job and
+to my family duties (OOooo*oo).
+I did this without the perspective of getting any kind of certificate,
+but I wanted to show that I took this project very seriously, and
+that I learned a lot,
+so I decided to write down these notes.
+Writing helps to reflect what I have really learnt, and
+it is a way to conclude these self-studies.
 
 .. rubric:: What to write?
 
 There are several textbooks that already present and explain the physics I am talking about.
-And the topics that are not yet in textbooks, are described in articles 
+And the topics that are not yet in textbooks, are well described in articles 
 published in peer-reviewed journals, many of them freely accessible.
-So it would be senseless to try explaining again these physics in details,
-when experts already explained much better than I could.
+So it would be senseless to try to explain again these physics in details,
+that experts already explained much better than I could.
 
-But what I was missing, was an overview of Quantum 2.0 that was between,
+But what I am missing, is an overview of Quantum 2.0 that lies between,
 on one side, introductory slide shows or 20 minute lecture series, and
-graduate level courses on the other.
+on the other side, graduate level courses.
 
 Also there are some special topics that, in my opinion,
 are to shortly addressed in the textbooks and articles that I know,
@@ -55,7 +66,10 @@ Finally two principle shall guide me:
 - Explain *why*.
 - Illustrate.
 
-.. rubric:: About this format
+.. ---------------------------------------------------------------------------
+
+Sphinx
+======
 
 To write this *blog*, I searched for a platform that allow to easily:
 
@@ -66,10 +80,13 @@ To write this *blog*, I searched for a platform that allow to easily:
 * edit the contents on my local computer, without depending on a web app ;
 * use a versioning system.
 
+Additionally I wanted the page to render nicely on large screens
+as well as on mobile devices.
+
 This is why I chose `Sphinx <https://www.sphinx-doc.org/>`_,
-that was created for documenting *python* code,
+that was initially designed for documenting *python* code,
 and has everything I was looking for.
 
-In some sense, it looks like I am building a *Quantum Science Manual* :)
+So, finally, it looks a bit like I am building a *Quantum Science Manual*. :)
 
 .. EOF -----------------------------------------------------------------------

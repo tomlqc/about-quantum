@@ -3,7 +3,7 @@
 My Notes about Quantum 2.0
 ==========================
 
-*Quantum Science from the perspective of a non-physicist.*
+*Quantum Science from the perspective of a nonphysicist.*
 
 .. include:: qutex.rst
 
