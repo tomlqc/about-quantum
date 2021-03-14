@@ -10,5 +10,6 @@ A few more stories about selected topics in Quantum Science.
     :caption: Basics
 
     angular_momentum.rst
+    pauli_operators.rst
 
 .. ---------------------------------------------------------------------------

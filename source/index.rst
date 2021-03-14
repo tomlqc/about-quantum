@@ -105,7 +105,7 @@ Background
   Second Quantization |
   Unitary Operators |
   Trace Preservation |
-  Pauli Operators |
+  :ref:`stories/pauli_operators:Pauli Operators` |
   Phase of a Qubit |
   Phase Damping |
   Hamiltonians
