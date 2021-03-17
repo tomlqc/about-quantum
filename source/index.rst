@@ -133,4 +133,6 @@ Learn more
 * :ref:`biblio/index:Bibliography`
 * :ref:`about/syllabus:Syllabus`
 
+Read also about :ref:`the Story <about/story:The Story>` of these notes. 
+
 .. ---------------------------------------------------------------------------
