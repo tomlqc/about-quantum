@@ -4,8 +4,6 @@ Angular Momentum
 
 .. include:: ../qutex.rst
 
-The basic results about angular momentum [#fQM10]_.
-
 .. ---------------------------------------------------------------------------
 
 Fundamentals
@@ -28,6 +26,9 @@ We use these relations as the fundamental **definition** of an **angular-momentu
 observable** :math:`\hatb J`
 
 .. math:: \hatb{J} \times \hatb{J} = i \hbar \hatb{J}
+
+The observable denoted :math:`\hatsup{J}{2}` is defined as
+:math:`\hatsup{J}{2} = \hatsubsup{J}{x}{2} + \hatsubsup{J}{y}{2} + \hatsubsup{J}{z}{2}`.
 
 We observe that :math:`[ \hatsup{J}{2}, \hatb{J} ] = 0` and that we can construct
 a CSCO made of :math:`\{ \hatsup{J}{2}, \hatsub{J}{z} \}` i.e. these two operators
@@ -121,12 +122,26 @@ and we call the factor gyromagnetic ratio :math:`\gamma`
 Spin
 ----
 
+A spin observable :math:`\hatb{S}` acts in the 2-dimensional Hilbert space of 
+spin 1/2 denoted as :math:`\mathcal{E}_\rm{spin}`
+and obeys the commutation relation of an angular momentum:
+
+.. math:: \hatb{S} \times \hatb{S} = i \hbar \hatb{S}
+
+with each of the observables :math:`S_i` having eigenvalues :math:`\pm \hbar / 2`.
+The observable :math:`\hatsup{S}{2}` has one eigenvalue :math:`3 \hbar^2 / 4`.
+
+This spin observable can be expressed in terms of the
+:ref:`Pauli operators <stories/pauli_operators:Pauli Operators>` as
+
+.. math:: \hatb{S} = \frac{\hbar}{2} \hatb \sigma
 
 .. ---------------------------------------------------------------------------
 
-.. rubric:: Notes and References
+References
+----------
 
-.. [#fQM10] This story is basically a summary of *Quantum Mechanics* :cite:`Basdevant2005`,
-    chapter 10. Some of the phrases are reproduced literally.
+*  This story is basically a summary of *Quantum Mechanics* :cite:`Basdevant2005`,
+   chapter 10 to 12. Some of the phrases are reproduced literally.
 
 .. ---------------------------------------------------------------------------
