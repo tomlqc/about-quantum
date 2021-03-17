@@ -6,6 +6,9 @@ Pauli Operators
 
 .. ---------------------------------------------------------------------------
 
+Definitions
+-----------
+
 In :ref:`Angular Momentum<stories/angular_momentum:Fundamentals>`
 we defined **angular-momentum
 observables** :math:`\hatb J` by their commutation relations:
@@ -48,5 +51,26 @@ Together with the identity operator :math:`\hat I`, they form a basis of the
 space of operators acting in a 2-dimensional Hilbert space :math:`\mathcal H`,
 i.e. any operator of :math:`\mathcal H` can be expressed as linear combination of
 :math:`\hat I` and the :math:`\hat \sigma_i`.
+
+An operator :math:`\hat a`,
+that is defined as a linear combination of the :math:`\hat \sigma_i`,
+can be written using a vector :math:`\bm n`:
+
+.. math::
+    \hat a 
+    & = \bm{n} \cdot \hatb{\sigma} \\
+    & = n_X \hat \sigma_X + n_Y \hat \sigma_Y  + n_Z \hat \sigma_Z
+
+The action of an operator :math:`\exp(-i \theta \, \bm{n} \cdot \hatb{\sigma})`
+on any state vector can be described in the Bloch sphere as a rotation of this vector
+around the axis defined by :math:`\bm n`.
+
+.. ---------------------------------------------------------------------------
+
+References
+----------
+
+* :cite:`Haroche2013`, section 2.1.1
+
 
 .. EOF -----------------------------------------------------------------------
