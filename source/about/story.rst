@@ -29,7 +29,7 @@ I had precise goals in mind from the beginning.
 .. rubric:: Why writing?
 
 I have invested really a lot of time in learning, parallely to a full-time job and
-to my family duties (OOooo*oo).
+to my family duties (ABaba*ba).
 I did this without the perspective of getting any kind of certificate,
 but I wanted to show that I took this project very seriously, and
 that I learned a lot,
