@@ -18,6 +18,7 @@
     \newcommand{\hatb}[1]{\bm{\hat{#1}}}  % hat + bold
     \newcommand{\hatsub}[2]{\hat{{#1}_{#2}}}  % hat + subscript
     \newcommand{\hatsup}[2]{\super{\hat{#1}}{#2}}  % hat + superscript
+    \newcommand{\hatsubsup}[3]{\super{\hat{#1}}{#3}_{#2}}  % hat + sub + superscript
 
 .. about the Mathjax equation numbering
     https://github.com/readthedocs/sphinx_rtd_theme/pull/383
