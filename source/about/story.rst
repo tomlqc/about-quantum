@@ -1,10 +1,10 @@
 
 #########
-The Story
+This Site
 #########
 
-The story behind the story
-==========================
+The story
+=========
 
 I am an aerodynamics engineer, and I have been working for many years
 on numerical methods in the realm of Computational Fluid Dynamics (CFD)
@@ -21,31 +21,32 @@ I had precise goals in mind from the beginning.
 
 .. rubric:: The goals for my self-studies
 
-- Have an idea of the experimental setup used in the various approaches to quantum computers and about their underlying physics.
-- Understand the principles of quantum computing.
+- Have an idea of the **physical implementations** [#exp1]_ of the various approaches
+  to quantum computers and about their underlying physics.
+- Understand the principles of **quantum computing**.
 - Learn about quantum algorithms and about the problems that can be solved more efficiently than with classical computers.
 - Know the current state of the art, and be able to read research papers.
 
 .. rubric:: Why writing?
 
-I have invested really a lot of time in learning, parallely to a full-time job and
+I have invested a lot of time in learning, in parallel to a full-time job and
 to my family duties (ABaba*ba).
 I did this without the perspective of getting any kind of certificate,
 but I wanted to show that I took this project very seriously, and
 that I learned a lot,
 so I decided to write down these notes.
-Writing helps to reflect what I have really learnt, and
+Writing helps to **reflect what I have learnt**, and
 it is a way to conclude these self-studies.
 
 .. rubric:: What to write?
 
 There are several textbooks that already present and explain the physics I am talking about.
-And the topics that are not yet in textbooks, are well described in articles 
+And the topics that are not yet in textbooks, are well described in research articles 
 published in peer-reviewed journals, many of them freely accessible.
 So it would be senseless to try to explain again these physics in details,
 that experts already explained much better than I could.
 
-But what I am missing, is an overview of Quantum 2.0 that lies between,
+But what I am missing, is an **overview of Quantum 2.0** [#exp2]_ that lies between,
 on one side, introductory slide shows or 20 minute lecture series, and
 on the other side, graduate level courses.
 
@@ -66,10 +67,22 @@ Finally two principle shall guide me:
 - Explain *why*.
 - Illustrate.
 
+.. rubric:: Notes
+
+.. [#exp1] This is my main motivation: Understand the background experiments and
+    the models that were developed to describe them!
+
+.. [#exp2] There are many online resources about theory and software of quantum computing,
+    but I couldn't find an overview with the right level of details
+    about the physical implementations and the physical models involved.
+    That is the gap I would like to fill.
+
 .. ---------------------------------------------------------------------------
 
-Sphinx
-======
+Behind the scenes
+=================
+
+.. rubric:: Sphinx
 
 To write this *blog*, I searched for a platform that allows to easily:
 

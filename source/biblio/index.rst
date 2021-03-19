@@ -10,8 +10,8 @@ Books
     :all:
     :labelprefix: B
 
-Lectures
---------
+Lectures and Speeches
+---------------------
 
 .. bibliography:: lectures.bib
     :all:
