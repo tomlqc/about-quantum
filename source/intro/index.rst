@@ -7,5 +7,6 @@ Quantum 2.0
     :hidden:
     :maxdepth: 2
 
+    intro
     computing
     simulation

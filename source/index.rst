@@ -67,6 +67,7 @@ Quantum 2.0
 An introduction.
 
 * **Quantum 2.0:**
+  Intro |
 
 * **Quantum Computing:**
 
