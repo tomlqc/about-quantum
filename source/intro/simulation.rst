@@ -8,7 +8,7 @@ Quantum Simulation
 - Implementations: ultracold atoms in lattices
 
 
-.. rubric:: Read about
+.. rubric:: See also
 
 - Quantum Chemistry,
   `IBM Course <https://qiskit.org/learn/intro-qc-qh/>`_, Lectures 22-27

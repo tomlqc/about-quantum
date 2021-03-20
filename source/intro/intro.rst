@@ -5,7 +5,7 @@ Intro
 
 .. rubric:: Quantum Revolution
 
-:cite:`Jirauschek2019`
+Inspired from :cite:`Jirauschek2019`.
 
 Quantum 1.0
 
