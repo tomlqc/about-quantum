@@ -11,5 +11,6 @@ A few more stories about selected topics in Quantum Science.
 
     angular_momentum.rst
     pauli_operators.rst
+    EPR_experiments.rst
 
 .. ---------------------------------------------------------------------------

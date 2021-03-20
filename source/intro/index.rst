@@ -8,5 +8,7 @@ Quantum 2.0
     :maxdepth: 2
 
     intro
+    communication
     computing
     simulation
+    

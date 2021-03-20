@@ -9,6 +9,7 @@ Complements to the introduction.
     :maxdepth: 1
     :caption: Illustration
 
+    entanglement.rst
     bloch_sphere.rst
 
 .. ---------------------------------------------------------------------------

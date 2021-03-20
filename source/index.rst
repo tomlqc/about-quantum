@@ -33,9 +33,9 @@ My Notes about Quantum 2.0
     :maxdepth: 2
     :caption: Learn more
     
+    about/syllabus
     online/index
     biblio/index
-    about/syllabus
 
 .. toctree::
     :hidden:
@@ -46,11 +46,13 @@ My Notes about Quantum 2.0
 
 .. ---------------------------------------------------------------------------
 
-.. comment: layout inspired by https://docs.readthedocs.io/en/stable/
+.. comment:
 
-.. comment: # stories in intro:
-
-.. comment: # stories in complements and background: 29
+    layout inspired by https://docs.readthedocs.io/en/stable/
+    
+    # stories in intro:
+    
+    # stories in complements and background: 29
     Implementation 2
     Illustration 5
     Basic 6
@@ -67,7 +69,7 @@ Quantum 2.0
 An introduction.
 
 * **Quantum 2.0:**
-  Intro |
+  :ref:`intro/intro:Intro`
 
 * **Quantum Computing:**
 
@@ -80,7 +82,7 @@ Complements
 -----------
 
 * **Physical Implementation:**
-  Entanglement |
+  :ref:`stories/entanglement:Entanglement` |
   Basic Gates
 
 * **Illustration:**
@@ -99,8 +101,7 @@ Background
   Correspondence Principle |
   Uncertainty Principle |
   Measurements |
-  :ref:`stories/angular_momentum:Angular Momentum` |
-  Stark and Zeeman Effects
+  :ref:`stories/angular_momentum:Angular Momentum`
 
 * **Advanced:**
   Second Quantization |
@@ -117,9 +118,12 @@ Background
 
 * **Conceptual:**
   Young Double Slit Experiment |
-  EPR Experiments |
+  :ref:`stories/EPR_experiments:EPR Experiments` |
   Non-locality & Contextuality |
   Conterfactuals
+
+* **Atomic Physics:**
+  Stark and Zeeman Effects
 
 * **Miscellaneous:**
   Maths for QM |
@@ -130,9 +134,9 @@ Background
 Learn more
 ----------
 
+* :ref:`about/syllabus:Syllabus`
 * :ref:`online/index:Online Resources`
 * :ref:`biblio/index:Bibliography`
-* :ref:`about/syllabus:Syllabus`
 
 Read also about :ref:`the Story <about/story:The Story>` of these notes. 
 
