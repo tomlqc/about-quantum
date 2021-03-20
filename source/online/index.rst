@@ -113,7 +113,9 @@ Research in Munich
 A selection of informations about Research in Quantum Science & Technology
 in my home town Munich, Germany.
 
-**Munich Quantum Center** (`MQC <https://www.munich-quantum-center.de>`_):
+**Munich Quantum Center** (`MQC <https://www.munich-quantum-center.de/about/about-mqc/>`_) and 
+**Munich Center for Quantum Science and Technology** (`MCQST <https://www.mcqst.de/about/mcqst/>`_),
+that both comprises:
 
 - Ludwig-Maximilians-Universität München
   (i.a. `Quantum Optics Group <https://www.quantum-munich.de/>`_),
