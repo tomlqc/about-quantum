@@ -69,13 +69,17 @@ Quantum 2.0
 An introduction.
 
 * **Quantum 2.0:**
-  :ref:`intro/intro:Intro`
+  :ref:`intro/intro/revolution:The Second Quantum Revolution` |
+  :ref:`intro/intro/superposition:Superposition` |
+  :ref:`intro/intro/entanglement:Entanglement` |
+  :ref:`intro/intro/harmonic:Harmonic Oscillators` |
+  :ref:`intro/intro/twolevel:Two-Level Systems`
 
-* **Quantum Computing:**
+* **Quantum Computing:** ...
 
-* **Quantum Simulation:**
+* **Quantum Simulation:** ...
 
-* **Quantum Communication:**
+* **Quantum Communication:** ...
 
 
 Complements

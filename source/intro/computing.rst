@@ -1,18 +1,11 @@
 
+*****************
 Quantum Computing
-=================
-
-.. toctree::
-    :hidden:
-    :maxdepth: 2
-
-    computing_1
-    computing_2
-
+*****************
 
 .. rubric:: Contents
 
-- Di Vincenzo "ingredients"
+- Feynman's original idea, Di Vincenzo "ingredients"
 
 - Complexity: Problems solved more efficiently on quantum computers.
 - Algorithms
@@ -22,7 +15,7 @@ Quantum Computing
 
 - Theory: universal set of gates
 - Gates, Circuits
-- alternative models: Quantum Annealing
+- alternative models to Gate-Based Computers: Quantum Annealing
 
 - Noise
 - Quantum Error Correction
@@ -31,4 +24,4 @@ Quantum Computing
 - Implementations: Overview (QED, NMR, Ion Traps, Quantum Dots, Transmon)
 - Superconducting: Physical architecture
 - NISQ era (Noisy Intermediate-Scale Quantum Computers)
-- State of the Art
+- State of the Art: ASM/Machine Instructions

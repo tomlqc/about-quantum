@@ -1,6 +1,7 @@
 
+*********************
 Quantum Communication
-=====================
+*********************
 
 Includes Quantum Cryptography.
 
