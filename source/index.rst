@@ -69,10 +69,10 @@ Quantum 2.0
 An introduction.
 
 * **Quantum 2.0:**
-  :ref:`intro/intro/revolution:The Second Quantum Revolution` |
+  :ref:`intro/intro/revolution:A Revolution` |
   :ref:`intro/intro/superposition:Superposition` |
   :ref:`intro/intro/entanglement:Entanglement` |
-  :ref:`intro/intro/ingredients:More Ingredients` |
+  :ref:`intro/intro/ingredients:More Ingredients`
 
 * **Quantum Computing:** ...
 
@@ -91,9 +91,9 @@ Complements
 * **Illustration:**
   :ref:`stories/bloch_sphere:Bloch Sphere` |
   Evolution of a Qubit |
+  Stabilizer Codes |
   Bell Inequality |
-  Birth and Grow of Superpositions |
-  Stabilizers
+  Birth and Grow of Superpositions
 
 
 Background
@@ -143,6 +143,6 @@ Learn more
 * :ref:`online/index:Online Resources`
 * :ref:`biblio/index:Bibliography`
 
-Read also about :ref:`the Story <about/story:The Story>` of these notes. 
+Read also about the :ref:`Story <about/story:The Story>` of these notes. 
 
 .. ---------------------------------------------------------------------------

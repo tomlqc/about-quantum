@@ -4,8 +4,7 @@ Quantum 2.0
 ***********
 
 .. toctree::
-    :hidden:
-    :maxdepth: 2
+    :maxdepth: 1
 
     revolution
     superposition

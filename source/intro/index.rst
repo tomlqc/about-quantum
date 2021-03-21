@@ -4,7 +4,7 @@ Quantum 2.0
 ###########
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     intro/index
     communication
