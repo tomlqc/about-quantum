@@ -72,8 +72,7 @@ An introduction.
   :ref:`intro/intro/revolution:The Second Quantum Revolution` |
   :ref:`intro/intro/superposition:Superposition` |
   :ref:`intro/intro/entanglement:Entanglement` |
-  :ref:`intro/intro/harmonic:Harmonic Oscillators` |
-  :ref:`intro/intro/twolevel:Two-Level Systems`
+  :ref:`intro/intro/ingredients:More Ingredients` |
 
 * **Quantum Computing:** ...
 
@@ -105,7 +104,9 @@ Background
   Correspondence Principle |
   Uncertainty Principle |
   Measurements |
-  :ref:`stories/angular_momentum:Angular Momentum`
+  :ref:`stories/angular_momentum:Angular Momentum` |
+  :ref:`stories/harmonic:Harmonic Oscillator` |
+  :ref:`stories/twolevel:Two-Level Systems`
 
 * **Advanced:**
   Second Quantization |

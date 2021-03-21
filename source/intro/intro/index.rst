@@ -10,5 +10,4 @@ Quantum 2.0
     revolution
     superposition
     entanglement
-    harmonic
-    twolevel
+    ingredients
