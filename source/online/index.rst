@@ -3,10 +3,12 @@
 Online Resources
 ================
 
+.. note:: This list of resources reflects the state of the art in **March 2021**.
+
 .. ---------------------------------------------------------------------------
 
-Quantum Science
----------------
+Learning
+--------
 
 About Quantum Mechanics and Quantum Computing:
 
@@ -52,8 +54,8 @@ About Quantum Mechanics and Quantum Computing:
 
 .. ---------------------------------------------------------------------------
 
-Quantum Computing
------------------
+Computing
+---------
 
 A selection of software and platforms for quantum computing:
 
