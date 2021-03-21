@@ -15,9 +15,7 @@ quantum computing.
 
 In January 2020, I started refreshing my Quantum Mechanics,
 and by the mid of the year I was able to dive into more complex topics of Quantum Science,
-see the :ref:`about/syllabus:Syllabus`.
-
-I had precise goals in mind from the beginning.
+see the :ref:`about/syllabus:Syllabus`. Now it is March 2021 and time to conclude!
 
 .. rubric:: The goals for my self-studies
 
@@ -32,9 +30,8 @@ I had precise goals in mind from the beginning.
 I have invested a lot of time in learning, in parallel to a full-time job and
 to my family duties (ABaba*ba).
 I did this without the perspective of getting any kind of certificate,
-but I wanted to show that I took this project very seriously, and
-that I learned a lot,
-so I decided to write down these notes.
+but I wanted to show that I took this project very seriously,
+and that I learned a lot, so I decided to write down these notes.
 Writing helps to **reflect what I have learnt**, and
 it is a way to conclude these self-studies.
 
