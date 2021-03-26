@@ -10,8 +10,8 @@ Books
     :all:
     :labelprefix: B
 
-Lectures and Speeches
----------------------
+Lectures
+--------
 
 .. bibliography:: lectures.bib
     :all:
@@ -28,3 +28,11 @@ Articles
 --------
 
 .. bibliography:: articles.bib
+
+Miscellaneous
+-------------
+
+Magazines, speeches etc.
+
+.. bibliography:: misc.bib
+    :labelprefix: M
