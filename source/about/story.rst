@@ -97,6 +97,7 @@ This is why I chose `Sphinx <https://www.sphinx-doc.org/>`_,
 that was initially designed for documenting *python* code,
 and has everything I was looking for.
 
-So, finally, it looks a bit like I am building a *Quantum Science Manual*. :)
+| That's why it looks like I am building a *Quantum Science Manual*!
+| :)
 
 .. EOF -----------------------------------------------------------------------
