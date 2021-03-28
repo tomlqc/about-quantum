@@ -109,7 +109,8 @@ Background
   :ref:`stories/twolevel:Two-Level Systems`
 
 * **Advanced:**
-  Second Quantization |
+  :ref:`stories/2ndquant:Second Quantization` |
+  :ref:`stories/environment:Environment` |
   Unitary Operators |
   Trace Preservation |
   :ref:`stories/pauli_operators:Pauli Operators` |
@@ -143,6 +144,6 @@ Learn more
 * :ref:`online/index:Online Resources`
 * :ref:`biblio/index:Bibliography`
 
-Read also about the :ref:`Story <about/story:The Story>` of these notes. 
+Read also about the :ref:`Story <about/story:The Story>` behind these notes. 
 
 .. ---------------------------------------------------------------------------
