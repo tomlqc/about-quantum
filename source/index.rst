@@ -123,7 +123,7 @@ Background
   Rotating Wave Approximation
 
 * **Conceptual:**
-  Young Double Slit Experiment |
+  :ref:`stories/young_slit:Young Double-Slit Experiment` |
   :ref:`stories/EPR_experiments:EPR Experiments` |
   Non-locality & Contextuality |
   Conterfactuals

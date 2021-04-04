@@ -32,7 +32,7 @@ Articles
 Miscellaneous
 -------------
 
-Magazines, speeches etc.
+Magazines, speeches, courses etc.
 
 .. bibliography:: misc.bib
     :labelprefix: M

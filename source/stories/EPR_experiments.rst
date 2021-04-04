@@ -18,4 +18,6 @@ a violation of Bell's inequality by over 100 standard deviations in less than 5 
 detection loophole: :cite:`Hensen_2015`, :cite:`Giustina_2015`, :cite:`Shalm_2015`,
 see also :cite:`Aspect_2015`
 
-closing freedom-of-choice loophole: :cite:`BIGBell2018`
+closing freedom-of-choice loophole: :cite:`BIGBell_2018`
+
+.. ---------------------------------------------------------------------------

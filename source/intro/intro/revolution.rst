@@ -4,7 +4,7 @@ A Revolution
 
 Referred to as "The Second Quantum Revolution".
 
-Inspired from :cite:`Jirauschek2019`.
+Inspired from :cite:`Jirauschek_2019`.
 
 Quantum 1.0
 

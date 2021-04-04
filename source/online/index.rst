@@ -79,7 +79,7 @@ A selection of software and platforms for quantum computing:
   Run quantum algorithms on simulators or hardware backends.
   Graphical interface to program in QASM (Quantum Assembly Language).
 
-See also the overview article by R. LaRose in the Quantum Journal :cite:`LaRose2019`.
+See also the overview article by R. LaRose in the Quantum Journal :cite:`LaRose_2019`.
 
 .. ---------------------------------------------------------------------------
 
@@ -130,7 +130,7 @@ About the creation of a **Quantum Integration Center**:
 - "Zentrum für Quantentechnik kommt nach Garching", `TUM press release
   <https://www.tum.de/nc/die-tum/aktuelles/pressemitteilungen/details/34621/>`_,
   Apr-27-2018
-- "Zentrum für QuantenEngineering (ZQE) Garching", Presentation, Jul-19-2019, :cite:`Jirauschek2019`
+- "Zentrum für QuantenEngineering (ZQE) Garching", Presentation, Jul-19-2019, :cite:`Jirauschek_2019`
 - "Start für "Quantum Integration Centre": "Chancenfeuerwerk"", `Sueddeutsche Zeitung
   <https://www.sueddeutsche.de/bayern/computer-garching-bei-muenchen-start-fuer-quantum-integration-centre-chancenfeuerwerk-dpa.urn-newsml-dpa-com-20090101-210317-99-859689>`_,
   Mar-17-2021
