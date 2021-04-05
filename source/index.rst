@@ -5,17 +5,17 @@ My Notes about Quantum 2.0
 
 *Quantum Science from the perspective of a nonphysicist.*
 
-.. include:: qutex.rst
-
-.. math::
-
-    i \hbar \frac{\partial \ket{\psi(t)} }{\partial t} = \hat{H} \ket{\psi(t)}
-
 .. note::
 
     This site is still under development.
     Stories may be incomplete, the overall structure may change too.
     Visit frequently to watch the progress!
+
+.. include:: qutex.rst
+
+.. math::
+
+    i \hbar \frac{\partial \ket{\psi(t)} }{\partial t} = \hat{H} \ket{\psi(t)}
 
 .. ---------------------------------------------------------------------------
 
