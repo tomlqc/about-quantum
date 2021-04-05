@@ -69,16 +69,21 @@ Quantum 2.0
 An introduction.
 
 * **Quantum 2.0:**
-  :ref:`intro/intro/revolution:A Revolution` |
-  :ref:`intro/intro/superposition:Superposition` |
-  :ref:`intro/intro/entanglement:Entanglement` |
-  :ref:`intro/intro/ingredients:More Ingredients`
+  :ref:`intro/quantum2/revolution:A Revolution` |
+  :ref:`intro/quantum2/superposition:Superposition` |
+  :ref:`intro/quantum2/entanglement:Entanglement` |
+  :ref:`intro/quantum2/ingredients:More Ingredients`
 
-* **Quantum Computing:** ...
+* **Quantum Computing:**
+  :ref:`... <intro/computing/index:Quantum Computing>` |
+  :ref:`intro/computing/qudots:Quantum Dots` |
+  :ref:`intro/computing/supercond:Superconducting Circuits` |
 
-* **Quantum Simulation:** ...
+* **Quantum Simulation:**
+  :ref:`... <intro/simulation/index:Quantum Simulation>`
 
-* **Quantum Communication:** ...
+* **Quantum Communication:**
+  :ref:`... <intro/communication/index:Quantum Communication>`
 
 
 Complements
