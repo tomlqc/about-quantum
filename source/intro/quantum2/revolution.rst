@@ -18,3 +18,4 @@ Quantum 2.0
 - (especially superposition, entanglement)
 - Quantum Computing/Simulation, Quantum Communication/Cryptography
 
+Perpectives: What for? What to expect?

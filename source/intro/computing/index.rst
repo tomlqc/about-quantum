@@ -5,31 +5,39 @@ Quantum Computing
 
 .. rubric:: Outline
 
-- Feynman's original idea, Di Vincenzo "ingredients"
+- Idea, models
 
-- Theory: universal set of gates
-- Gates, Circuits
-- alternative models to Gate-Based Computers: Quantum Annealing
+  - Feynman's original idea
+  - computing models: gate-based, Quantum Annealing, etc.
+  - Di Vincenzo "ingredients"
 
-- Noise
-- Quantum Error Correction
-- Fault-tolerant Algorithms
+- gate-based model
 
+  - Theory: universal set of gates
+  - Gates, Circuits
 
-- Complexity: Problems solved more efficiently on quantum computers.
-- Algorithms
-  
-  * QFT > Phase Estimation > Shor (RSA) etc.
-  * Grover
+- Noise, Environment:
 
+  - Noise
+  - Quantum Error Correction
+  - Fault-tolerant Algorithms
+
+- Algorithms & Complexity
+  - Complexity: Problems solved more efficiently on quantum computers.
+  - Algorithms
+     
+    * QFT > Phase Estimation > Shor (RSA) etc.
+    * Grover
 
 - Overview of Implementations:
 
   * see references below: NMR, QED, Ion traps, Quantum dots, Superconducting Qubits
+  * Superconducting: Physical architecture (?)
 
-- Superconducting: Physical architecture
-- NISQ era (Noisy Intermediate-Scale Quantum Computers)
-- State of the Art: ASM/Machine Instructions
+- State of the Art
+
+  - NISQ era (Noisy Intermediate-Scale Quantum Computers), :cite:`Preskill_2018`
+  - ASM/Machine Instructions
 
 .. rubric:: Contents
 
