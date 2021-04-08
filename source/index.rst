@@ -75,12 +75,20 @@ An introduction.
   :ref:`intro/quantum2/ingredients:More Ingredients`
 
 * **Quantum Computing:**
-  :ref:`... <intro/computing/index:Quantum Computing>` |
-  :ref:`intro/computing/qudots:Quantum Dots` |
+  :ref:`intro/computing/idea:Idea` |
+  :ref:`intro/computing/gates:Gate-based Model` |
+  :ref:`intro/computing/noise:Noise` |
+  :ref:`intro/computing/realization:Realization` |
   :ref:`intro/computing/supercond:Superconducting Circuits` |
+  :ref:`intro/computing/qudots:Quantum Dots` |
+  :ref:`intro/computing/state:State of the Art`
 
 * **Quantum Simulation:**
-  :ref:`... <intro/simulation/index:Quantum Simulation>`
+  :ref:`intro/simulation/simulate:Simulate Quantum Systems` |
+  :ref:`intro/simulation/realization:Realization` |
+  :ref:`intro/simulation/condmatter:Condensed-Matter Physics` |
+  :ref:`intro/simulation/chemistry:Quantum Chemistry` |
+  :ref:`VQE <intro/simulation/VQE:Variational Quantum Eigensolver>`
 
 * **Quantum Communication:**
   :ref:`... <intro/communication/index:Quantum Communication>`
