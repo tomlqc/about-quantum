@@ -3,6 +3,8 @@
 Online Resources
 ================
 
+Online Resources about Quantum Science, especially Quantum Computing.
+
 .. note:: This list of resources reflects the state of the art in **March 2021**.
 
 .. ---------------------------------------------------------------------------

@@ -78,6 +78,7 @@ An introduction.
   :ref:`intro/computing/idea:Idea` |
   :ref:`intro/computing/gates:Gate-based Model` |
   :ref:`intro/computing/noise:Noise` |
+  :ref:`intro/computing/algo:Algorithms` |
   :ref:`intro/computing/realization:Realization` |
   :ref:`intro/computing/supercond:Superconducting Circuits` |
   :ref:`intro/computing/qudots:Quantum Dots` |

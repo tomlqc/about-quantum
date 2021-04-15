@@ -8,7 +8,8 @@ Simulating quantum systems is a very challenging task, because of the huge
 requirements in computational power and in memory, that scales exponentially
 with the system size.
 The "standard" threshold is considered to be at about :math:`N = 40` :
-storing :math:`2^{40} \approx 10^{12}` numbers as 32-bit floats takes about 4 TB of memory. 
+storing :math:`2^{40} \approx 10^{12}` numbers as 32-bit floats takes about 4 TB of memory
+[#50qubits]_.
 Approximate statistical methods, namely Monte Carlo algorithms, can be used for many
 problems, but not for all quantum systems, especially for fermionic systems,
 as for example the electronic structure of a molecule.
@@ -32,8 +33,20 @@ onto a simulator system, and is called an **analog quantum simulator**.
 The simulator is able to partly reproduce the dynamics of the simulated system,
 forms a many-body model of it, and can be controlled to some extend.
 
-.. note:: **Reference:**
-    *Quantum Simulation* :cite:`Georgescu_2014` and
-    *Quantum Simulators* :cite:`Altman_2021`
+.. ---------------------------------------------------------------------------
 
+-----
+
+**References:**
+*Quantum Simulation* :cite:`Georgescu_2014`,
+complemented by *Quantum Simulators* :cite:`Altman_2021`.
+
+.. [#50qubits]
+    
+    Preskill mentions a "milestone" of 50 qubits :cite:`Preskill_2018`, that is
+    "beyond what can be simulated by brute force using the most powerful existing digital supercomputers".
+    This estimation relies on classical simulations of typically a lattice of 7 x 7 qubits
+    :cite:`Boixo_2018`.
+    It is practically the same then the 40 qubits named above.
+    
 .. ---------------------------------------------------------------------------
