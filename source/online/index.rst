@@ -54,6 +54,13 @@ About Quantum Mechanics and Quantum Computing:
   (e.g. `Bloch-Redfield master eq.
   <http://qutip.org/docs/latest/guide/dynamics/dynamics-bloch-redfield.html>`_)
 
+- A list of further readings about advanced topics of quantum computing is provided in
+  `Learning Resources <https://docs.microsoft.com/en-us/azure/quantum/further-reading-qdk>`_
+  of Microsoft's Quantum Development Kit in the
+  `Azure Quantum Documentation <https://docs.microsoft.com/en-us/azure/quantum/>`_:
+  building controlled gates, preparing quantum states, synthesizing circuits,
+  quantum arithmetics, quantum sampling, quantum simulation, quantum optimization.
+
 .. ---------------------------------------------------------------------------
 
 Computing
@@ -107,7 +114,10 @@ Python packages that I am planning to play with:
   "Gate Set Tomography, pyGSTi is an open-source software for modeling and characterizing
   noisy quantum information processors (QIPs), i.e., systems of one or more qubits."
 
-See also: `numpy.org <https://numpy.org>`_ > ECOSYSTEM > Quantum Computing. 
+See also:
+
+- `numpy.org <https://numpy.org>`_ > ECOSYSTEM > Quantum Computing
+- `Quantum Open Source Foundation <https://qosf.org/>`_ with a catalog of evaluated packages.
 
 .. ---------------------------------------------------------------------------
 
