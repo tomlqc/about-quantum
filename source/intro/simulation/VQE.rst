@@ -12,3 +12,5 @@ Variational Quantum Eigensolver
 - "a variational quantum eigensolver (VQE) simulation of two intermediate-scale chemistry problems:
   the binding energy of hydrogen chains (as large as H12) and the isomerization mechanism of diazene"
   :cite:`Arute_2020`
+
+- go further: "faster quantum gradient computation" :cite:`Gilyen_2019`

@@ -71,4 +71,6 @@ Quantized electrical circuits
 
 Superconducting qubits.
 
+Quantum state tomography in a superconducting quantum computer :cite:`Mooney_2019`.
+
 .. ---------------------------------------------------------------------------
