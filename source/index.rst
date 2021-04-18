@@ -42,7 +42,7 @@ My Notes about Quantum 2.0
     :maxdepth: 2
     :caption: About
 
-    about/story
+    about/about
 
 .. ---------------------------------------------------------------------------
 
