@@ -25,8 +25,8 @@ My Notes about Quantum 2.0
     :caption: My Contribution
     
     intro/index
-    stories/complements
-    stories/background
+    stories/complements/complements
+    stories/background/background
 
 .. toctree::
     :hidden:
@@ -99,11 +99,11 @@ Complements
 -----------
 
 * **Physical Implementation:**
-  :ref:`stories/entanglement:Entanglement` |
+  :ref:`stories/complements/entanglement:Entanglement` |
   Basic Gates
 
 * **Illustration:**
-  :ref:`stories/bloch_sphere:Bloch Sphere` |
+  :ref:`stories/complements/bloch_sphere:Bloch Sphere` |
   Evolution of a Qubit |
   Stabilizer Codes |
   Bell Inequality |
@@ -118,7 +118,7 @@ Background
   Correspondence Principle |
   Uncertainty Principle |
   Measurements |
-  :ref:`stories/angular_momentum:Angular Momentum` |
+  :ref:`stories/background/angular_momentum:Angular Momentum` |
   Harmonic Oscillator |
   Two-Level Systems |
   Rabi Oscillations
@@ -128,7 +128,7 @@ Background
   Environment |
   Unitary Operators |
   Trace Preservation |
-  :ref:`stories/pauli_operators:Pauli Operators` |
+  :ref:`stories/background/pauli_operators:Pauli Operators` |
   Phase of a Qubit |
   Phase Damping |
   Hamiltonians

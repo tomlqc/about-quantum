@@ -5,9 +5,9 @@ Bloch Sphere
 .. toctree::
     :hidden:
     
-    ../code/bloch_sphere.rst
+    ../../code/bloch_sphere.rst
 
-.. include:: ../qutex.rst
+.. include:: ../../qutex.rst
 
 The Bloch sphere is used to represent the state of two-level systems.
 

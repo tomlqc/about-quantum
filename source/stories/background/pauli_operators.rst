@@ -2,14 +2,14 @@
 Pauli Operators
 ===============
 
-.. include:: ../qutex.rst
+.. include:: ../../qutex.rst
 
 .. ---------------------------------------------------------------------------
 
 Definitions
 -----------
 
-In :ref:`Angular Momentum<stories/angular_momentum:Fundamentals>`
+In :ref:`Angular Momentum<stories/background/angular_momentum:Fundamentals>`
 we defined **angular-momentum
 observables** :math:`\hatb J` by their commutation relations:
 

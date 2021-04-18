@@ -2,7 +2,7 @@
 Angular Momentum
 ================
 
-.. include:: ../qutex.rst
+.. include:: ../../qutex.rst
 
 .. ---------------------------------------------------------------------------
 
@@ -132,7 +132,7 @@ with each of the observables :math:`S_i` having eigenvalues :math:`\pm \hbar / 2
 The observable :math:`\hatsup{S}{2}` has one eigenvalue :math:`3 \hbar^2 / 4`.
 
 This spin observable can be expressed in terms of the
-:ref:`Pauli operators <stories/pauli_operators:Pauli Operators>` as
+:ref:`Pauli operators <stories/background/pauli_operators:Pauli Operators>` as
 
 .. math:: \hatb{S} = \frac{\hbar}{2} \hatb \sigma
 
