@@ -24,7 +24,7 @@ My Notes about Quantum 2.0
     :maxdepth: 1
     :caption: My Contribution
     
-    intro/index
+    intro/intro
     stories/complements/complements
     stories/background/background
 
