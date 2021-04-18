@@ -92,7 +92,7 @@ An introduction.
   :ref:`VQE <intro/simulation/VQE:Variational Quantum Eigensolver>`
 
 * **Quantum Communication:**
-  :ref:`... <intro/communication/index:Quantum Communication>`
+  :ref:`... <intro/communication/communication:Quantum Communication>`
 
 
 Complements
