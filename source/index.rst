@@ -119,12 +119,13 @@ Background
   Uncertainty Principle |
   Measurements |
   :ref:`stories/angular_momentum:Angular Momentum` |
-  :ref:`stories/harmonic:Harmonic Oscillator` |
-  :ref:`stories/twolevel:Two-Level Systems`
+  Harmonic Oscillator |
+  Two-Level Systems |
+  Rabi Oscillations
 
 * **Advanced:**
-  :ref:`stories/2ndquant:Second Quantization` |
-  :ref:`stories/environment:Environment` |
+  Second Quantization |
+  Environment |
   Unitary Operators |
   Trace Preservation |
   :ref:`stories/pauli_operators:Pauli Operators` |
@@ -137,8 +138,8 @@ Background
   Rotating Wave Approximation
 
 * **Conceptual:**
-  :ref:`stories/young_slit:Young Double-Slit Experiment` |
-  :ref:`stories/EPR_experiments:EPR Experiments` |
+  Young Double-Slit Experiment |
+  EPR Experiments |
   Non-locality & Contextuality |
   Conterfactuals
 
