@@ -24,7 +24,7 @@ that I attended [#fguest]_ in Winter 2020/2021:
 - *Quantum Information* by Prof. I. Cirac of TUM :cite:`TUMQI2021`
 
 This set the basis for understanding more advanced articles,
-as the ones listed in :ref:`biblio/index:Review Papers` and :ref:`biblio/index:Articles`.
+as the ones listed in :ref:`biblio/biblio:Review Papers` and :ref:`biblio/biblio:Articles`.
 I recommend especially:
 
 - *A quantum engineer’s guide to superconducting qubits* by Krantz *et al.* :cite:`Krantz_2019`

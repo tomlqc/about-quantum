@@ -34,8 +34,8 @@ My Notes about Quantum 2.0
     :caption: Learn more
     
     about/syllabus
-    online/index
-    biblio/index
+    online/online
+    biblio/biblio
 
 .. toctree::
     :hidden:
@@ -156,8 +156,8 @@ Learn more
 ----------
 
 * :ref:`about/syllabus:Syllabus`
-* :ref:`online/index:Online Resources`
-* :ref:`biblio/index:Bibliography`
+* :ref:`online/online:Online Resources`
+* :ref:`biblio/biblio:Bibliography`
 
 Read also about the :ref:`Story <about/story:The Story>` behind these notes. 
 
