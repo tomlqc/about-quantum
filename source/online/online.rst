@@ -34,6 +34,9 @@ About Quantum Mechanics and Quantum Computing:
   The QuTech Academy also offers online courses on `edX <https://www.edx.org/school/delftx>`_
   about hardware, architecture and algorithms.
   
+  More videos are available in *The School of Quantum* on `QuTube <https://www.qutube.nl>`_:
+  many short videos, also about advanced topics.
+  
   QuTech was `founded in 2014 <https://qutech.nl/about-us/our-organisation/>`_
   as a collaboration between Delft University of Technology (TU Delft)
   and the Netherlands Organisation for Applied Scientific Research (TNO).
