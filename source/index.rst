@@ -79,8 +79,6 @@ An introduction.
   :ref:`intro/computing/gates:Gate-based Model` |
   :ref:`intro/computing/noise:Noise` |
   :ref:`intro/computing/algo:Algorithms` |
-  :ref:`intro/computing/classical:Solving Classical Systems` |
-  Maching Learning |
   :ref:`intro/computing/realization:Realization` |
   :ref:`intro/computing/supercond:Superconducting Circuits` |
   :ref:`intro/computing/qudots:Quantum Dots` |
@@ -99,6 +97,10 @@ An introduction.
 
 Complements
 -----------
+
+* **Applications:**
+  :ref:`stories/complements/classical:Solving Classical Systems` |
+  Maching Learning |
 
 * **Physical Implementation:**
   :ref:`stories/complements/entanglement:Entanglement` |

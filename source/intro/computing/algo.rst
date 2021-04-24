@@ -46,6 +46,11 @@ Algorithms
   | classical: :math:`O(N)`
   | quantum: :math:`O(\sqrt{N})`
 
+.. rubric:: More Applications
+
+* :ref:`stories/complements/classical:Solving Classical Systems`
+* Machine Learning
+
 .. rubric:: Quantum Supremacy
 
 - Summary of problems solved more efficiently on quantum computers.

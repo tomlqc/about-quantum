@@ -7,6 +7,12 @@ Complements to the introduction.
 
 .. toctree::
     :maxdepth: 1
+    :caption: Applications
+
+    classical.rst
+
+.. toctree::
+    :maxdepth: 1
     :caption: Physical Implementation
 
     entanglement.rst

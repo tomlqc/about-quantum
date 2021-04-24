@@ -10,7 +10,6 @@ Quantum Computing
     gates
     noise
     algo
-    classical
     realization
     supercond
     qudots
