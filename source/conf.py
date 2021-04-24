@@ -19,7 +19,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'My Notes about Quantum 2.0'
+project = 'Learning about Quantum 2.0'
 copyright = '2021, Thomas Germain'
 author = 'Thomas Germain'
 

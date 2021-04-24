@@ -3,7 +3,8 @@
 Syllabus
 ########
 
-My personal experience about how to learn from quantum mechanics up to quantum computing.
+*My personal experience in learning about Quantum Science:
+how I learned from Quantum Mechanics up to Quantum Computing.*
 
 I started with:
 

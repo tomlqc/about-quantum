@@ -1,7 +1,9 @@
 
-###########
-Quantum 2.0
-###########
+###############
+An Introduction
+###############
+
+An introduction to Quantum Technology.
 
 .. toctree::
     :maxdepth: 1

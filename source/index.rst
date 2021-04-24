@@ -1,6 +1,6 @@
 .. created by sphinx-quickstart on Sun Jan  3 18:40:01 2021.
 
-My Notes about Quantum 2.0
+Learning about Quantum 2.0
 ==========================
 
 *Quantum Science from the perspective of a nonphysicist.*
@@ -63,10 +63,8 @@ My Notes about Quantum 2.0
 
 .. ---------------------------------------------------------------------------
 
-Quantum 2.0
------------
-
-An introduction.
+An Introduction
+---------------
 
 * **Quantum 2.0:**
   :ref:`intro/quantum2/revolution:A Revolution` |
