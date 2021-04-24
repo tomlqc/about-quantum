@@ -40,11 +40,11 @@ So it would be senseless to try to explain again these physics in details,
 that experts already explained much better than I could.
 
 But what I am missing, is an **overview of Quantum 2.0** [#exp2]_ that lies between,
-on one side, introductory slide shows or 20 minute lecture series, and
+on one side, introductory slide shows or few minutes lecture series, and
 on the other side, graduate level courses.
 
 Also there are some special topics that, in my opinion,
-are to shortly addressed in the textbooks and articles that I know,
+are too shortly addressed in the textbooks and articles that I know,
 and for which I want to provide some illustration.
 
 .. rubric:: The goals for this blog?
