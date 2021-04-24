@@ -48,7 +48,7 @@ Algorithms
 
 .. rubric:: More Applications
 
-* :ref:`stories/complements/classical:Solving Classical Systems`
+* :ref:`stories/complements/classical:Classical Systems`
 * Machine Learning
 
 .. rubric:: Quantum Supremacy

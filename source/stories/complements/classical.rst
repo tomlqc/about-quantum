@@ -1,8 +1,9 @@
 
-Solving Classical Systems
-=========================
+Classical Systems
+=================
 
-Use quantum computers to simulate classical nonlinear systems.
+Use quantum computers to solve linear systems of equations
+or simulate nonlinear physical systems.
 
 .. rubric:: Linear Systems of Equations
 

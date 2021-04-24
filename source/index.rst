@@ -99,8 +99,8 @@ Complements
 -----------
 
 * **Applications:**
-  :ref:`stories/complements/classical:Solving Classical Systems` |
-  Maching Learning |
+  :ref:`stories/complements/classical:Classical Systems` |
+  Maching Learning
 
 * **Physical Implementation:**
   :ref:`stories/complements/entanglement:Entanglement` |
