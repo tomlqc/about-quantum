@@ -10,7 +10,7 @@ Quantum 1.0
 
 - "Devices relying on effects of quantum mechanics"
 - (energy quantization, tunneling,...)
-- Laser, Transistors, NMR, ...
+- Laser, Transistors, NMR (incl. superconducting coils :cite:`Lvovsky_2005`), ...
 
 Quantum 2.0
 
