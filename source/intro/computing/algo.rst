@@ -21,7 +21,7 @@ Algorithms
 
 .. rubric:: Shor
 
-* | QFT > Phase Estimation > Shor (RSA) etc.
+* | QFT > Phase Estimation > Shor (:ref:`stories/complements/shor:Breaking RSA`) etc.
   | QFT, as a building block for other algorithms:
 
 * | classical discrete Fourier transform with N terms:

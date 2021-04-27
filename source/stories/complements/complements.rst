@@ -9,6 +9,7 @@ Complements to the introduction.
     :maxdepth: 1
     :caption: Applications
 
+    shor.rst
     classical.rst
 
 .. toctree::
