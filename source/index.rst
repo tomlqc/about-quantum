@@ -3,7 +3,8 @@
 Learning about Quantum 2.0
 ==========================
 
-*Quantum Science from the perspective of a nonphysicist.*
+A basic introduction to Quantum Technology,
+and a guide on how to learn more about it.
 
 .. note::
 
