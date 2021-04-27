@@ -9,7 +9,8 @@ and a guide on how to learn more about it.
 .. note::
 
     This site is still under development.
-    Stories may be incomplete, the overall structure may change too.
+    Stories may be incomplete or still a draft,
+    the overall structure may change too.
     Visit frequently to watch the progress!
 
 .. include:: qutex.rst
