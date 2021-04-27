@@ -23,13 +23,10 @@ see the :ref:`about/syllabus:Syllabus`. Now it is March 2021 and time to conclud
 
 .. rubric:: Why writing?
 
-I have invested a lot of time in learning, in parallel to a full-time job and
-to my family duties (ABaba*ba).
-I did this without the perspective of getting any kind of certificate,
-but I wanted to show that I took this project very seriously,
-and that I learned a lot, so I decided to write down these notes.
-Writing helps to **reflect what I have learnt**, and
-it is a way to conclude these self-studies.
+Writing helps to **reflect what I have learnt**, 
+and it is an essential ingredient to me for making sure
+I have really understood the matter.
+It is also a way to conclude these self-studies.
 
 .. rubric:: What to write?
 
