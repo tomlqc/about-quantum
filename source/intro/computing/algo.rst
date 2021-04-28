@@ -17,11 +17,11 @@ Algorithms
 
 - "oracles"
 
-- examples:
+- examples ...
 
-.. rubric:: Shor
+.. rubric:: QFT, Phase Estimation
 
-* | QFT > Phase Estimation > Shor (:ref:`stories/complements/shor:Breaking RSA`) etc.
+* | QFT > Phase Estimation > **Shor** (see Applications)
   | QFT, as a building block for other algorithms:
 
 * | classical discrete Fourier transform with N terms:
@@ -41,19 +41,21 @@ Algorithms
   
 .. rubric:: Grover
 
-* | Grover, incl. Amplitude amplification
+* | Grover, incl. **Amplitude amplification**
   | "Having a phone book (sorted by name), find the name corresponding to a given phone number".
   | classical: :math:`O(N)`
   | quantum: :math:`O(\sqrt{N})`
 
-.. rubric:: More Applications
+.. rubric:: Applications
 
+* :ref:`stories/complements/shor:Breaking RSA`
 * :ref:`stories/complements/classical:Classical Systems`
 * Machine Learning
 
 .. rubric:: Quantum Supremacy
 
-- Summary of problems solved more efficiently on quantum computers.
+- A list of problems solved more efficiently on quantum computers.
+- Where can we expect an exponential speedup?
 
 -----
 
