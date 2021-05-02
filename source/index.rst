@@ -101,6 +101,7 @@ Complements
 * **Applications:**
   :ref:`stories/complements/shor:Breaking RSA` |
   :ref:`stories/complements/classical:Classical Systems` |
+  Optimization |
   Maching Learning
 
 * **Physical Implementation:**
