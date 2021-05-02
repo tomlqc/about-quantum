@@ -11,6 +11,7 @@ Complements to the introduction.
 
     shor.rst
     classical.rst
+    mlearn.rst
 
 .. toctree::
     :maxdepth: 1

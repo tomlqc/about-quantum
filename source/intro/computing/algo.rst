@@ -50,7 +50,7 @@ Algorithms
 
 * :ref:`stories/complements/shor:Breaking RSA`
 * :ref:`stories/complements/classical:Classical Systems`
-* Machine Learning
+* :ref:`stories/complements/mlearn:Machine Learning`
 
 .. rubric:: Quantum Supremacy
 
