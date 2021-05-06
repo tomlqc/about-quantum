@@ -48,6 +48,8 @@ Algorithms
 
 .. rubric:: Applications
 
+*Quantum algorithms: an overview* :cite:`Montanaro_2016`.
+
 * :ref:`stories/complements/shor:Breaking RSA`
 * :ref:`stories/complements/classical:Classical Systems`
 * :ref:`stories/complements/mlearn:Machine Learning`
