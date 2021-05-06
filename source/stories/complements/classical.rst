@@ -27,4 +27,5 @@ or simulate nonlinear physical systems.
   | ...
 
 * | *Quantum Algorithms for Fluid Simulations* :cite:`Steijl_2020`
-  | Book chapter.
+    *Quantum Algorithms for Nonlinear Equations in Fluid Mechanics* :cite:`Steijl_2020a`
+  | Book chapters.
