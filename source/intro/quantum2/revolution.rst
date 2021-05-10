@@ -2,11 +2,11 @@
 A Revolution
 ============
 
-The theory of **Quantum Mechanics** was developped around 1900,
+The theory of **Quantum Mechanics** was developed around 1900,
 and provided explanations to the black-body radiation problem by
 `Max Planck <https://www.nobelprize.org/prizes/physics/1918/planck/facts/>`_ in 1900,
 thus resolving the *ultraviolet catastrophe*,
-or to the photoelectric effect by
+and to the photoelectric effect by
 `Albert Einstein <https://www.nobelprize.org/prizes/physics/1921/einstein/facts/>`_ in 1905.
 
 The motivation for this theory were experiments, whose strange results needed
