@@ -17,8 +17,10 @@ Draft:
     (Copenhagen interpretation): one of the terms in the superposition will be randomly "choosen".
   | This leads to a paradox in the sense that for separated entangled particles,
     this "choice" will be done at the same time at arbitrary far locations!
-  | ... :ref:`stories/background/EPR_experiments:EPR experiments`,
-    Bell inequalities, hidden variable theory, locality, reality etc.
+  | ...
+    :ref:`stories/background/EPR_experiments:EPR experiments`,
+    :ref:`stories/complements/bell:Bell Inequalities`,
+    hidden variable theory, locality, reality etc.
 
 - Examples of :ref:`Physical implementation <stories/complements/entanglement:Entanglement>`
   of entanglement: This is real!
