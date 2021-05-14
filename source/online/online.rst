@@ -1,11 +1,10 @@
 
-================
 Online Resources
 ================
 
 Online Resources about Quantum Science, especially about Quantum Computing.
 
-.. note:: This list of resources reflects the state of the art in **March 2021**.
+.. note:: This list of resources reflects my knowledge as in **March 2021**.
 
 .. ---------------------------------------------------------------------------
 
@@ -91,6 +90,13 @@ A selection of software and platforms for quantum computing:
   Run quantum algorithms on simulators or hardware backends.
   Graphical interface to program in QASM (Quantum Assembly Language).
 
+Additional software resources:
+
+- `TensorFlow Quantum <https://www.tensorflow.org/quantum/concepts>`_ -
+  a quantum machine learning library for rapid prototyping of hybrid quantum-classical ML models.
+  The `announcement <https://ai.googleblog.com/2020/03/announcing-tensorflow-quantum-open.html>`_
+  gives a good summary of its purpose and how it works.
+
 See also the overview article by R. LaRose in the Quantum Journal :cite:`LaRose_2019`.
 
 .. ---------------------------------------------------------------------------
@@ -121,39 +127,5 @@ See also:
 
 - `numpy.org <https://numpy.org>`_ > ECOSYSTEM > Quantum Computing
 - `Quantum Open Source Foundation <https://qosf.org/>`_ with a catalog of evaluated packages.
-
-.. ---------------------------------------------------------------------------
-
-Research in Munich
-------------------
-
-A selection of informations about Research in Quantum Science & Technology
-in my home town Munich, Germany.
-
-**Munich Quantum Center** (`MQC <https://www.munich-quantum-center.de/about/about-mqc/>`_) and 
-**Munich Center for Quantum Science and Technology** (`MCQST <https://www.mcqst.de/about/mcqst/>`_),
-that both comprises:
-
-- Ludwig-Maximilians-Universität München
-  (i.a. `Quantum Optics Group <https://www.quantum-munich.de/>`_),
-- Technical University of Munich,
-- `Max Planck Institute of Quantum Optics <http://www.mpq.mpg.de/en>`_,
-- `Walther-Meißner-Institute for Low Temperature Research. <https://www.wmi.badw.de/filipp/>`_   
-
-About the creation of a **Quantum Integration Center**:
-
-- "Zentrum für Quantentechnik kommt nach Garching", `TUM press release
-  <https://www.tum.de/nc/die-tum/aktuelles/pressemitteilungen/details/34621/>`_,
-  Apr-27-2018
-- "Zentrum für QuantenEngineering (ZQE) Garching", Presentation, Jul-19-2019, :cite:`Jirauschek_2019`
-- "Start für "Quantum Integration Centre": "Chancenfeuerwerk"", `Sueddeutsche Zeitung
-  <https://www.sueddeutsche.de/bayern/computer-garching-bei-muenchen-start-fuer-quantum-integration-centre-chancenfeuerwerk-dpa.urn-newsml-dpa-com-20090101-210317-99-859689>`_,
-  Mar-17-2021
-
-About the creation of the **Munich Quantum Valley**:
-
-- "Munich Quantum Valley – a leap forward for quantum science and technology",
-  `MPG Research News <https://www.mpg.de/16258573/munich-quantum-valley>`_,
-  Jan-12-2021
 
 .. ---------------------------------------------------------------------------

@@ -38,6 +38,7 @@ and a guide on how to learn more about it.
     about/syllabus
     online/online
     biblio/biblio
+    news/news
 
 .. toctree::
     :hidden:
@@ -164,6 +165,8 @@ Learn more
 * :ref:`about/syllabus:Syllabus`
 * :ref:`online/online:Online Resources`
 * :ref:`biblio/biblio:Bibliography`
+* :ref:`news/news:News`
+
 
 Read also about the :ref:`Story <about/story:The Story>` behind these notes. 
 
