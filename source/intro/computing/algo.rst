@@ -46,19 +46,6 @@ Algorithms
   | classical: :math:`O(N)`
   | quantum: :math:`O(\sqrt{N})`
 
-.. rubric:: Applications
-
-*Quantum algorithms: an overview* :cite:`Montanaro_2016`.
-
-* :ref:`stories/complements/shor:Breaking RSA`
-* :ref:`stories/complements/classical:Classical Systems`
-* :ref:`stories/complements/mlearn:Machine Learning`
-
-.. rubric:: Quantum Supremacy
-
-- A list of problems solved more efficiently on quantum computers.
-- Where can we expect an exponential speedup?
-
 -----
 
 **References:**

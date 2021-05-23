@@ -10,8 +10,9 @@ Complements to the introduction.
     :caption: Applications
 
     shor.rst
-    classical.rst
+    opti.rst
     mlearn.rst
+    classical.rst
 
 .. toctree::
     :maxdepth: 1

@@ -80,6 +80,7 @@ An Introduction
   :ref:`intro/computing/gates:Gate-based Model` |
   :ref:`intro/computing/noise:Noise` |
   :ref:`intro/computing/algo:Algorithms` |
+  :ref:`intro/computing/apps:Applications` |
   :ref:`intro/computing/realization:Realization` |
   :ref:`intro/computing/supercond:Superconducting Circuits` |
   :ref:`intro/computing/qudots:Quantum Dots` |
@@ -101,9 +102,9 @@ Complements
 
 * **Applications:**
   :ref:`stories/complements/shor:Breaking RSA` |
-  :ref:`stories/complements/classical:Classical Systems` |
-  Optimization |
-  Maching Learning
+  Combinatorial Optimization |
+  Maching Learning |
+  :ref:`stories/complements/classical:Classical Systems`
 
 * **Physical Implementation:**
   :ref:`stories/complements/entanglement:Entanglement` |

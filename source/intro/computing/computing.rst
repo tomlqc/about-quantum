@@ -10,6 +10,7 @@ Quantum Computing
     gates
     noise
     algo
+    apps
     realization
     supercond
     qudots
