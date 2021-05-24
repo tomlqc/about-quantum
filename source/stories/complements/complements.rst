@@ -25,6 +25,7 @@ Complements to the introduction.
     :caption: Illustration
 
     bloch_sphere.rst
+    evolution.rst
     bell.rst
 
 .. ---------------------------------------------------------------------------
