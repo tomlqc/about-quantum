@@ -129,7 +129,7 @@ Background
   :ref:`stories/background/angular_momentum:Angular Momentum` |
   Harmonic Oscillator |
   Two-Level Systems |
-  Rabi Oscillations
+  :ref:`stories/background/rabi:Rabi Oscillations`
 
 * **Advanced:**
   Second Quantization |
