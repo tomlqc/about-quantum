@@ -112,4 +112,4 @@ will oscillate in time with the frequency given by the energy gap between the tw
 
 .. [#principles] Fundament relation derived as in section 5.5 :cite:`Basdevant2005`.
 
-.. [#twolevels] Inspired by the ... oscillations in ... :cite:`Haroche2013`.
+.. [#twolevels] Inspired by section 3.4.2 :cite:`Haroche2013` about Rabi oscillation.
