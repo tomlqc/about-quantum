@@ -61,6 +61,8 @@ html_static_path = ['_static']
 
 # -- Additional configuration ------------------------------------------------
 
+numfig = True
+
 autosectionlabel_prefix_document = True
 
 bibtex_bibfiles = ['biblio/books.bib', 'biblio/lectures.bib',
