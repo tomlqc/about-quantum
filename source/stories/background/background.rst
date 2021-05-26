@@ -9,6 +9,7 @@ A few more stories about selected topics in Quantum Science.
     :maxdepth: 1
     :caption: Basics
 
+    fundamental.rst
     angular_momentum.rst
     harmonic.rst
     twolevel.rst
