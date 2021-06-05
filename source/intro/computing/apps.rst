@@ -2,8 +2,6 @@
 Applications
 ============
 
-*Quantum algorithms: an overview* :cite:`Montanaro_2016`.
-
 * :ref:`stories/complements/shor:Breaking RSA`
 * :ref:`stories/complements/opti:Combinatorial Optimization`
 * :ref:`stories/complements/mlearn:Machine Learning`
