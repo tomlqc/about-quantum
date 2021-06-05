@@ -25,26 +25,9 @@ Algorithms
 
 .. rubric:: Shor
 
-* incl. **QFT** > **Phase Estimation**
+* incl. **QFT** and **Phase Estimation**, building blocks for other algorithms.
 
 * Application: :ref:`stories/complements/shor:Breaking RSA`
-
-QFT, as a building block for other algorithms:
-
-* | classical discrete Fourier transform with N terms:
-  | :math:`O(N^2)`, or :math:`O(N \log{N})` (FFT)
-
-* | We can interpret the discrete Fourier transform as a mapping
-    from and to a N-dimensional space.
-  | We note that a set of n qubits evolve in a space of dimension :math:`N = 2^n`,
-    what allows us to write the QFT's complexity in terms of :math:`n`.
-  | It can be shown that the QFT can be implemented by a quantum circuit
-    using :math:`O(n^2)` elementary gates,
-    i.e. :math:`O((\log{N})^2)`
-    i.e. an exponential speedup compared to the FFT :math:`O(N \log{N}) = O(2^n n)`
-  | But the FT and the QFT achieve two different goals:
-    while the FT returns the :math:`N` coefficients as numbers,
-    the QFT generates a superposition of states whose amplitudes are the Fourier coefficients.
 
 
 .. rubric:: Grover

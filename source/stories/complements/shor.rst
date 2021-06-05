@@ -6,6 +6,7 @@ Breaking RSA
 
 Let's sketch the Shor algorithm!
 
+
 .. rubric:: Quantum Fourier transform
 
 We start with the *quantum Fourier transform*,
@@ -28,7 +29,8 @@ in a :math:`N = 2^n`-dimensional space,
 i.e. we can write the elements :math:`\ket{j}` above using a binary
 representation :math:`j = j_1 j_2 ... j_n`.
 This representation can be used to construct an efficient quantum circuit computing the QFT 
-with a complexity of :math:`O(n^2)` in terms of gates.
+with a complexity of :math:`O(n^2)` in terms of gates [#QFT]_.
+
 
 .. rubric:: Phase estimation
 
@@ -50,6 +52,7 @@ This is a product state (no entangled superposition),
 thus we just have to measure the first register to get :math:`\widetilde{\phi}`!
 Well, we get this value only with some probability, but this can be managed to be 
 arbitrary close to one.
+
 
 .. rubric:: Order finding
 
@@ -91,6 +94,7 @@ described by L digits. The algorithm scales as :math:`O(L^3)`.
 Thus, we have a way to calculate :math:`r`, since :math:`s` and :math:`r` have
 no common factor!
 
+
 .. rubric:: Factoring
 
 Factoring can be reduced to order-finding by an algorithm scaling as
@@ -104,6 +108,7 @@ Then (omitting additionaly checks) the *gcd* of
 :math:`(x^{r/2} - 1, N)` and of :math:`(x^{r/2} + 1, N)` are calculated:
 If one of these is a non-trivial factor, then we have found the result!
 
+
 .. rubric:: RSA problem
 
 `Wikipedia <https://en.wikipedia.org/wiki/RSA_(cryptosystem)>`_ tells us:
@@ -115,6 +120,7 @@ Currently the most promising approach to solving the RSA problem
 is to factor the modulus :math:`n`."
 
 *Et voilà!*
+
 
 .. rubric:: Quantum Circuit
 
@@ -136,3 +142,24 @@ could be enough to factorize the 2048 bit number in 8 hours :cite:`Gidney_2021`.
 But how to achieve a quantum computer with so many qubits,
 that would achieve such an incredibly long coherence time?
 We still need some technological breakthrough...
+
+-----
+
+.. [#QFT]
+
+    We can interpret the QFT as a mapping from and to a N-dimensional space.
+    Because a set of :math:`n` qubits evolve in a space of dimension :math:`N = 2^n`,
+    the QFT's complexity can be written in terms of :math:`n`.
+    It can be shown that the QFT can be implemented by a quantum circuit
+    using :math:`O(n^2)` elementary gates,
+    i.e. :math:`O((\log{N})^2)`
+    
+    For comparison, the classical Discrete Fourier Transform (DFT) with N terms
+    has a complexity of :math:`O(N^2)`,
+    and the Fast Fourier Transform (FFT) scales with :math:`O(N \log{N})`.
+    
+    Thus the QFT could be seen as an exponential speedup compared to the FFT,
+    as :math:`O(N \log{N}) = O(2^n n)`.
+    But the FT and the QFT achieve two different goals:
+    while the FT returns the :math:`N` coefficients as numbers,
+    the QFT generates a superposition of states whose amplitudes are the Fourier coefficients.
