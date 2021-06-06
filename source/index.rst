@@ -104,7 +104,7 @@ Complements
   :ref:`stories/complements/shor:Breaking RSA` |
   Combinatorial Optimization |
   Maching Learning |
-  :ref:`stories/complements/classical:Classical Systems`
+  :ref:`stories/complements/classical:Classical Physics`
 
 * **Physical Implementation:**
   :ref:`stories/complements/entanglement:Entanglement` |

@@ -47,7 +47,7 @@ Algorithms
 * | *Hybrid quantum linear equation algorithm* :cite:`Lee_2019`
   | ...
 
-* Application: :ref:`stories/complements/classical:Classical Systems`
+* Application: :ref:`stories/complements/classical:Classical Physics`
 
 * Qiskit tutorial: `Solving Linear Systems of Equations using HHL
   <https://qiskit.org/textbook/ch-applications/hhl_tutorial.html>`_

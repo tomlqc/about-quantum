@@ -5,7 +5,7 @@ Applications
 * :ref:`stories/complements/shor:Breaking RSA`
 * :ref:`stories/complements/opti:Combinatorial Optimization`
 * :ref:`stories/complements/mlearn:Machine Learning`
-* :ref:`stories/complements/classical:Classical Systems`
+* :ref:`stories/complements/classical:Classical Physics`
 
 .. rubric:: Quantum Supremacy
 
