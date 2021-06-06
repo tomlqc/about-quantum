@@ -55,6 +55,11 @@ And additional topics for research from I. Bloch's guest lecture :cite:`LMUQH202
 
 * *High-temperature superconductivity in copper oxides* :cite:`Keimer_2015`.
 
+See also:
+
+* | *Quantum simulations of materials on near-term quantum computers* :cite:`Ma_2020`:
+  | "ground and excited state properties of several spin-defects in solids including the negatively charged nitrogen-vacancy (NV) center, the neutral silicon-vacancy (SiV) center in diamond, and the Cr impurity (4+) in 4H-SiC
+
 .. ---------------------------------------------------------------------------
 
 .. rubric:: Footnotes
