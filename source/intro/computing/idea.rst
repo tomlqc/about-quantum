@@ -6,7 +6,7 @@ Idea
 - computing models:
 
   - Quantum circuit or gate-based model
-  - Adiabatic quantum computer or Quantum Annealing
+  - Adiabatic quantum computer or Quantum Annealing (see *Readiness* :cite:`PerdomoOrtiz_2019`)
   - Topological quantum computer :cite:`Vaitiekenas_2020`
 
 - Di Vincenzo "ingredients",
