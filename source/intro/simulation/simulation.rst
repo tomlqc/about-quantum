@@ -7,7 +7,5 @@ Quantum Simulation
     :maxdepth: 1
 
     simulate
+    apps
     realization
-    condmatter
-    chemistry
-    VQE

@@ -88,10 +88,8 @@ An Introduction
 
 * **Quantum Simulation:**
   :ref:`intro/simulation/simulate:Simulate Quantum Systems` |
-  :ref:`intro/simulation/realization:Realization` |
-  :ref:`intro/simulation/condmatter:Condensed-Matter Physics` |
-  :ref:`intro/simulation/chemistry:Quantum Chemistry` |
-  :ref:`VQE <intro/simulation/VQE:Variational Quantum Eigensolver>`
+  :ref:`intro/simulation/apps:Applications` |
+  :ref:`intro/simulation/realization:Realization`
 
 * **Quantum Communication:**
   :ref:`... <intro/communication/communication:Quantum Communication>`
@@ -104,7 +102,9 @@ Complements
   :ref:`stories/complements/shor:Breaking RSA` |
   Combinatorial Optimization |
   Maching Learning |
-  :ref:`stories/complements/classical:Classical Physics`
+  :ref:`stories/complements/classical:Classical Physics` |
+  :ref:`stories/complements/condmatter:Condensed-Matter Physics` |
+  :ref:`stories/complements/chemistry:Quantum Chemistry`
 
 * **Physical Implementation:**
   :ref:`stories/complements/entanglement:Entanglement` |

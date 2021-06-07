@@ -9,23 +9,25 @@ Complements to the introduction.
     :maxdepth: 1
     :caption: Applications
 
-    shor.rst
-    opti.rst
-    mlearn.rst
-    classical.rst
+    shor
+    opti
+    mlearn
+    classical
+    condmatter
+    chemistry
 
 .. toctree::
     :maxdepth: 1
     :caption: Physical Implementation
 
-    entanglement.rst
+    entanglement
 
 .. toctree::
     :maxdepth: 1
     :caption: Illustration
 
-    bloch_sphere.rst
-    evolution.rst
-    bell.rst
+    bloch_sphere
+    evolution
+    bell
 
 .. ---------------------------------------------------------------------------

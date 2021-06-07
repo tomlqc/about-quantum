@@ -40,27 +40,18 @@ Algorithms
 
 .. rubric:: HHL
 
-* | *Solving Linear Systems of Equations* :cite:`Harrow_2009`
-  | "We consider the case where one doesn't need to know the solution x itself,
-     but rather an approximation of the expectation value of some operator associated with x."
-
-* | *Hybrid quantum linear equation algorithm* :cite:`Lee_2019`
-  | ...
-
 * Application: :ref:`stories/complements/classical:Classical Physics`
 
 * Qiskit tutorial: `Solving Linear Systems of Equations using HHL
   <https://qiskit.org/textbook/ch-applications/hhl_tutorial.html>`_
   :cite:`IQCQH_2020`
   
+* | *Solving Linear Systems of Equations* :cite:`Harrow_2009`
+  | "We consider the case where one doesn't need to know the solution x itself,
+     but rather an approximation of the expectation value of some operator associated with x."
 
-.. rubric:: VQE
-
-* Application: Quantum Simulation, :ref:`intro/simulation/VQE:Variational Quantum Eigensolver`.
-
-* Qiskit tutorial: `Simulating Molecules using VQE
-  <https://qiskit.org/textbook/ch-applications/vqe-molecules.html>`_
-  :cite:`IQCQH_2020`
+* | *Hybrid quantum linear equation algorithm* :cite:`Lee_2019`
+  | ...
 
 
 .. rubric:: QAOA
@@ -69,6 +60,15 @@ Algorithms
 
 * Qiskit tutorial: `Solving combinatorial optimization problems using QAOA
   <https://qiskit.org/textbook/ch-applications/qaoa.html>`_
+  :cite:`IQCQH_2020`
+
+
+.. rubric:: VQE
+
+* Application: :ref:`stories/complements/chemistry:Quantum Chemistry`.
+
+* Qiskit tutorial: `Simulating Molecules using VQE
+  <https://qiskit.org/textbook/ch-applications/vqe-molecules.html>`_
   :cite:`IQCQH_2020`
 
 
