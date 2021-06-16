@@ -100,7 +100,7 @@ Complements
 
 * **Applications:**
   :ref:`stories/complements/shor:Breaking RSA` |
-  Combinatorial Optimization |
+  :ref:`stories/complements/opti:Combinatorial Optimization` |
   Maching Learning |
   :ref:`stories/complements/classical:Classical Physics` |
   :ref:`stories/complements/condmatter:Condensed-Matter Physics` |
