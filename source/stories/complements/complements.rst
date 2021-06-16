@@ -12,6 +12,7 @@ Complements to the introduction.
     shor
     opti
     mlearn
+    montecarlo
     classical
     condmatter
     chemistry
