@@ -11,6 +11,12 @@ or simulate nonlinear physical systems.
 See :ref:`intro/computing/algo:Algorithms`.
 
 
+.. rubric:: Nonlinear Problems
+
+* | *Variational quantum algorithms for nonlinear problems* :cite:`Lubasch_2020`
+  | "nonlinear problems including nonlinear partial differential equations can be efficiently solved by variational quantum computing"
+
+
 .. rubric:: Fluid Dynamics
 
 * | *Solving the Navier-Stokes Equation* :cite:`Ray_2019`
