@@ -40,3 +40,14 @@ Quantum Chemistry
 - go further: "faster quantum gradient computation" :cite:`Gilyen_2019`
 
 .. ---------------------------------------------------------------------------
+
+-----
+
+**Further readings**
+
+* *Quantum Information and Computation for Chemistry* :cite:`Olson_2017`,
+  a National Science Foundation workshop report.
+
+* *Quantum Chemistry* :cite:`IQCQH_2020`, Qiskit Global Summer School 2020,
+  `lectures 23-27 <https://qiskit.org/learn/intro-qc-qh/>`_
+  incl. `videos <https://youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR>`_.
