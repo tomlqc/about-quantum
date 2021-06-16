@@ -36,6 +36,12 @@ Algorithms
   | "Having a phone book (sorted by name), find the name corresponding to a given phone number".
   | classical: :math:`O(N)`
   | quantum: :math:`O(\sqrt{N})`
+  
+* | Grover algorithm is optimal :cite:`Bennett_1997`:
+  | "relative to an oracle chosenuniformly at random, with probability 1,
+    the class NP cannot be solved on a quantum Turing machine in time :math:`o(2^{n/2})`"
+  | "recent work of Grover shows how to accept the class NP relative to any oracle
+    on a quantum computer in time :math:`O(2^{n/2})`."
 
 
 .. rubric:: HHL
