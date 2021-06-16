@@ -56,12 +56,16 @@ About Quantum Mechanics and Quantum Computing:
   (e.g. `Bloch-Redfield master eq.
   <http://qutip.org/docs/latest/guide/dynamics/dynamics-bloch-redfield.html>`_)
 
-- A list of further readings about advanced topics of quantum computing is provided in
-  `Learning Resources <https://docs.microsoft.com/en-us/azure/quantum/further-reading-qdk>`_
-  of Microsoft's Quantum Development Kit in the
+- `Learning Resources <https://docs.microsoft.com/en-us/azure/quantum/further-reading-qdk>`_
+  of Microsoft's Quantum Development Kit
+  
+  A list of further readings about advanced topics of quantum computing is provided in the
   `Azure Quantum Documentation <https://docs.microsoft.com/en-us/azure/quantum/>`_:
   building controlled gates, preparing quantum states, synthesizing circuits,
   quantum arithmetics, quantum sampling, quantum simulation, quantum optimization.
+
+- The `IEEE Quantum Week 2020 tutorials <https://qce20.quantum.ieee.org/tutorials/>`_
+  may be a further source of inspiration.
 
 .. ---------------------------------------------------------------------------
 
