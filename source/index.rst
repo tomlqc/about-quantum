@@ -148,7 +148,7 @@ Background
 
 * **Conceptual:**
   Young Double-Slit Experiment |
-  EPR Experiments |
+  :ref:`stories/background/EPR_experiments:EPR Experiments` |
   Non-locality & Contextuality |
   Conterfactuals
 

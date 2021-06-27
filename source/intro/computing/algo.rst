@@ -32,16 +32,28 @@ Algorithms
 
 .. rubric:: Grover
 
-* | Grover, incl. **Amplitude amplification**
+* | Grover, the *quantum search algorithm*, incl. **Amplitude amplification**
   | "Having a phone book (sorted by name), find the name corresponding to a given phone number".
   | classical: :math:`O(N)`
   | quantum: :math:`O(\sqrt{N})`
   
 * | Grover algorithm is optimal :cite:`Bennett_1997`:
-  | "relative to an oracle chosenuniformly at random, with probability 1,
+  | "relative to an oracle chosen uniformly at random, with probability 1,
     the class NP cannot be solved on a quantum Turing machine in time :math:`o(2^{n/2})`"
   | "recent work of Grover shows how to accept the class NP relative to any oracle
     on a quantum computer in time :math:`O(2^{n/2})`."
+
+* An approaching to TSP and SAT using Grover's *quantum search algorithm*:
+
+    - | `How the quantum search algorithm works <https://quantum.country/search>`_
+         :cite:`Matuschak_2019`,
+         about the traveling salesperson problem (TSP): 
+      | "consider a variation on TSP, namely,
+        searching for a route shorter than some specified threshold distance, :math:`T`."
+    - | `Solving Satisfiability Problems using Grover's Algorithm
+         <https://qiskit.org/textbook/ch-applications/satisfiability-grover.html>`_
+         :cite:`IQCQH_2020`
+      | "While it doesn’t make sense to use Grover’s algorithm on 3-sat problems, the techniques here can be applied to the more general case (k-SAT, discussed in the next section) for which Grover’s algorithm can outperform the best classical algorithm."
 
 
 .. rubric:: HHL
