@@ -16,3 +16,10 @@ State of the Art
   
   - "Quantum Computing: A Bubble Ready to Burst?" :cite:`Brant_2020`,
   - "Will Quantum Computing Ever Live Up to Its Hype?" :cite:`Horgan_2021`
+
+-----
+
+**Further readings**
+
+- "Status of quantum computer development"
+  by the German Federal Office for Information Security :cite:`BSI_2020`

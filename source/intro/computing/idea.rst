@@ -2,13 +2,19 @@
 Idea
 ====
 
-- Feynman's original idea
-- computing models:
+Feynman's original idea
 
-  - Quantum circuit or gate-based model
-  - Adiabatic quantum computer or Quantum Annealing (see *Readiness* :cite:`PerdomoOrtiz_2019`)
-  - Topological quantum computer :cite:`Vaitiekenas_2020`
+.. rubric:: Computing models
 
-- Di Vincenzo "ingredients",
-  :cite:`LMUQH2021` lecture 01,
-  also :cite:`Nielsen2010` section 4.6
+- Quantum circuit or gate-based model: see :ref:`intro/computing/gates:Gate Model`.
+
+- Adiabatic quantum computer (*alias* Quantum Annealing):
+  
+  - *Quantum Computation by Adiabatic Evolution* :cite:`Fahri_2000`
+  - *Readiness* :cite:`PerdomoOrtiz_2019`
+
+- Topological quantum computer:
+
+  - *Introduction to topological superconductivity and Majorana fermions* :cite:`Leijnse_2012`
+  - recent results :cite:`Vaitiekenas_2020`
+

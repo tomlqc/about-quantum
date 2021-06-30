@@ -30,6 +30,12 @@ I recommend especially:
 
 - *A quantum engineer’s guide to superconducting qubits* by Krantz *et al.* :cite:`Krantz_2019`
 - *Quantum simulation* by I. Georgesco *et al.* :cite:`Georgescu_2014`
+- *Simulating chemistry using quantum computers* by I. Kassal *et al.* :cite:`Kassal_2011`.
+
+And finally a detailled analysis of the state of the art:
+
+- "Status of quantum computer development"
+  by the German Federal Office for Information Security :cite:`BSI_2020`.
 
 -----
 
