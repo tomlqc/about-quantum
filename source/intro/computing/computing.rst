@@ -7,6 +7,7 @@ Quantum Computing
     :maxdepth: 1
 
     idea
+    models
     gates
     noise
     algo

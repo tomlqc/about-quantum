@@ -77,6 +77,7 @@ An Introduction
 
 * **Quantum Computing:**
   :ref:`intro/computing/idea:Idea` |
+  :ref:`intro/computing/models:Computing Models` |
   :ref:`intro/computing/gates:Gate Model` |
   :ref:`intro/computing/noise:Noise` |
   :ref:`intro/computing/algo:Algorithms` |
