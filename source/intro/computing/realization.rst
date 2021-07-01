@@ -2,9 +2,13 @@
 Realization
 ===========
 
-NMR, QED, Ion traps, Quantum dots, Superconducting circuits.
+* NMR
+* QED
+* Ion traps
+* :ref:`stories/complements/supercond:Superconducting Circuits`
+* :ref:`stories/complements/qudots:Quantum Dots`
 
-See also:
+*To investigate:*
 
 * | *Superconductor–semiconductor hybrid-circuit quantum electrodynamics* :cite:`Burkard_2020`:
   | "hybrid ‘super–semi’ quantum systems, which coherently couple superconducting cavities to semiconductor quantum dots"

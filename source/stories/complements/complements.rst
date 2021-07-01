@@ -22,6 +22,9 @@ Complements to the introduction.
     :caption: Physical Implementation
 
     entanglement
+    supercond
+    qudots
+    
 
 .. toctree::
     :maxdepth: 1

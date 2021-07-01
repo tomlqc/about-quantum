@@ -12,6 +12,4 @@ Quantum Computing
     algo
     apps
     realization
-    supercond
-    qudots
     state

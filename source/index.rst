@@ -82,8 +82,6 @@ An Introduction
   :ref:`intro/computing/algo:Algorithms` |
   :ref:`intro/computing/apps:Applications` |
   :ref:`intro/computing/realization:Realization` |
-  :ref:`intro/computing/supercond:Superconducting Circuits` |
-  :ref:`intro/computing/qudots:Quantum Dots` |
   :ref:`intro/computing/state:State of the Art`
 
 * **Quantum Simulation:**
@@ -107,9 +105,11 @@ Complements
   :ref:`stories/complements/condmatter:Condensed-Matter Physics` |
   :ref:`stories/complements/chemistry:Quantum Chemistry`
 
-* **Physical Implementation:**
+* **Realization:**
   :ref:`stories/complements/entanglement:Entanglement` |
-  Basic Gates
+  Circuit Gates |
+  :ref:`stories/complements/supercond:Superconducting Circuits` |
+  :ref:`stories/complements/qudots:Quantum Dots`
 
 * **Illustration:**
   :ref:`stories/complements/bloch_sphere:Bloch Sphere` |
