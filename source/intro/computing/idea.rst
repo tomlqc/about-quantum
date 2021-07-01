@@ -15,6 +15,11 @@ Feynman's original idea
 
 - Topological quantum computer:
 
-  - *Introduction to topological superconductivity and Majorana fermions* :cite:`Leijnse_2012`
+  - *Introduction to topological superconductivity and Majorana fermions* [#Majorana]_ :cite:`Leijnse_2012`
   - recent results :cite:`Vaitiekenas_2020`
 
+-----
+
+.. [#Majorana]
+
+    About Ettore Majorana's contributions to physics, read :cite:`Wilczek_2009`.
