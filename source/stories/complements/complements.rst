@@ -22,6 +22,7 @@ Complements to the introduction.
     :caption: Physical Implementation
 
     entanglement
+    gates
     supercond
     qudots
     

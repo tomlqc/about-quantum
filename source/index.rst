@@ -108,7 +108,7 @@ Complements
 
 * **Realization:**
   :ref:`stories/complements/entanglement:Entanglement` |
-  Circuit Gates |
+  :ref:`stories/complements/gates:Circuit Gates` |
   :ref:`stories/complements/supercond:Superconducting Circuits` |
   :ref:`stories/complements/qudots:Quantum Dots`
 

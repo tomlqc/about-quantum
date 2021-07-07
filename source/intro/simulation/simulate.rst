@@ -15,7 +15,9 @@ forms a many-body model of it, and can be controlled to some extend.
 
 .. ---------------------------------------------------------------------------
 
-.. rubric:: Approach
+.. rubric:: How to
+
+*To investigate:* (from Microsoft’s Quantum Development Kit Learning Resources)
 
 - `Quantum Dynamics <https://docs.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/concepts/quantum-dynamics>`_
 
@@ -28,14 +30,17 @@ forms a many-body model of it, and can be controlled to some extend.
 
   | "Perhaps the most important quantity in quantum chemistry simulation is the ground state, which is the minimum energy eigenvector of the Hamiltonian matrix. This is because for most molecules at room temperature quantities such as reaction rates are dominated by free energy differences between quantum states that describe the beginning and end of a step in a reaction pathway and at room temperature such intermediate state are usually ground states."
 
-*To investigate ...*
-
 .. ---------------------------------------------------------------------------
 
 -----
 
 **Further readings:**
-*Quantum Simulation* :cite:`Georgescu_2014`,
-complemented by *Quantum Simulators* :cite:`Altman_2021`.
+
+- *Quantum Simulation* :cite:`Georgescu_2014`,
+  complemented by *Quantum Simulators* :cite:`Altman_2021`.
+
+- `Nature Physics Insight – Quantum Simulation
+  <https://www.nature.com/collections/tmqjjbrhcb#editorial>`_,
+  Nature 2012 (incl. :cite:`Bloch_2012`, :cite:`Blatt_2012`).
 
 .. ---------------------------------------------------------------------------
