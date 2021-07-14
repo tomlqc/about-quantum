@@ -89,6 +89,10 @@ Algorithms
   <https://qiskit.org/textbook/ch-applications/vqe-molecules.html>`_
   :cite:`IQCQH_2020`
 
+.. rubric:: Quantum Supremacy
+
+- A list of problems solved more efficiently on quantum computers.
+- Where can we expect an exponential speedup?
 
 -----
 

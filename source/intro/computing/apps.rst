@@ -8,7 +8,7 @@ Applications
 * :ref:`stories/complements/montecarlo:Monte Carlo`
 * :ref:`stories/complements/classical:Classical Physics`
 
-.. rubric:: Quantum Supremacy
+See also :ref:`Applications of Quantum Simulation <intro/simulation/apps:Applications>`:
 
-- A list of problems solved more efficiently on quantum computers.
-- Where can we expect an exponential speedup?
+* :ref:`stories/complements/condmatter:Condensed-Matter Physics`
+* :ref:`stories/complements/chemistry:Quantum Chemistry`

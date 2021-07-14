@@ -2,11 +2,11 @@
 Realization
 ===========
 
-_ NMR
-_ QED
-_ Ion traps
-_ :ref:`stories/complements/supercond:Superconducting Circuits`
-_ :ref:`stories/complements/qudots:Quantum Dots`
+- NMR
+- QED
+- Ion traps
+- :ref:`stories/complements/supercond:Superconducting Circuits`
+- :ref:`stories/complements/qudots:Quantum Dots`
 
 *To investigate:*
 
