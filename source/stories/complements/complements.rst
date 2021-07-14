@@ -35,4 +35,11 @@ Complements to the introduction.
     evolution
     bell
 
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Fundamentals
+
+    topological
+
 .. ---------------------------------------------------------------------------

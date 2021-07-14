@@ -10,17 +10,9 @@ Computing Models
   - *Readiness* :cite:`PerdomoOrtiz_2019`
   - applications: SAT-Problem :cite:`Fahri_2000`, Quantum Chemistry :cite:`Kassal_2011`
 
-- | Topological quantum computer [#Preskill]_:
+- | Topological quantum computer:
 
-  - *Introduction to topological superconductivity and Majorana fermions* [#Majorana]_ :cite:`Leijnse_2012`
-  - recent results :cite:`Vaitiekenas_2020`
-
------
-
-.. [#Preskill]
-
-    *Topological Quantum Computation* in Preskill's lecture notes :cite:`Preskill229`.
-
-.. [#Majorana]
-
-    About Ettore Majorana's contributions to physics, read :cite:`Wilczek_2009`.
+  - a not-so-easy-to-grasp approach based on quantum systems living in a 2-dimensional physical space,
+    that would inherently possess a great stability and resistance to noise,
+  - still not (or at least not conclusively) experimentally verified,
+  - see :ref:`stories/complements/topological:Topological Quantum Computer`.

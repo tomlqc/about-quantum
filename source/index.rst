@@ -119,6 +119,9 @@ Complements
   :ref:`stories/complements/bell:Bell Inequalities` |
   Birth and Grow of Superpositions
 
+* **Fundamentals:**
+  :ref:`stories/complements/topological:Topological Quantum Computer`
+
 
 Background
 ----------
