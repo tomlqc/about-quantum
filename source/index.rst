@@ -109,6 +109,7 @@ Complements
 * **Realization:**
   :ref:`stories/complements/entanglement:Entanglement` |
   :ref:`stories/complements/gates:Circuit Gates` |
+  :ref:`stories/complements/iontrap:Trapped Ions` |
   :ref:`stories/complements/supercond:Superconducting Circuits` |
   :ref:`stories/complements/qudots:Quantum Dots`
 

@@ -23,6 +23,7 @@ Complements to the introduction.
 
     entanglement
     gates
+    iontrap
     supercond
     qudots
     
