@@ -2,9 +2,10 @@
 State of the Art
 ================
 
+- ASM / Machine Instructions
 - NISQ era (Noisy Intermediate-Scale Quantum Computers), :cite:`Preskill_2018`
 - State of play :cite:`Kjaergaard_2020`
-- ASM/Machine Instructions
+- :ref:`intro/computing/algo:Quantum Supremacy`?
 - Roadmaps:
   
   - `IBM’s Roadmap For Scaling Quantum Technology

@@ -6,7 +6,8 @@ Algorithms
 
 .. ---------------------------------------------------------------------------
 
-.. rubric:: Complexity classes
+Complexity classes
+------------------
 
 - Refresher:
   **P**, **NP**, **PSPACE**, :cite:`Nielsen2010` section 3.2.4,
@@ -14,7 +15,10 @@ Algorithms
 - *Quantum computational complexity* :cite:`Nielsen2010` section 4.5.5
 
 
-.. rubric:: Quantum algorithms
+.. ---------------------------------------------------------------------------
+
+Quantum algorithms
+------------------
 
 - "oracles"
 
@@ -23,14 +27,16 @@ Algorithms
 - examples below
 
 
-.. rubric:: Shor
+Shor
+^^^^
 
 * incl. **QFT** and **Phase Estimation**, building blocks for other algorithms.
 
 * Application: :ref:`stories/complements/shor:Breaking RSA`
 
 
-.. rubric:: Grover
+Grover
+^^^^^^
 
 * | Grover, the *quantum search algorithm*, incl. **Amplitude amplification**
   | "Having a phone book (sorted by name), find the name corresponding to a given phone number".
@@ -56,7 +62,8 @@ Algorithms
       | "While it doesn’t make sense to use Grover’s algorithm on 3-sat problems, the techniques here can be applied to the more general case (k-SAT, discussed in the next section) for which Grover’s algorithm can outperform the best classical algorithm."
 
 
-.. rubric:: HHL
+HHL
+^^^
 
 * Application: :ref:`stories/complements/classical:Classical Physics`
 
@@ -72,7 +79,8 @@ Algorithms
   | ...
 
 
-.. rubric:: QAOA
+QAOA
+^^^^
 
 * Application: :ref:`stories/complements/opti:Combinatorial Optimization`
 
@@ -81,7 +89,8 @@ Algorithms
   :cite:`IQCQH_2020`
 
 
-.. rubric:: VQE
+VQE
+^^^
 
 * Application: :ref:`stories/complements/chemistry:Quantum Chemistry`.
 
@@ -89,10 +98,24 @@ Algorithms
   <https://qiskit.org/textbook/ch-applications/vqe-molecules.html>`_
   :cite:`IQCQH_2020`
 
-.. rubric:: Quantum Supremacy
 
-- A list of problems solved more efficiently on quantum computers.
-- Where can we expect an exponential speedup?
+.. ---------------------------------------------------------------------------
+
+Quantum Supremacy
+-----------------
+
+- Google's *Quantum Supremacy* claim with 53 qubits :cite:`Arute_2019`
+
+- Estimate of the number of qubits to achieve *Quantum Supremacy* :cite:`Dalzell_2020`
+
+    An IQP circuit with 208 qubits, a QAOA circuit with 420 qubits,
+    and a boson sampling circuit with 98 photons
+    each would require at least one century to be simulated using a classical simulation algorithm
+
+- *todo:* A list of problems solved more efficiently on quantum computers.
+- *todo:* Where can we expect an exponential speedup?
+
+.. ---------------------------------------------------------------------------
 
 -----
 
