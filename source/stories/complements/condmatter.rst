@@ -82,4 +82,8 @@ See also:
     "
     :cite:`Bloch_2012`.
 
+**Further reading:**
+
+* About BEC: *Making, probing and understanding Bose-Einstein condensates* :cite:`Ketterle_1999`
+
 .. ---------------------------------------------------------------------------
