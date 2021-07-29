@@ -59,6 +59,10 @@ html_show_sourcelink = False
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_css_files = [
+    'custom.css',
+]
+
 # -- Additional configuration ------------------------------------------------
 
 numfig = True
@@ -70,5 +74,10 @@ bibtex_bibfiles = ['biblio/books.bib', 'biblio/lectures.bib',
                    'biblio/misc.bib']
 bibtex_default_style = 'plain'
 #bibtex_reference_style = 'author_year'  # version 2.2.0
+
+html_theme_options = {
+    'navigation_depth': 3,
+#    'titles_only': True,
+}
 
 # -- EOF ---------------------------------------------------------------------
