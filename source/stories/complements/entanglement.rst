@@ -9,14 +9,41 @@ Entanglement
 Photon pairs
 ------------
 
-QH lecture 11 :cite:`LMUQH2021`.
+Optical experiments are among the first to illustrate entanglement of quantum states.
+*These two examples are taken from* QH lecture 11 :cite:`LMUQH2021`.
 
-Photon cascade :cite:`Aspect_1980`
+Photon cascade
+^^^^^^^^^^^^^^
+
+In the early 1980s, Alain Aspect *et al.* presented a series of experiments
+aiming to resolve the EPR paradox and to dismiss hidden variable theories
+:cite:`Aspect_1982a` (see :ref:`stories/background/EPR_experiments:EPR Experiments`).
+The work was based on the emission cascade of calcium atoms as described in 
+:cite:`Aspect_1980` and :cite:`Aspect_1981` (the latter in open access).
+
+Calcium of atoms excited in a :math:`4p^2 \, {}^1 S_0` decay towards the state :math:`4s^2 \, {}^1 S_0`
+through the intermediate short-lived :math:`4s 4p^1 P_1`,
+by emitting a cascade of two photons at frequencies :math:`\nu_1` and :math:`\nu_2`.
+The two photons are correlated in polarization, one being in :math:`\sigma^+`
+and the other in :math:`\sigma^-`.
+The experiments revealed that the photons were in a superposition of state
+:math:`\ket{\sigma^+} \ket{\sigma^-} + \ket{\sigma^-} \ket{\sigma^+}`,
+and that they were well suited to test the :ref:`stories/complements/bell:Bell Inequalities`.
+
+Parametric Down Conversion
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Parametric Down Conversion, type II phase matching, :cite:`Ghosh_1987`,
 also :cite:`Kwiat_1995` for introduction and bibliography
 
-HongOu-Mandel experiment, cite?
+Hong-Ou-Mandel Effect
+^^^^^^^^^^^^^^^^^^^^^
+
+If two identical photon enter a beam splitter, one on each input port,
+they will always exit the beam splitter together on one of the output ports :cite:`Hong_1987`.
+One essential requirement is that they are truely non distinguishable:
+same frequency, same polarization, passing the beam splitter at the same time
+i.e. within an extremely short time interval.
 
 .. ---------------------------------------------------------------------------
 
