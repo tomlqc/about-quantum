@@ -19,7 +19,7 @@ Classically, interference patterns can be observed on the detectors :math:`D_a` 
     :width: 50 %
     :name: Mach-Zehnder
     
-    Mach-Zehnder interferometer, inspired from :cite:`Haroche2013`, Fig. 3.16
+    Mach-Zehnder interferometer, inspired by :cite:`Haroche2013`, Fig. 3.16
 
 An other example is the **Ramsey interferometer**, :numref:`Ramsey`.
 The interference is observed on an isolated atom that behaves as a two-level quantum system,
@@ -39,7 +39,7 @@ interference patterns can be observed as for the optical experiment.
     :width: 50 %
     :name: Ramsey
     
-    Ramsey interferometer, inspired from :cite:`Haroche2013`, Fig. 3.16
+    Ramsey interferometer, inspired by :cite:`Haroche2013`, Fig. 3.16
 
 The striking feature is that the interference is observed on only one single atom,
 and that it can obviously interfer with itself!
