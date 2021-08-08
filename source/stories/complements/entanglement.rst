@@ -50,29 +50,51 @@ i.e. within an extremely short time interval.
 Atom-photon interactions
 ------------------------
 
-In cavity QED.
+In QED [#QED]_ cavities, interactions between single atoms and single photons
+can be precisely controlled.
+The cavity's size can be adjusted such that its resonance frequency matches the atoms
+energy gap getween the ground and the excited levels.
+The atoms are sent through the cavity, while the precise interaction time
+between atoms and photons in the cavity is controlled by an additional electric field.
+This field changes the energy between the atoms energy levels,
+and is used to inhibit the atom's interaction with the cavity.
+As soon as this electric field is lifted, the atoms can interact with the light trapped in the cavity.
+*This paragraph is inspired by chapter 5.4* :cite:`Haroche2013`.
 
-Atom-photon entanglement :cite:`Haroche2013`, section 5.4
+To entangle atoms with photons, and also pairs of atoms, mediated by the photons in the cavity,
+interaction times are choosen such as to define :math:`\pi/2`, :math:`\pi` or :math:`2 \pi`
+Rabi pulses (see :ref:`stories/background/rabi:Rabi Oscillations`)
+on individual atoms i.e. atoms will pass the cavity one by one.
 
-Fig. 5.33, pair of entangled atoms, mediated by a cavity
+To generate a :math:`\ket{\psi^+}` Bell state between two atoms :math:`1` and :math:`2`:
 
-.. math:: \ket{\Psi_{EPR}} = (\ket{e_1, g_2} + \ket{g_1, e_2}) / \sqrt{2}
+.. math::
 
-Photonic cats, "dispersive and resonant cats in cavity QED",
-:cite:`Haroche2013`, sections 7.3 & 7.4, how to generate a superposition of coherent states
+    \ket{e_1, g_2, 0}
+    & \xrightarrow{\text{1 passes cavity,} \, \pi / 2 \, \text{pulse}}
+      (\ket{e_1, g_2, 0} + \ket{g_1, g_2, 1}) / \sqrt 2 \\
+    & \xrightarrow{\text{2 passes cavity,} \, \pi \, \text{pulse}}
+      (\ket{e_1, g_2, 0} - \ket{g_1, e_2, 0}) / \sqrt 2 
+
+*Figure:* Entanglement of two atoms, mediated by a cavity,
+inspired by :cite:`Haroche2013`, Fig. 5.33
+
+*To go further:*
+Photonic cats, "dispersive and resonant cats in cavity QED", sections 7.3 & 7.4 :cite:`Haroche2013`,
+or how to generate a superposition of coherent states.
 
 .. ---------------------------------------------------------------------------
 
-Ion traps
----------
+Trapped Ions
+------------
 
-The ions' internal state as well as their vibration modes can be manipulated by lasers.
+The :ref:`trapped ions <stories/complements/iontrap:Trapped Ions>`' internal state as well as their vibration modes can be manipulated by lasers.
 *This paragraph is inspired by chapter 8* :cite:`Haroche2013`.
 
 We consider the two internal states :math:`\ket{g}` and :math:`\ket{e}` and
 the vibrational stretch modes :math:`\ket{n}`.
-The corresponding energies are the **carrier** :math:`\hbar \omega_{eg}` and 
-the **phonon** :math:`\hbar \omega_z`.
+The corresponding energies are :math:`\hbar \omega_{eg}` (**carrier** frequency) and
+:math:`\hbar \omega_z` (a **phonon**).
 By setting the laser's frequency to :math:`\omega_l = \omega_{eg} - \omega_z`,
 a so-called **red sideband transition** can be induced
 between :math:`\ket{g, n}` and :math:`\ket{e, n-1}`,
@@ -123,3 +145,9 @@ Superconducting qubits.
 Quantum state tomography in a superconducting quantum computer :cite:`Mooney_2019`.
 
 .. ---------------------------------------------------------------------------
+
+-----
+
+.. [#QED] **Quantum electrodynamics** is the relativistic quantum field theory of electrodynamics,
+    and describes the interaction between light and matter.
+    It successfully combines quantum mechanics and special relativity.

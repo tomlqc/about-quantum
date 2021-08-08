@@ -9,7 +9,7 @@ Two **internal states** can be selected to from a qubit, while the **vibrational
 as a mediator for the interaction between the ions.
 By properly choosing the frequency and length of **laser pulses**, the ions can be entangled, and
 circuit gates can be implemented. See also the section
-:ref:`entanglement in ion traps <stories/complements/entanglement:Ion traps>`.
+:ref:`entanglement of trapped ions <stories/complements/entanglement:Trapped Ions>`.
 
 - seminal paper by Cirac & Zoller :cite:`Cirac_1995`
 - implemented by Honeywell
