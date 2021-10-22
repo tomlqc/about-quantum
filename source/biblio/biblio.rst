@@ -36,3 +36,12 @@ Magazines, speeches, courses etc.
 
 .. bibliography:: misc.bib
     :labelprefix: M
+
+Textbooks
+---------
+
+A selection of reference textbooks about various topics.
+
+.. bibliography:: textbooks.bib
+    :all:
+    :labelprefix: T
