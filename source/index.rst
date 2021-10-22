@@ -116,7 +116,7 @@ Complements
 * **Illustration:**
   :ref:`stories/complements/bloch_sphere:Bloch Sphere` |
   :ref:`stories/complements/evolution:Evolution of a Qubit` |
-  Stabilizer Codes |
+  :ref:`stories/complements/stabilizer:Stabilizer Codes` |
   :ref:`stories/complements/bell:Bell Inequalities` |
   Birth and Grow of Superpositions
 

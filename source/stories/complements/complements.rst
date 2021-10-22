@@ -34,6 +34,7 @@ Complements to the introduction.
 
     bloch_sphere
     evolution
+    stabilizer
     bell
 
 
