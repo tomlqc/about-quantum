@@ -4,7 +4,7 @@ Realization
 
 - NMR
 - QED
-- Ion traps
+- :ref:`stories/complements/iontrap:Trapped Ions`
 - :ref:`stories/complements/supercond:Superconducting Circuits`
 - :ref:`stories/complements/qudots:Quantum Dots`
 
