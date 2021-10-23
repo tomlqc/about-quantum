@@ -101,10 +101,10 @@ Complements
   :ref:`stories/complements/shor:Breaking RSA` |
   :ref:`stories/complements/opti:Combinatorial Optimization` |
   :ref:`stories/complements/mlearn:Machine Learning` |
-  :ref:`stories/complements/montecarlo:Monte Carlo` |
   :ref:`stories/complements/classical:Classical Physics` |
   :ref:`stories/complements/condmatter:Condensed-Matter Physics` |
-  :ref:`stories/complements/chemistry:Quantum Chemistry`
+  :ref:`stories/complements/chemistry:Quantum Chemistry` |
+  Material Science
 
 * **Realization:**
   :ref:`stories/complements/entanglement:Entanglement` |
@@ -160,10 +160,12 @@ Background
 * **Atomic Physics:**
   Stark and Zeeman Effects
 
+* **Other Subjects:**
+  :ref:`stories/background/group_theory:Group Theory` |
+  Quantum Chemistry
+
 * **Miscellaneous:**
   Maths for QM |
-  Group Theory |
-  Quantum Chemistry |
   Nobel Prices |
   Glossary
 

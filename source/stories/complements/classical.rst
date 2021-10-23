@@ -8,7 +8,7 @@ or simulate nonlinear physical systems.
 
 .. rubric:: Linear Systems of Equations
 
-See :ref:`intro/computing/algo:Algorithms`.
+See :ref:`HHL algorithm <intro/computing/algo:HHL>`.
 
 
 .. rubric:: Nonlinear Problems

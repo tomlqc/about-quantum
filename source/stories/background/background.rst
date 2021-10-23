@@ -36,4 +36,10 @@ A few more stories about selected topics in Quantum Science.
     young_slit.rst
     EPR_experiments.rst
 
+.. toctree::
+    :maxdepth: 1
+    :caption: Other Subjects
+    
+    group_theory
+
 .. ---------------------------------------------------------------------------
