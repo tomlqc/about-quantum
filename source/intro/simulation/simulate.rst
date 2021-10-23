@@ -11,28 +11,51 @@ Feynman's idea relied on the **digital quantum simulator**.
 A second kind of simulators relies on the mapping of the simulated quantum system
 onto a simulator system, and is called an **analog quantum simulator**.
 The simulator is able to partly reproduce the dynamics of the simulated system,
-forms a many-body model of it, and can be controlled to some extend.
+forms a many-body model of it, and can be controlled to some extend. |citation|
 
 .. ---------------------------------------------------------------------------
 
-.. rubric:: How to
+Two major problems can be addressed:
 
-*To investigate:* (from Microsoft’s Quantum Development Kit Learning Resources)
+- | Computing the energy levels of a quantum system's:
+    this requires an eigensolver for the Hamiltonian.
+    This topic is covered in :ref:`stories/complements/chemistry:Quantum Chemistry`.
 
-- `Quantum Dynamics <https://docs.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/concepts/quantum-dynamics>`_
+- | Simulating Hamiltonian dynamics:
+    this requires the discretization of the Hamiltonian.
 
-- `Simulating Hamiltonian Dynamics <https://docs.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/concepts/algorithms>`_
+The former problem is essential to Quantum Chemistry:
 
-  - Trotterization
-  - Qubitization
+- "Perhaps the **most important quantity** in quantum chemistry simulation is the **ground state**,
+  which is the minimum energy eigenvector of the Hamiltonian matrix.
+  This is because for most molecules at room temperature quantities such as **reaction rates**
+  are dominated by free energy differences between quantum states
+  that describe the beginning and end of a step in a reaction pathway and
+  at room temperature such intermediate state are usually ground states." [#Groundstate]_
 
-- | `Hartree–Fock Theory <https://docs.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/concepts/hartree-fock>`_
 
-  | "Perhaps the most important quantity in quantum chemistry simulation is the ground state, which is the minimum energy eigenvector of the Hamiltonian matrix. This is because for most molecules at room temperature quantities such as reaction rates are dominated by free energy differences between quantum states that describe the beginning and end of a step in a reaction pathway and at room temperature such intermediate state are usually ground states."
+For the latter problem, two discretization methods may be applied [#Dynamics]_:
+
+- Trotterization :cite:`Whitfield_2011`, :cite:`Hastings_2014`
+- Qubitization :cite:`Low_2019`, :cite:`Babbush_2018`
+
+...
 
 .. ---------------------------------------------------------------------------
 
 -----
+
+**Notes:**
+
+.. [#Groundstate]
+    
+    `Hartree–Fock Theory <https://docs.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/concepts/hartree-fock>`_
+    in the Azure Quantum Documentation :cite:`AQCL_2021`.
+    
+.. [#Dynamics]
+    
+    `Simulating Hamiltonian Dynamics <https://docs.microsoft.com/en-us/azure/quantum/user-guide/libraries/chemistry/concepts/algorithms>`_
+    in the Azure Quantum Documentation :cite:`AQCL_2021`.
 
 **Further readings:**
 

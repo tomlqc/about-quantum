@@ -7,3 +7,8 @@ Noise
   :cite:`Nielsen2010` section 10.3,
 - Fault-tolerant Algorithms,
   :cite:`Nielsen2010` section 10.6,
+
+- :draft:`Recent advances:`
+
+  - *Dynamically Generated Logical Qubits* :cite:`Hastings_2021`
+  

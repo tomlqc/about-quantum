@@ -94,6 +94,13 @@ A selection of software and platforms for quantum computing:
   Run quantum algorithms on simulators or hardware backends.
   Graphical interface to program in QASM (Quantum Assembly Language).
 
+Tutorials:
+
+- Qiskit tutorials:
+  `Chemistry <https://quantum-computing.ibm.com/lab/docs/iql/chemistry>`_,
+  `Optimization <https://quantum-computing.ibm.com/lab/docs/iql/optimization>`_,
+  `Finance <https://quantum-computing.ibm.com/lab/docs/iql/finance-labs>`_
+
 Additional software resources:
 
 - `TensorFlow Quantum <https://www.tensorflow.org/quantum/concepts>`_ -

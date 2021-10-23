@@ -20,11 +20,26 @@ Complexity classes
 Quantum algorithms
 ------------------
 
-- "oracles"
+- Overview
 
-- *Quantum algorithms: an overview* :cite:`Montanaro_2016`
+  - *Quantum algorithms: an overview* :cite:`Montanaro_2016`
 
-- examples below
+  - an extensive list in `Quantum Algorithm Zoo <https://quantumalgorithmzoo.org/>`_ :cite:`Jordan_2021`
+
+  - a review about *Variational Quantum Algorithms* :cite:`Cerezo_2021`
+
+  - :draft:`... oracles ...`
+
+- Examples described in this section
+
+  - **"Pure" quantum algorithms:**
+    :ref:`intro/computing/algo:Shor` |
+    :ref:`intro/computing/algo:Grover` |
+    :ref:`intro/computing/algo:HHL`
+
+  - **Hybrid quantum-classical variational algorithms:**
+    :ref:`intro/computing/algo:QAOA` |
+    :ref:`intro/computing/algo:VQE`
 
 
 Shor

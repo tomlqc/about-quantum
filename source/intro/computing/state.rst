@@ -4,8 +4,9 @@ State of the Art
 
 - ASM / Machine Instructions
 - NISQ era (Noisy Intermediate-Scale Quantum Computers), :cite:`Preskill_2018`
-- State of play :cite:`Kjaergaard_2020`
+- *Superconducting qubits: current state of play* :cite:`Kjaergaard_2020`
 - :ref:`intro/computing/algo:Quantum Supremacy`?
+- *Gate-count estimates for performing quantum chemistry on small quantum computers?* :cite:`Wecker_2014`
 - Roadmaps:
   
   - `IBM’s Roadmap For Scaling Quantum Technology

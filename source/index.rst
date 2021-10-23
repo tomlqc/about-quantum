@@ -162,6 +162,8 @@ Background
 
 * **Miscellaneous:**
   Maths for QM |
+  Group Theory |
+  Quantum Chemistry |
   Nobel Prices |
   Glossary
 
