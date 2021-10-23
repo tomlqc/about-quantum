@@ -65,6 +65,14 @@ html_css_files = [
 
 # -- Additional configuration ------------------------------------------------
 
+rst_prolog = """
+.. role:: red
+.. role:: draft
+.. role:: supnote
+.. |citation| replace:: :supnote:`[citation needed]`
+.. |draft| replace:: :draft:`Draft`
+"""
+
 numfig = True
 
 autosectionlabel_prefix_document = True

@@ -1,6 +1,23 @@
 
-/* */
+/* modified existing styles */
 p.caption, h3 {
     font-size: 110%;
     /* font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif; */
+}
+
+/* new custom styles */
+.red {
+    color: red;
+}
+.draft {
+    color: goldenrod;
+}
+.supnote {
+    color: gray; /*or lightblue*/
+    /* sup */
+    top: -.5em;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
