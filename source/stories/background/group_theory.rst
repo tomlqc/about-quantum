@@ -4,7 +4,7 @@ Group Theory
 
 - Why Group Theory?
 
-  - an theory fundamental to Physics in general
+  - a theory fundamental to Physics in general
   
   - a central element to understand 
     :ref:`stories/complements/topological:Topological Quantum Computer`

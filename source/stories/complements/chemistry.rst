@@ -37,7 +37,13 @@ Variational Quantum Eigensolver
     to the gate-based quantum (single and two-qubits gates)
 
 - | about current hardware :cite:`IQCQH_2020`:
-  | "Extant quantum computers, such as those based on super conducting qubits, have limited qubit connectivity. That is, it is not possible to implement 2-qubit gates on arbitrary qubit pairs (without inserting swap gates). Thus, variational forms have been constructed for specific quantum computer architectures where the circuits are specifically tuned to maximally exploit the natively available connectivity and gates of a given quantum device. Such a variational form was used in 2017 to successfully implement VQE for the estimation of the ground state energies of molecules as large as BeH22 on an IBM quantum computer :cite:`Kandala_2017`".
+  | "Extant quantum computers, such as those based on super conducting qubits, have **limited qubit connectivity**.
+    That is, it is not possible to implement 2-qubit gates on arbitrary qubit pairs (without inserting swap gates).
+    Thus, **variational forms have been constructed for specific quantum computer architectures**
+    where the circuits are specifically tuned to maximally exploit the natively available connectivity and
+    gates of a given quantum device.
+    Such a variational form was used in 2017 to successfully implement VQE for the estimation
+    of the ground state energies of molecules as large as BeH22 on an IBM quantum computer :cite:`Kandala_2017`".
 
 .. rubric:: An examination
 

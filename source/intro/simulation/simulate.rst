@@ -17,11 +17,11 @@ forms a many-body model of it, and can be controlled to some extend. |citation|
 
 Two major problems can be addressed:
 
-- | Computing the energy levels of a quantum system's:
+- | **Computing the energy levels** of a quantum system's:
     this requires an eigensolver for the Hamiltonian.
     This topic is covered in :ref:`stories/complements/chemistry:Quantum Chemistry`.
 
-- | Simulating Hamiltonian dynamics:
+- | **Simulating Hamiltonian dynamics**:
     this requires the discretization of the Hamiltonian.
 
 The former problem is essential to Quantum Chemistry:
