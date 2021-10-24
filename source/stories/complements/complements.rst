@@ -9,13 +9,13 @@ Complements to the introduction.
     :maxdepth: 1
     :caption: Applications
 
-    shor
     opti
     mlearn
     montecarlo
     classical
     condmatter
     chemistry
+    shor
 
 .. toctree::
     :maxdepth: 1
