@@ -9,7 +9,7 @@ Group Theory
   - a central element to understand 
     :ref:`stories/complements/topological:Topological Quantum Computer`
 
-- :draft:`My learning path:`
+- :draft:`My ongoing learning path:`
 
   - *Group Theory and Its Application to Physical Problems* :cite:`Hamermesh2012`
 

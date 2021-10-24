@@ -8,6 +8,8 @@ Combinatorial Optimization
 * Adiabatic Quantum Computation (AQC)
 * Quadratic Unconstrained Binary Optimization (PUBO)
 
+.. comment - https://math.stackexchange.com/questions/1768999/notation-square-brackets-with-a-unique-scalar
+
 -----
 
 **Further reading:**
