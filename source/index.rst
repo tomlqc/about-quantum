@@ -104,10 +104,10 @@ Complements
   :ref:`stories/complements/opti:Combinatorial Optimization` |
   :ref:`stories/complements/mlearn:Machine Learning` |
   :ref:`stories/complements/classical:Classical Physics` |
+  :ref:`stories/complements/shor:Breaking RSA` |
   :ref:`stories/complements/condmatter:Condensed-Matter Physics` |
   :ref:`stories/complements/chemistry:Quantum Chemistry` |
-  Material Science |
-  :ref:`stories/complements/shor:Breaking RSA`
+  Material Science
 
 * **Realization:**
   :ref:`stories/complements/entanglement:Entanglement` |
@@ -123,7 +123,7 @@ Complements
   :ref:`stories/complements/bell:Bell Inequalities` |
   Birth and Grow of Superpositions
 
-* **Fundamentals:**
+* **Computing Models:**
   :ref:`stories/complements/topological:Topological Quantum Computer`
 
 
@@ -163,7 +163,7 @@ Background
 * **Atomic Physics:**
   Stark and Zeeman Effects
 
-* **Other Subjects:**
+* **Related Subjects:**
   :ref:`stories/background/group_theory:Group Theory` |
   Quantum Chemistry
 

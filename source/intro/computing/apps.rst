@@ -2,11 +2,11 @@
 Applications
 ============
 
-* :ref:`stories/complements/shor:Breaking RSA`
 * :ref:`stories/complements/opti:Combinatorial Optimization`
 * :ref:`stories/complements/mlearn:Machine Learning`
 * :ref:`stories/complements/montecarlo:Monte Carlo` :draft:`(to be investigated)`
 * :ref:`stories/complements/classical:Classical Physics`
+* :ref:`stories/complements/shor:Breaking RSA`
 
 See also :ref:`Applications of Quantum Simulation <intro/simulation/apps:Applications>`:
 
