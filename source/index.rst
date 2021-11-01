@@ -124,6 +124,7 @@ Complements
   Birth and Grow of Superpositions
 
 * **Computing Models:**
+  :ref:`stories/complements/adiabatic:Adiabatic Quantum Computer` |
   :ref:`stories/complements/topological:Topological Quantum Computer`
 
 

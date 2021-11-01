@@ -13,9 +13,9 @@ Complements to the introduction.
     mlearn
     montecarlo
     classical
+    shor
     condmatter
     chemistry
-    shor
 
 .. toctree::
     :maxdepth: 1
@@ -40,8 +40,9 @@ Complements to the introduction.
 
 .. toctree::
     :maxdepth: 1
-    :caption: Fundamentals
-
+    :caption: Computing Models
+    
+    adiabatic
     topological
 
 .. ---------------------------------------------------------------------------

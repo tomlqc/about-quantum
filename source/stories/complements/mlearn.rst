@@ -10,6 +10,10 @@ Machine Learning
 
 * see also *Quantum Computing and Machine Learning* :cite:`Fawaz_2021`
 
+See also about Sampling for *Restricted Boltzmann Machines* (RBM)
+with the `D-Wave QPU <https://docs.dwavesys.com/docs/latest/handbook_problems.html#machine-learning>`_
+:cite:`DWave_2021` (:ref:`stories/complements/adiabatic:Adiabatic Quantum Computer`).
+
 -----
 
 **Further reading:**

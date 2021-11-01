@@ -2,11 +2,22 @@
 State of the Art
 ================
 
-- ASM / Machine Instructions
-- NISQ era (Noisy Intermediate-Scale Quantum Computers), :cite:`Preskill_2018`
-- *Superconducting qubits: current state of play* :cite:`Kjaergaard_2020`
-- :ref:`intro/computing/algo:Quantum Supremacy`?
-- *Gate-count estimates for performing quantum chemistry on small quantum computers?* :cite:`Wecker_2014`
+- Hardware:
+
+  - ASM / Machine Instructions
+  - NISQ era (Noisy Intermediate-Scale Quantum Computers) :cite:`Preskill_2018`
+  - *Superconducting qubits: current state of play* :cite:`Kjaergaard_2020`
+
+- Algorithms:
+
+  - :ref:`intro/computing/algo:Quantum Supremacy`?
+  - About quantum chemistry:
+    *Gate-count estimates for performing quantum chemistry on small quantum computers?*
+    :cite:`Wecker_2014`
+  - About optimization problems:
+    `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
+    :cite:`Ratke_2021`
+
 - Roadmaps:
   
   - `IBM’s Roadmap For Scaling Quantum Technology

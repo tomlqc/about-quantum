@@ -38,7 +38,7 @@ A few more stories about selected topics in Quantum Science.
 
 .. toctree::
     :maxdepth: 1
-    :caption: Other Subjects
+    :caption: Related Subjects
     
     group_theory
 
