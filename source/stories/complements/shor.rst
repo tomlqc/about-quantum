@@ -6,8 +6,13 @@ Breaking RSA
 
 Let's sketch the Shor algorithm!
 
+.. contents::
+    :local:
 
-.. rubric:: Quantum Fourier transform
+.. ---------------------------------------------------------------------------
+
+Quantum Fourier transform
+-------------------------
 
 We start with the *quantum Fourier transform*,
 which is a linear operator in an :math:`N`-dimensional Hilbert space.
@@ -31,8 +36,10 @@ representation :math:`j = j_1 j_2 ... j_n`.
 This representation can be used to construct an efficient quantum circuit computing the QFT 
 with a complexity of :math:`O(n^2)` in terms of gates [#QFT]_.
 
+.. ---------------------------------------------------------------------------
 
-.. rubric:: Phase estimation
+Phase estimation
+----------------
 
 Let :math:`U` be an unitary operator and :math:`\ket{u}` one of its eigenvectors
 with eigenvalue :math:`e^{2 \pi i \phi}`.
@@ -53,8 +60,10 @@ thus we just have to measure the first register to get :math:`\widetilde{\phi}`!
 Well, we get this value only with some probability, but this can be managed to be 
 arbitrary close to one.
 
+.. ---------------------------------------------------------------------------
 
-.. rubric:: Order finding
+Order finding
+-------------
 
 Now a bit of arithmetics.
 
@@ -94,8 +103,10 @@ described by L digits. The algorithm scales as :math:`O(L^3)`.
 Thus, we have a way to calculate :math:`r`, since :math:`s` and :math:`r` have
 no common factor!
 
+.. ---------------------------------------------------------------------------
 
-.. rubric:: Factoring
+Factoring
+---------
 
 Factoring can be reduced to order-finding by an algorithm scaling as
 :math:`O((\log N)^3)` with probability :math:`O(1)`.
@@ -108,8 +119,10 @@ Then (omitting additionaly checks) the *gcd* of
 :math:`(x^{r/2} - 1, N)` and of :math:`(x^{r/2} + 1, N)` are calculated:
 If one of these is a non-trivial factor, then we have found the result!
 
+.. ---------------------------------------------------------------------------
 
-.. rubric:: RSA problem
+RSA problem
+-----------
 
 `Wikipedia <https://en.wikipedia.org/wiki/RSA_(cryptosystem)>`_ tells us:
 "The RSA problem is defined as the task of [...]
@@ -121,8 +134,10 @@ is to factor the modulus :math:`n`."
 
 *Et voilà!*
 
+.. ---------------------------------------------------------------------------
 
-.. rubric:: Quantum Circuit
+Quantum Circuit
+---------------
 
 How many qubits will we need for this task?
 
@@ -142,6 +157,8 @@ could be enough to factorize the 2048 bit number in 8 hours :cite:`Gidney_2021`.
 But how to achieve a quantum computer with so many qubits,
 that would achieve such an incredibly long coherence time?
 We still need some technological breakthrough...
+
+.. ===========================================================================
 
 -----
 
