@@ -11,7 +11,10 @@ and a guide on how to learn more about it.
     This site is still under development.
     Stories may be incomplete or still a draft,
     the overall structure may change too.
-    Visit frequently to watch the progress!
+    
+    Started as both a personal cheatsheet and an annotated bibliography,
+    these pages are continuously evolving.
+    **Visit frequently to watch the progress!**
 
 .. include:: qutex.rst
 
