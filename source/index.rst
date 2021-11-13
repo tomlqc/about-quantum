@@ -107,7 +107,7 @@ Complements
   :ref:`stories/complements/shor:Breaking RSA` |
   :ref:`stories/complements/condmatter:Condensed-Matter Physics` |
   :ref:`stories/complements/chemistry:Quantum Chemistry` |
-  Material Science
+  Materials Science
 
 * **Realization:**
   :ref:`stories/complements/entanglement:Entanglement` |
@@ -161,17 +161,15 @@ Background
   Non-locality & Contextuality |
   Conterfactuals
 
-* **Atomic Physics:**
-  Stark and Zeeman Effects
-
-* **Related Subjects:**
-  :ref:`stories/background/group_theory:Group Theory` |
-  Quantum Chemistry
-
 * **Miscellaneous:**
   Maths for QM |
   Nobel Prices |
   Glossary
+
+* **Related Subjects:**
+  Atomic Physics |
+  Quantum Chemistry |
+  Group Theory
 
 
 Learn more

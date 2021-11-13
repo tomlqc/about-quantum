@@ -121,16 +121,16 @@ VQE
 Quantum Supremacy
 -----------------
 
-- Google's *Quantum Supremacy* claim with 53 qubits :cite:`Arute_2019`
+:draft:`Draft`
 
-- Estimate of the number of qubits to achieve *Quantum Supremacy* :cite:`Dalzell_2020`
+- Quantum Supremacy (Google) vs. Quantum Advantage (IBM)`.
 
-    An IQP circuit with 208 qubits, a QAOA circuit with 420 qubits,
-    and a boson sampling circuit with 98 photons
-    each would require at least one century to be simulated using a classical simulation algorithm
+- For what problems:
 
-- *todo:* A list of problems solved more efficiently on quantum computers.
-- *todo:* Where can we expect an exponential speedup?
+  - *todo:* A list of problems solved more efficiently on quantum computers.
+  - *todo:* Where can we expect an exponential speedup?
+
+- For estimations about the required hardware, see :ref:`intro/computing/state:State of the Art`.
 
 .. ---------------------------------------------------------------------------
 

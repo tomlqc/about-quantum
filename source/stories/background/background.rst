@@ -40,6 +40,8 @@ A few more stories about selected topics in Quantum Science.
     :maxdepth: 1
     :caption: Related Subjects
     
+    atomic_physics
+    quantum_chemistry
     group_theory
 
 .. ---------------------------------------------------------------------------

@@ -8,15 +8,25 @@ State of the Art
   - NISQ era (Noisy Intermediate-Scale Quantum Computers) :cite:`Preskill_2018`
   - *Superconducting qubits: current state of play* :cite:`Kjaergaard_2020`
 
-- Algorithms:
+- | Software: currently *Variational Quantum Algorithms* (see :ref:`intro/computing/algo:Quantum algorithms`)
 
-  - :ref:`intro/computing/algo:Quantum Supremacy`?
-  - About quantum chemistry:
-    *Gate-count estimates for performing quantum chemistry on small quantum computers?*
-    :cite:`Wecker_2014`
-  - About optimization problems:
-    `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
-    :cite:`Ratke_2021`
+- :ref:`intro/computing/algo:Quantum Supremacy`:
+
+  - | Google's 2019 *Quantum Supremacy* claim with 53 qubits :cite:`Arute_2019` for an academic problem.
+
+  - Estimate of the number of qubits to achieve *Quantum Supremacy* :cite:`Dalzell_2020`
+
+      "An IQP circuit with 208 qubits, a QAOA circuit with 420 qubits,
+      and a boson sampling circuit with 98 photons
+      each would require at least one century to be simulated using a classical simulation algorithm"
+
+  - | About quantum chemistry:
+      *Gate-count estimates for performing quantum chemistry on small quantum computers?*
+      :cite:`Wecker_2014`
+
+  - | About optimization problems:
+      `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
+      :cite:`Ratke_2021`
 
 - Roadmaps:
   
