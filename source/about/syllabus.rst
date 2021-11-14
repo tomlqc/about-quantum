@@ -32,10 +32,16 @@ I recommend especially:
 - *Quantum simulation* by I. Georgesco *et al.* :cite:`Georgescu_2014`
 - *Simulating chemistry using quantum computers* by I. Kassal *et al.* :cite:`Kassal_2011`.
 
-And finally a detailled analysis of the state of the art:
+And to continue the journey and keep up-to-date:
 
-- "Status of quantum computer development"
-  by the German Federal Office for Information Security :cite:`BSI_2020`.
+- IBM's *Qiskit Summer School 2020*'s
+  `Introduction to Quantum Computing and Quantum Hardware <https://qiskit.org/learn/intro-qc-qh/>`_
+- `IEEE Quantum Week 2021 <https://qce.quantum.ieee.org/>`_
+
+Finally I strongly recommend this *divertimento*:
+
+- `Quantum Country <https://quantum.country/>`_
+  by Andy Matuschak and Michael Nielsen.
 
 -----
 
