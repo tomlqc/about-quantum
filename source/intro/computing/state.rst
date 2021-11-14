@@ -4,11 +4,16 @@ State of the Art
 
 - Hardware:
 
-  - ASM / Machine Instructions
   - NISQ era (Noisy Intermediate-Scale Quantum Computers) :cite:`Preskill_2018`
   - *Superconducting qubits: current state of play* :cite:`Kjaergaard_2020`
 
-- | Software: currently *Variational Quantum Algorithms* (see :ref:`intro/computing/algo:Quantum algorithms`)
+- Software:
+
+  - ASM / Machine Instructions
+
+  - currently:
+    *Variational Quantum Algorithms* or *Quantum Annealing*
+    (see :ref:`intro/computing/algo:Quantum algorithms`)
 
 - :ref:`intro/computing/algo:Quantum Supremacy`:
 
