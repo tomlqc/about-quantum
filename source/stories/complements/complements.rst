@@ -10,12 +10,13 @@ Complements to the introduction.
     :caption: Applications
 
     opti
-    mlearn
     montecarlo
+    mlearn
     classical
     shor
     condmatter
     chemistry
+    materials
 
 .. toctree::
     :maxdepth: 1
