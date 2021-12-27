@@ -170,7 +170,8 @@ Background
   Atomic Physics |
   Quantum Chemistry |
   Quantum Many-Body Physics |
-  Group Theory
+  Group Theory |
+  Combinatorial Optimization
 
 
 Learn more

@@ -3,6 +3,15 @@
 Bibliography
 ============
 
+.. comment:
+    
+    https://doi.org/
+    https://arxiv.org/
+
+    https://doi2bib.org/  # @ARTICLES
+    https://www.literatur-generator.de/  # @BOOKS
+
+
 Books
 -----
 

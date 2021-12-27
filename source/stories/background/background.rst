@@ -44,5 +44,6 @@ A few more stories about selected topics in Quantum Science.
     quantum_chemistry
     many_body
     group_theory
+    combi_opti
 
 .. ---------------------------------------------------------------------------
