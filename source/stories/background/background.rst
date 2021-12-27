@@ -42,6 +42,7 @@ A few more stories about selected topics in Quantum Science.
     
     atomic_physics
     quantum_chemistry
+    many_body
     group_theory
 
 .. ---------------------------------------------------------------------------

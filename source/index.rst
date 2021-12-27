@@ -169,6 +169,7 @@ Background
 * **Related Subjects:**
   Atomic Physics |
   Quantum Chemistry |
+  Quantum Many-Body Physics |
   Group Theory
 
 
