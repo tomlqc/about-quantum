@@ -3,10 +3,12 @@ Realization
 ===========
 
 - NMR
-- QED
+- QED / Photonics
 - :ref:`stories/complements/iontrap:Trapped Ions`
 - :ref:`stories/complements/supercond:Superconducting Circuits`
 - :ref:`stories/complements/qudots:Quantum Dots`
+- Neutral Atoms in an Optical Lattice
+- Diamond NV Centers
 
 *To investigate:*
 
