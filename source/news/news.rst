@@ -4,6 +4,19 @@ News
 
 .. ---------------------------------------------------------------------------
 
+Conferences and Journals
+------------------------
+
+- `IEEE Transactions on Quantum Engineering <https://tqe.ieee.org/>`_ -
+  [`IEEE Xplore <https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785>`_]
+
+- `ACM Transactions on Quantum Computing <https://dl.acm.org/journal/tqc>`_ -
+  [`current TOC <https://dl.acm.org/toc/tqc/current>`_]
+
+- `Quantum Information Processing (QIP) Conference <https://qipconference.org/>`_
+
+.. ---------------------------------------------------------------------------
+
 Industry
 --------
 
