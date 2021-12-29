@@ -29,6 +29,9 @@
     \newcommand{\pauliM}{\hatsubsup{\sigma}{-}{}}
     \newcommand{\pauliPM}{\hatsubsup{\sigma}{\pm}{}}
     %
+    % derivates
+    \newcommand{\odv}[2]{\frac{\textrm{d} #1}{\textrm{d} #2}}
+    \newcommand{\pdv}[2]{\frac{\partial #1}{\partial #2}}
     
 .. about the Mathjax equation numbering
     https://github.com/readthedocs/sphinx_rtd_theme/pull/383

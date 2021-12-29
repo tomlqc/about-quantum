@@ -11,6 +11,7 @@ A few more stories about selected topics in Quantum Science.
 
     fundamental
     correspondence
+    measurements
     angular_momentum
     harmonic
     twolevel
@@ -22,6 +23,7 @@ A few more stories about selected topics in Quantum Science.
     
     2ndquant
     environment
+    unitary
     pauli_operators
     hamiltonian
 

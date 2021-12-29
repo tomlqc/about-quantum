@@ -16,9 +16,11 @@ and a guide on how to learn more about it.
     these pages are continuously evolving.
     **Visit frequently to watch the progress!**
 
+.. include:: qutex.rst
+
 .. math::
 
-    i \hbar \frac{\partial \ket{\psi(t)} }{\partial t} = \hat{H} \ket{\psi(t)}
+    i \hbar \pdv{\ket{\psi(t)}}{t} = \hat{H} \ket{\psi(t)}
 
 .. ---------------------------------------------------------------------------
 
@@ -130,7 +132,7 @@ Background
 ----------
 
 * **Basics:**
-  Fundamental Principles |
+  :ref:`stories/background/fundamental:Fundamental Principles` |
   Correspondence Principle |
   Uncertainty Principle |
   Measurements |
@@ -182,9 +184,5 @@ Learn more
 
 
 Read also about the :ref:`Story <about/story:The Story>` behind these notes. 
-
-.. ---------------------------------------------------------------------------
-
-.. include:: qutex.rst
 
 .. ---------------------------------------------------------------------------
