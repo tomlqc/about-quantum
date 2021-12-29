@@ -4,7 +4,7 @@
     % https://latex.wikia.org/wiki/List_of_LaTeX_symbols
     % https://www.overleaf.com/learn/latex/Main_Page
     %
-    % latex commands for quantum mechanics
+    % latex commands for quantum mechanics: bra & kets
     \newcommand{\bra}[1]{\left<#1\right|}
     \newcommand{\ket}[1]{\left|#1\right>}
     \newcommand{\bk}[2]{\left<#1\middle|#2\right>}
@@ -13,6 +13,7 @@
     % general shortcuts
     \newcommand{\bm}[1]{\boldsymbol{#1}}  % bold math
     \newcommand{\super}[2]{#1 {}^{#2}}  % superscript
+    \newcommand{\half}{\frac{1}{2}}
     %
     % hats together with subscripts or superscript (e.g. for angular momentum)
     \newcommand{\hatb}[1]{\bm{\hat{#1}}}  % hat + bold
@@ -27,6 +28,7 @@
     \newcommand{\pauliP}{\hatsubsup{\sigma}{+}{}}
     \newcommand{\pauliM}{\hatsubsup{\sigma}{-}{}}
     \newcommand{\pauliPM}{\hatsubsup{\sigma}{\pm}{}}
+    %
     
 .. about the Mathjax equation numbering
     https://github.com/readthedocs/sphinx_rtd_theme/pull/383
