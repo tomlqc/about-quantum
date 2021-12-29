@@ -16,8 +16,6 @@ and a guide on how to learn more about it.
     these pages are continuously evolving.
     **Visit frequently to watch the progress!**
 
-.. include:: qutex.rst
-
 .. math::
 
     i \hbar \frac{\partial \ket{\psi(t)} }{\partial t} = \hat{H} \ket{\psi(t)}
@@ -94,7 +92,7 @@ An Introduction
   :ref:`intro/simulation/realization:Realization`
 
 * **Quantum Communication:**
-  :ref:`... <intro/communication/communication:Quantum Communication>`
+  :ref:`Teleportation & Cryptography <intro/communication/communication:Quantum Communication>`
 
 
 Complements
@@ -137,13 +135,13 @@ Background
   Uncertainty Principle |
   Measurements |
   :ref:`stories/background/angular_momentum:Angular Momentum` |
-  Harmonic Oscillator |
-  Two-Level Systems |
+  :ref:`stories/background/harmonic:Harmonic Oscillator` |
+  :ref:`stories/background/twolevel:Two-Level Systems` |
   :ref:`stories/background/rabi:Rabi Oscillations`
 
 * **Advanced:**
-  Second Quantization |
-  Environment |
+  :ref:`stories/background/2ndquant:Second Quantization` |
+  :ref:`stories/background/environment:Environment` |
   Unitary Operators |
   Trace Preservation |
   :ref:`stories/background/pauli_operators:Pauli Operators` |
@@ -184,5 +182,9 @@ Learn more
 
 
 Read also about the :ref:`Story <about/story:The Story>` behind these notes. 
+
+.. ---------------------------------------------------------------------------
+
+.. include:: qutex.rst
 
 .. ---------------------------------------------------------------------------

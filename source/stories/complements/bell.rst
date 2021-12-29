@@ -4,7 +4,7 @@ Bell Inequalities
 
 .. include:: ../../qutex.rst
 
-The Bell inequalities describe a way to prove the validity of Quantum Mechanics and to rule out any kind of Hidden Variable Theory that would preserve locality and realism, as described in :ref:`stories/background/EPR_experiments:EPR Experiments`.
+The Bell inequalities describe a way to prove the validity of Quantum Mechanics and to rule out any kind of hidden variable theory that would preserve locality and realism, as described in :ref:`stories/background/EPR_experiments:EPR Experiments`.
 
 The are several forms of these inequalities. Here we will illustrate the CHSH inequality.
 
@@ -123,7 +123,7 @@ Interpretation
 As presented in :ref:`stories/background/EPR_experiments:EPR Experiments`,
 it has been experimentally confirmed that the world obeys the rules of Quantum Mechanics.
 This means that at least one of the assumptions of locality and realism,
-which are required by the Hidden Variable Theory, does not hold. Such a theory cannot exist!
+which are required by the hidden variable theory, does not hold. Such a theory cannot exist!
 
 One of the key elements to understand how this contradiction occurs,
 is to consider that we estimate the four terms contributing to :math:`\Sigma_{Bell}` *individually*.

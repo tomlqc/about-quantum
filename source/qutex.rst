@@ -19,7 +19,15 @@
     \newcommand{\hatsub}[2]{\hat{{#1}_{#2}}}  % hat + subscript
     \newcommand{\hatsup}[2]{\super{\hat{#1}}{#2}}  % hat + superscript
     \newcommand{\hatsubsup}[3]{\super{\hat{#1}}{#3}_{#2}}  % hat + sub + superscript
-
+    %
+    % Pauli operators
+    \newcommand{\pauliX}{\hatsubsup{\sigma}{X}{}}
+    \newcommand{\pauliY}{\hatsubsup{\sigma}{Y}{}}
+    \newcommand{\pauliZ}{\hatsubsup{\sigma}{Z}{}}
+    \newcommand{\pauliP}{\hatsubsup{\sigma}{+}{}}
+    \newcommand{\pauliM}{\hatsubsup{\sigma}{-}{}}
+    \newcommand{\pauliPM}{\hatsubsup{\sigma}{\pm}{}}
+    
 .. about the Mathjax equation numbering
     https://github.com/readthedocs/sphinx_rtd_theme/pull/383
     https://github.com/dmey/synthia/commit/ee48def68bdb240bad68978f48d6dbb75b893e8b

@@ -9,32 +9,34 @@ A few more stories about selected topics in Quantum Science.
     :maxdepth: 1
     :caption: Basics
 
-    fundamental.rst
-    angular_momentum.rst
-    harmonic.rst
-    twolevel.rst
-    rabi.rst
+    fundamental
+    correspondence
+    angular_momentum
+    harmonic
+    twolevel
+    rabi
 
 .. toctree::
     :maxdepth: 1
     :caption: Advanced
     
-    2ndquant.rst
-    environment.rst
-    pauli_operators.rst
+    2ndquant
+    environment
+    pauli_operators
+    hamiltonian
 
 .. toctree::
     :maxdepth: 1
     :caption: Technical
     
-    rwa.rst
+    rwa
 
 .. toctree::
     :maxdepth: 1
     :caption: Conceptual
 
-    young_slit.rst
-    EPR_experiments.rst
+    young_slit
+    EPR_experiments
 
 .. toctree::
     :maxdepth: 1

@@ -26,7 +26,7 @@ It was necessary to search for a deterministic theory that was behind these phen
 This yet unknown theory could be described using hidden variables, and aimed to preserve locality. Furthermore this story relied on the belief that, even if a measurement wasn't performed, the measured quantity was always existing, what is described by "realism".
 
 In 1964, John Bell imagined a particular kind of experimental settings and derived an inequality involving measurement outcomes,
-that would allow to test the validity of either Quantum Mechanics or a Hidden Variable Theory. 
+that would allow to test the validity of either Quantum Mechanics or a hidden variable theory. 
 Elements to understand and interpret these inequality are given
 in :ref:`stories/complements/bell:Bell Inequalities`.
 
