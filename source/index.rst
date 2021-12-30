@@ -138,7 +138,7 @@ Background
   Measurements |
   :ref:`stories/background/angular_momentum:Angular Momentum` |
   :ref:`stories/background/harmonic:Harmonic Oscillator` |
-  :ref:`stories/background/twolevel:Two-Level Systems` |
+  Two-Level Systems |
   :ref:`stories/background/rabi:Rabi Oscillations`
 
 * **Advanced:**

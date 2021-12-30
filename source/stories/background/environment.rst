@@ -16,13 +16,15 @@ quantum maps :cite:`Haroche2013` or quantum operations :cite:`Nielsen2010`,
 are a mean to describe the three different kinds of evolution
 that may affect an open quantum system:
 
-- Evolution obeying the Hamiltonian dynamics
+- Unitary evolution obeying the dynamics prescribed by the closed system's Hamiltonian 
 - Measurement
-- Effect of the environment (noise)
+- Erratic interaction with the environment (noise)
 
-Keywords:
-Quantum maps, Kraus sum representation /
-Quantum operations, operator-sum representation
+:draft:`Keywords:`
+
+- Density operator, the key representation of the state of open systems
+- | Quantum maps, Kraus sum representation /
+  | Quantum operations, operator-sum representation
 
 :draft:`More to investigate:`
 
@@ -36,7 +38,15 @@ Quantum operations, operator-sum representation
 Master equation
 ---------------
 
-The Lindblad master equation.
+:draft:`The Lindblad master equation.`
+
+A differential equation that formalizes the evolution of the system
+under the action of its environment.
+The involved :math:`L_\mu` operators describe the relaxation events which affect the system,
+and can be, in many cases, guessed from a careful analysis of the system.
+
+The evolution according to the master equation can be numerically evaluated
+by Monte Carlo simulations.
 
 .. ---------------------------------------------------------------------------
 
@@ -44,8 +54,8 @@ References
 ----------
 
 - | Quantum maps, Kraus sum representation: section 4.2 :cite:`Haroche2013`, alias
-  | Quantum operations, operator-sum representation, section 8.2 :cite:`Nielsen2010`
+  | "Quantum operations" incl. operator-sum representation, section 8.2 :cite:`Nielsen2010`
 
-- Lindblad master equation, section 4.3 :cite:`Haroche2013`
+- "The Lindblad master equation", section 4.3 :cite:`Haroche2013`
 
 .. ---------------------------------------------------------------------------

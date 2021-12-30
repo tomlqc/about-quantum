@@ -17,4 +17,9 @@ Tensor Networks
     :cite:`Bridgeman_2017`,
   | "form the basis for a seven lecture course, introducing the basics of a range of common tensor networks and algorithms"
 
+:draft:`To investigate:`
+
+- *Tensor networks and graphical calculus for open quantum systems* :cite:`Wood_2015`
+  cited in :ref:`stories/background/environment:Quantum channels`.
+
 .. ---------------------------------------------------------------------------
