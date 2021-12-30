@@ -2,8 +2,10 @@
 Computing Models
 ================
 
-- | Quantum circuit or gate-based model: see :ref:`intro/computing/gates:Gate Model`,
-    as described in the next chapters.
+- | Universal quantum computer:
+
+  - The quantum-circuit or :ref:`intro/computing/gates:Gate Model`
+    will be described in the next chapters.
 
 - | Adiabatic quantum computer:
   

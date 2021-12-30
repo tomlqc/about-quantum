@@ -4,7 +4,7 @@ Noise
 
 :draft:`Draft, to be detailed:`
 
-- Noise & Environment, see :ref:`stories/background/environment:Environment`
+- Noise as the uncontrolled interaction with the :ref:`stories/background/environment:Environment`
 
 - Hardware Errors, see
   `Lecture Notes 9 <https://github.com/qiskit-community/intro-to-quantum-computing-and-quantum-hardware/blob/master/lectures/introqcqh-lecture-notes-9.pdf>`_

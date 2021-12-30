@@ -6,6 +6,8 @@ Group Theory
 
   - a theory fundamental to Physics in general
   
+  - the basis for :ref:`stories/complements/stabilizer:Stabilizer Codes`
+  
   - a central element to understand 
     :ref:`stories/complements/topological:Topological Quantum Computer`
 

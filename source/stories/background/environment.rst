@@ -11,7 +11,8 @@ Environment
 Quantum channels
 ----------------
 
-Quantum channels, also known as quantum maps, quantum processes or quantum operations,
+Quantum channels, also known as
+quantum maps :cite:`Haroche2013` or quantum operations :cite:`Nielsen2010`,
 are a mean to describe the three different kinds of evolution
 that may affect an open quantum system:
 
@@ -19,10 +20,9 @@ that may affect an open quantum system:
 - Measurement
 - Effect of the environment (noise)
 
-Keywords and references:
-
-- | Quantum maps, Kraus sum representation, :cite:`Haroche2013` section 4.2,
-  | alias Quantum operations, operator-sum representation, :cite:`Nielsen2010` section 8.2
+Keywords:
+Quantum maps, Kraus sum representation /
+Quantum operations, operator-sum representation
 
 :draft:`More to investigate:`
 
@@ -36,11 +36,16 @@ Keywords and references:
 Master equation
 ---------------
 
-- Lindblad master eg., :cite:`Haroche2013` section 4.3,
+The Lindblad master equation.
 
 .. ---------------------------------------------------------------------------
 
 References
 ----------
+
+- | Quantum maps, Kraus sum representation: section 4.2 :cite:`Haroche2013`, alias
+  | Quantum operations, operator-sum representation, section 8.2 :cite:`Nielsen2010`
+
+- Lindblad master equation, section 4.3 :cite:`Haroche2013`
 
 .. ---------------------------------------------------------------------------
