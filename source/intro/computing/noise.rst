@@ -2,6 +2,8 @@
 Noise
 =====
 
+.. include:: ../../qutex.rst
+
 :draft:`Draft, to be detailed:`
 
 - Noise as the uncontrolled interaction with the :ref:`stories/background/environment:Environment`
@@ -14,7 +16,12 @@ Noise
   - Leakage
   - Coherent
   - Measurement
-  
+
+- Randomized Benchmarking :cite:`QCE21_Clarke`:
+
+  - apply random series of rotations in sphere,
+    go back to :math:`\ket{0}` (or :math:`\ket{1}`) and check recovery .
+
 - Quantum Error Correction,
   :cite:`Nielsen2010` section 10.3,
 

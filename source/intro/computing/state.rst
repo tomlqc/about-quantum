@@ -5,15 +5,32 @@ State of the Art
 - Hardware:
 
   - NISQ era (Noisy Intermediate-Scale Quantum Computers) :cite:`Preskill_2018`
-  - *Superconducting qubits: current state of play* :cite:`Kjaergaard_2020`
+  - | *Superconducting qubits: current state of play* :cite:`Kjaergaard_2020`
+
+  - Challenges (*scale, quality, speed*):
+
+    - number of qubits:
+      more qubits on a chip, or "extend quantum systems with quantum optical channels" :cite:`QCE21_Gambetta`
+    - quality of qubits:
+      error-rate, coherence time
+    - connectivity of qubits
+    - data I/O: performance of loading classical data, faster read out (measurements)
+    - control electronics:
+      "Reduce the wiring: move the controller to cryogenic temperature (4K) - cryogenic CMOS"
+      :cite:`QCE21_Clarke`
 
 - Software:
 
   - ASM / Machine Instructions
 
-  - currently:
-    *Variational Quantum Algorithms* or *Quantum Annealing*
-    (see :ref:`intro/computing/algo:Quantum algorithms`)
+  - | currently:
+      *Variational Quantum Algorithms* or *Quantum Annealing*
+      (see :ref:`intro/computing/algo:Quantum algorithms`)
+    
+  - Challenges:
+    
+    - *quantum compiler* (LLVM): optimization of qubit usage, "mapping & scheduling" :cite:`QCE21_Clarke`
+    - error correction
 
 - :ref:`intro/computing/algo:Quantum Supremacy`:
 

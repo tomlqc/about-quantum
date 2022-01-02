@@ -43,7 +43,7 @@ Miscellaneous
 
 Magazines, speeches, courses etc.
 
-.. bibliography:: misc.bib
+.. bibliography:: misc.bib QCE21.bib
     :labelprefix: M
 
 Textbooks
