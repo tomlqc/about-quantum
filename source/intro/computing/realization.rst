@@ -5,11 +5,12 @@ Realization
 **Physical implementations**
 
 - NMR
-- Photonics / QED
+- QED
+- :ref:`stories/complements/photonics:Photonics`
+- :ref:`stories/complements/neutralatoms:Neutral Atoms`
 - :ref:`stories/complements/iontrap:Trapped Ions`
 - :ref:`stories/complements/supercond:Superconducting Circuits`
 - :ref:`stories/complements/qudots:Quantum Dots`
-- Neutral Atoms in an Optical Lattice
 - Diamond NV Centers
 
 *How to characterize the capability of the hardware?*

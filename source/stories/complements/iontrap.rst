@@ -2,6 +2,10 @@
 Trapped Ions
 ============
 
+- implemented by
+  `Honeywell <https://www.honeywell.com/us/en/company/quantum>`_,
+  `IonQ <https://www.ionq.com/>`_
+
 Ions can be trapped by electromagnetic forces, either in an oscillating quadripole electric field [#Paul]_ or
 in a combination of an electric and a magnetic field.
 While the ions have different internal states, they are also subject to vibrational modes.
@@ -12,7 +16,6 @@ circuit gates can be implemented. See also the section
 :ref:`entanglement of trapped ions <stories/complements/entanglement:Trapped Ions>`.
 
 - seminal paper by Cirac & Zoller :cite:`Cirac_1995`
-- implemented by Honeywell
 
 -----
 

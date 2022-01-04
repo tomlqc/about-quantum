@@ -24,10 +24,12 @@ Complements to the introduction.
 
     entanglement
     gates
+    photonics
+    neutralatoms
     iontrap
     supercond
     qudots
-    
+
 
 .. toctree::
     :maxdepth: 1

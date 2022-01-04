@@ -6,6 +6,9 @@ Computing Models
 
   - The quantum-circuit or :ref:`intro/computing/gates:Gate Model`
     will be described in the next chapters.
+    
+  - A variant is the *measurement-based model* playing a main role in the
+    :ref:`Photonics Quantum Computer Realization <stories/complements/photonics:Photonics>`. 
 
 - | Adiabatic quantum computer:
   
