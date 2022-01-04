@@ -11,3 +11,4 @@ See also :ref:`Applications of Quantum Simulation <intro/simulation/apps:Applica
 
 * :ref:`stories/complements/condmatter:Condensed-Matter Physics`
 * :ref:`stories/complements/chemistry:Quantum Chemistry`
+* Materials Science

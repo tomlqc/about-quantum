@@ -22,11 +22,12 @@ Noise
   - apply random series of rotations in sphere,
     go back to :math:`\ket{0}` (or :math:`\ket{1}`) and check recovery .
 
-- Quantum Error Correction,
-  :cite:`Nielsen2010` section 10.3,
+- Quantum Error Correction, :cite:`Nielsen2010` section 10.3,
 
-- Fault-tolerant Algorithms,
-  :cite:`Nielsen2010` section 10.6,
+- Fault-tolerant Algorithms, :cite:`Nielsen2010` section 10.6,
+
+- Error mitigation :cite:`QCE21_Gambetta`,
+  e.g. using Richardson extrapolation :cite:`Temme_2017`
 
 - :draft:`Recent advances:`
 

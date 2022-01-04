@@ -13,6 +13,8 @@ State of the Art
       more qubits on a chip, or "extend quantum systems with quantum optical channels" :cite:`QCE21_Gambetta`
     - quality of qubits:
       error-rate, coherence time
+    - manufacturing:
+      e.g. avoid defects introducting splitting of levels :cite:`QCE21_Reagor`
     - connectivity of qubits
     - data I/O: performance of loading classical data, faster read out (measurements)
     - control electronics:
@@ -29,7 +31,9 @@ State of the Art
     
   - Challenges:
     
-    - *quantum compiler* (LLVM): optimization of qubit usage, "mapping & scheduling" :cite:`QCE21_Clarke`
+    - *quantum compiler* (LLVM): optimization of qubit usage,
+      "mapping & scheduling" :cite:`QCE21_Clarke`,
+      "randomized compiling" :cite:`QCE21_Emerson`
     - error correction
 
 - :ref:`intro/computing/algo:Quantum Supremacy`:
