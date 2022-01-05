@@ -27,8 +27,11 @@ Quantum algorithms
   - an extensive list in `Quantum Algorithm Zoo <https://quantumalgorithmzoo.org/>`_ :cite:`Jordan_2021`
 
   - a review about *Variational Quantum Algorithms* :cite:`Cerezo_2021`
-
+  
   - :draft:`... oracles ...`
+
+  - see also about the *expressiveness* of **parametrized quantum circuit** (PQC)
+    *ansatzes* :cite:`QCE21_Bennink`
 
 - Examples described in this section
 
