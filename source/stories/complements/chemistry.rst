@@ -12,6 +12,11 @@ Quantum Chemistry
   -  A more recent review paper about *Quantum computational chemistry* :cite:`McArdle_2020`.
   
   - *Gate-count estimates for performing quantum chemistry on small quantum computers?* :cite:`Wecker_2014`
+  
+  - *Elucidating reaction mechanisms on quantum computers* :cite:`Reiher_2017`:
+    "how quantum computers can augment classical computer simulations", and
+    "quantum computers will be able to tackle important problems in chemistry
+    without requiring exorbitant resources" 
 
 - | **Digital Simulation**:
 
