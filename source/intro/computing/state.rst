@@ -10,13 +10,17 @@ State of the Art
   - Challenges (*scale, quality, speed*):
 
     - number of qubits:
-      more qubits on a chip, or "extend quantum systems with quantum optical channels" :cite:`QCE21_Gambetta`
+      more qubits on a chip, or "extend quantum systems with quantum optical channels" :cite:`QCE21_Gambetta`,
+      see also *Entanglement across separate silicon dies* :cite:`Gold_2021` 
     - quality of qubits:
       error-rate, coherence time
     - manufacturing:
       e.g. avoid defects introducting splitting of levels :cite:`QCE21_Reagor`
-    - connectivity of qubits
-    - data I/O: performance of loading classical data, faster read out (measurements)
+    - connectivity of qubits:
+      strong impact on performance,
+      but simple ladder connectivity may be good enough for current hardware :cite:`Holmes_2020`
+      :cite:`QCE21_Matsuura`
+    - data I/O: performance of loading classical data, faster read out (measurements) :cite:`QCE21_Matsuura`
     - control electronics:
       "Reduce the wiring: move the controller to cryogenic temperature (4K) - cryogenic CMOS"
       :cite:`QCE21_Clarke`
