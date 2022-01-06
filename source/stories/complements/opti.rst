@@ -157,7 +157,7 @@ Example: Routing Problems
 
 * *Quantum Annealing of Vehicle Routing Problem with Time, State and Capacity* :cite:`Hirotaka_2019`
 
-* *Formulating and Solving Routing Problems on Quantum Computers* :cite:`Harwood_2021`
+* *Formulating and Solving Routing Problems on Quantum Computers* :cite:`Harwood_2021` :cite:`QCE21_Trenev`
 
 :draft:`Discretize time, add capacity as constraint...`
 
