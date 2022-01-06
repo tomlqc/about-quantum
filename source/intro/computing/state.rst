@@ -27,11 +27,12 @@ State of the Art
 
 - Software:
 
-  - ASM / Machine Instructions
+  - | ASM / Machine Instructions
 
-  - | currently:
-      *Variational Quantum Algorithms* or *Quantum Annealing*
-      (see :ref:`intro/computing/algo:Quantum algorithms`)
+  - | currently *Variational Quantum Algorithms* or *Quantum Annealing*:
+    
+    - see :ref:`intro/computing/algo:Quantum algorithms`,
+      also :ref:`stories/complements/opti:Recent results` in QAOA.
     
   - Challenges:
     
