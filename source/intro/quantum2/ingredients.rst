@@ -48,6 +48,6 @@ with the environment in an uncontrolled way: the **noise**.
 There is a sound framework for describing the action of the 
 :ref:`stories/background/environment:Environment` on a quantum system.
 It is well modelled, and a mandatory tool to describe the
-:ref:`intro/computing/noise:Noise` in a Quantum Computer.
+:ref:`intro/computing/noise:Noise & Errors` in a Quantum Computer.
 
 .. ---------------------------------------------------------------------------

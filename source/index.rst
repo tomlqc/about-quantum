@@ -82,7 +82,7 @@ An Introduction
   :ref:`intro/computing/idea:Idea` |
   :ref:`intro/computing/models:Computing Models` |
   :ref:`intro/computing/gates:Gate Model` |
-  :ref:`intro/computing/noise:Noise` |
+  :ref:`intro/computing/noise:Noise & Errors` |
   :ref:`intro/computing/algo:Algorithms` |
   :ref:`intro/computing/apps:Applications` |
   :ref:`intro/computing/realization:Realization` |
