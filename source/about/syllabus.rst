@@ -38,7 +38,7 @@ And to continue the journey and keep up-to-date:
   `Introduction to Quantum Computing and Quantum Hardware <https://qiskit.org/learn/intro-qc-qh/>`_
 - `IEEE Quantum Week 2021 <https://qce.quantum.ieee.org/>`_
 
-Finally I strongly recommend this *divertimento*:
+Finally I strongly recommend this great and entertaining introduction:
 
 - `Quantum Country <https://quantum.country/>`_
   by Andy Matuschak and Michael Nielsen.

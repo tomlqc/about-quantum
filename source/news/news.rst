@@ -4,6 +4,21 @@ News
 
 .. ---------------------------------------------------------------------------
 
+Magazines
+---------
+
+- `Quantum Zeitgeist <https://quantumzeitgeist.com/>`_
+
+  "We aim to bring together different segments of the Quantum sector.
+  The growing field of Quantum Computing has a range of skill-sets from Academic research to Applications.
+  We bring all of these areas together, where readers can explore the latest Quantum technological developments all the way to the latest news from start-ups and market insights and trends."
+
+- `The Quantum Insider <https://thequantuminsider.com/>`_
+
+  "The Quantum Insider is the leading resource dedicated exclusively to making Quantum Technology accessible through news, information, media and data."
+
+.. ---------------------------------------------------------------------------
+
 Conferences and Journals
 ------------------------
 
@@ -17,10 +32,27 @@ Conferences and Journals
 
 .. ---------------------------------------------------------------------------
 
-Industry
---------
+Quantum Initiatives in Germany
+------------------------------
 
-- **Europe's most powerful quantum computer**, June-15-2021:
+Commercial quantum computers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- **D-Waves' Advantage Quantum System at Jülich**, January-17-2022
+
+  `Europe’s First Quantum Computer with More Than 5,000 Qubits Launched at Jülich
+  <https://www.fz-juelich.de/portal/EN/Press/PressReleases/2022/2022-01-17-juniq-pm/_node.html>`_,
+  
+  "The Jülich Supercomputing Centre (JSC) and D-Wave Systems, a leading provider of quantum computing systems, today launched the company’s first cloud-based quantum service outside North America."
+  
+  `D-Wave and Forschungszentrum Jülich Launch First In-Region Commercial Quantum Computer for European Access
+  <https://www.dwavesys.com/company/newsroom/press-release/d-wave-and-forschungszentrum-julich-launch-first-in-region-commercial-quantum-computer-for-european-access/>`_
+  
+  "The offering provides access to the Advantage™ quantum system, which contains more than 5000 qubits and will be available to European users at Forschungszentrum Jülich immediately in the cloud via Leap.
+
+  The expansion is part of the Jülich User Infrastructure for Quantum Computing (JUNIQ), which has provided researchers across Europe with access to various quantum systems since 2019."
+
+- **IBM's Quantum System One at Fraunhofer in Ehningen**, June-15-2021:
 
   `Fraunhofer and IBM present live: A Quantum Computing Journey in Germany
   <https://www.ibm.com/de-de/events/quantum-opening-en>`_,
@@ -36,32 +68,8 @@ Industry
   With 27 qubits, this is currently the most powerful system anywhere in Europe."
 
 
-* "`PsiQuantum <https://psiquantum.com/>`_ and
-  `GlobalFoundries <https://globalfoundries.com/>`_ to Build the World’s First Full-scale Quantum Computer",
-  `GlobalFoundries press release <https://globalfoundries.com/press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer?utm_source=HomepageInTheNews&utm_medium=gf.com&utm_campaign=PsiQuantum>`_,
-  May-05-2021
-  
-  "The two companies are now manufacturing the silicon photonic and electronic chips that form the foundation of the Q1 system, the first system milestone in PsiQuantum’s roadmap to deliver a commercially viable quantum computer with one million qubits (the basic unit of quantum information) and beyond."
-
-
-.. ---------------------------------------------------------------------------
-
-Use cases
----------
-
-- `"Increasing battery and fuel cell power with quantum computing"
-  <https://www.dlr.de/content/en/articles/news/2021/01/20210219_quest-quantum-computer-energy-storage.html>`_,
-  DLR news, Feb-19-2021
-  
-  "DLR is using a quantum computer to simulate electrochemical processes in batteries and fuel cells.
-  The researchers are seeking to achieve higher power and energy densities through targeted design of electrode materials and structures."
-
-.. ---------------------------------------------------------------------------
-
-Research in Germany
--------------------
-
-**Public funding announcement**, May-11-2021:
+Public funding announcement
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - `"Germany to support quantum computing with 2 billion euros"
   <https://www.reuters.com/article/us-germany-quantumcomputer-idUSKBN2CS0W9>`_,
