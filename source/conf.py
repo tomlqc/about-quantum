@@ -63,6 +63,8 @@ html_css_files = [
     'custom.css',
 ]
 
+# html_logo = 'about-quantum_logo.png'
+
 # -- Additional configuration ------------------------------------------------
 
 rst_prolog = """

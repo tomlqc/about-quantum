@@ -1,5 +1,12 @@
 .. created by sphinx-quickstart on Sun Jan  3 18:40:01 2021.
 
+.. image:: about-quantum_logo.png
+  :width: 400px
+  :align: center
+  :alt: about-quantum.com
+
+-----
+
 Learning about Quantum 2.0
 ==========================
 
