@@ -33,6 +33,7 @@ extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
     'sphinxcontrib.bibtex',
+    'sphinxext.opengraph',
     'jupyter_sphinx'
 ]
 
@@ -64,6 +65,12 @@ html_css_files = [
 ]
 
 # html_logo = 'about-quantum_logo.png'
+
+# -- Open Graph ------------------------------------------------
+
+ogp_site_url = 'https://www.about-quantum.com/'
+ogp_site_name = 'Learning about Quantum 2.0'
+ogp_image = 'https://www.about-quantum.com/about-quantum_logo_og.png'
 
 # -- Additional configuration ------------------------------------------------
 

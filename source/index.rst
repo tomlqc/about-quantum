@@ -1,5 +1,7 @@
 .. created by sphinx-quickstart on Sun Jan  3 18:40:01 2021.
 
+:og:description: A basic introduction to Quantum Technology, and a guide on how to learn more about it.
+
 .. image:: about-quantum_logo.png
   :width: 400px
   :align: center
