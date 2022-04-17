@@ -7,6 +7,16 @@ Machine Learning
 - *Circuit-centric quantum classifiers* :cite:`Schuld_2020`
 - see also *Quantum Computing and Machine Learning* :cite:`Fawaz_2021`
 
+:draft:`Recently read:`
+
+- *Is quantum advantage the right goal for quantum machine learning?* :cite:`Schuld_2022`
+
+  - Using QC to speed-up classical ML (matrix inversion, sampling) challenged by overheads for QEC
+  - What may be natural building blocks for quantum machine learning algorithms?
+  - Quantum machine learning models are kernel methods (see dedicated paper)
+  - Link connecting quantum circuits to neural tangent kernels and random Fourier features
+  - Compute gradients of quantum circuits using the technique of parameter-shift rule
+
 :draft:`More to digest:` with a focus on **quantum kernel machines**
 :cite:`QCE21_Lloyd` :cite:`QCE21_Perdue` :cite:`QCE21_Scholten`:
 
