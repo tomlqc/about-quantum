@@ -4,12 +4,10 @@ Topological Quantum Computer
 
 *To investigate and summarize:*
 
+- *A Short Introduction to Topological Quantum Computation* :cite:`Lahtinen_2017`.
 - *Topological Quantum Computation* in Preskill's lecture notes :cite:`Preskill229`.
-
 - *Non-Abelian Anyons and Topological Quantum Computation* :cite:`Nayak_2008`
-
 - *Introduction to topological superconductivity and Majorana* [#Majorana]_ *fermions* :cite:`Leijnse_2012`
-
 - *Computing with Quantum Knots* :cite:`Collins_2006`, more accessible but the topic remains very abstract
 
 *More recently, about a retracted paper and further concerns:*

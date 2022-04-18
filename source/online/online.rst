@@ -34,7 +34,9 @@ About Quantum Mechanics and Quantum Computing:
   about hardware, architecture and algorithms.
   
   More videos are available in *The School of Quantum* on `QuTube <https://www.qutube.nl>`_:
-  many short videos, also about advanced topics.
+  many short videos, also
+  about `quantum computer hardware <https://www.qutube.nl/quantum-computer-12>`_
+  and advanced topics.
   
   QuTech was `founded in 2014 <https://qutech.nl/about-us/our-organisation/>`_
   as a collaboration between Delft University of Technology (TU Delft)
