@@ -29,6 +29,7 @@ Complements to the introduction.
     iontrap
     supercond
     qudots
+    nvcenters
 
 
 .. toctree::

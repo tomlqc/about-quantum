@@ -11,7 +11,7 @@ Realization
 - :ref:`stories/complements/iontrap:Trapped Ions`
 - :ref:`stories/complements/supercond:Superconducting Circuits`
 - :ref:`stories/complements/qudots:Quantum Dots`
-- Diamond NV Centers
+- :ref:`stories/complements/nvcenters:NV Centers`
 
 *How to characterize the capability of the hardware?*
 

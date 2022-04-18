@@ -125,7 +125,8 @@ Complements
   :ref:`stories/complements/neutralatoms:Neutral Atoms` |
   :ref:`stories/complements/iontrap:Trapped Ions` |
   :ref:`stories/complements/supercond:Superconducting Circuits` |
-  :ref:`stories/complements/qudots:Quantum Dots`
+  :ref:`stories/complements/qudots:Quantum Dots` |
+  :ref:`stories/complements/nvcenters:NV Centers`
 
 * **Illustration:**
   :ref:`stories/complements/bloch_sphere:Bloch Sphere` |
