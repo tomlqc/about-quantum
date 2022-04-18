@@ -15,3 +15,10 @@ Electron spin qubits in semiconductors.
 
   - charge sensing :cite:`Vandersypen_2004`
   - single-shot spin read-out :cite:`Elzerman_2004`
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/realization:Realization`

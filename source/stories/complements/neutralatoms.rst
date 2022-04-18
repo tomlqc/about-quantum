@@ -38,3 +38,10 @@ About **Neutral Atoms in an Optical Lattice**.
     - controlled Z gate (CZ), see below
 
   - no equivalence of the analog approach as a circuit
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/realization:Realization`

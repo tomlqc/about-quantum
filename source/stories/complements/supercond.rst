@@ -27,3 +27,10 @@ Superconducting Circuits
 * *Superconducting Qubits* :cite:`IQCQH_2020`, Qiskit Global Summer School 2020,
   `lectures 16-21 <https://qiskit.org/learn/intro-qc-qh/>`_
   incl. `videos <https://youtube.com/playlist?list=PLOFEBzvs-VvrXTMy5Y2IqmSaUjfnhvBHR>`_.
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/realization:Realization`

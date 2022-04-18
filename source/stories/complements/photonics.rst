@@ -23,3 +23,10 @@ Photonics
     measurements on individual qubits act as qubit operations
 
 - *Continuous-variable quantum computing in the quantum optical frequency comb* :cite:`Pfister_2019`
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/realization:Realization`

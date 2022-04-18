@@ -22,3 +22,10 @@ circuit gates can be implemented. See also the section
 .. [#Paul] The principle of the Paul trap is nicely illustrated by this
            `rotating saddle video <https://www.youtube.com/watch?v=XTJznUkAmIY>`_!
            The trajectories of ions in a Paul trap describe Lissajous curves.
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/realization:Realization`
