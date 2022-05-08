@@ -69,38 +69,30 @@ Hardware
     The qubits are not fully connected, what represents a limitation for the hamiltonians
     that can be described. Thus the topology i.e. the connection pattern is of great importance.
 
-- The D-Wave architecture:
+- The original **D-Wave architecture** is described by Harris, 2010 :cite:`Harris_2010`.
+  A reason for the **difference between quantum annealers and circuit-based quantum computers** and
+  therefore why the D-Wave quantum annealer has significantly more qubits then the current
+  gate-based quantum computers is the following:
 
-  - The original architecture as described in 2010 :cite:`Harris_2010`
-  - "Qubit physical layer not separated from classical control layer" :cite:`Lidar_2021`
+  "[...] one can provide uniform [flux] :math:`\Phi_{ccjj}^x` to multiple qubits
+  using a single global current bias line, as opposed to one bias line per qubit. [...]
+  In doing so, one substantially reduces the number of external biases that must be applied
+  to the processor, thus **significantly improving the scaling of this particular architecture**. 
+  "
+
+- | The problematic sensitivity to noise of the above described design is due to the
+    "qubit physical layer not separated from classical control layer" :cite:`Lidar_2021`.
+    This leads to a not fully coherent mode of operation of current quantum annealers, 
+    as described together with **"more-coherent" architectures** in the next section :ref:`stories/complements/adiabatic:Quantum Advantage`.
 
 - To map any *Binary Quadratic Model* the specificity of the hardware topology must be considered.
   To make the best use of it, a strategy called **minor embedding** [#embedding]_ optimizes this mapping.
   
     "The process of mapping variables in the problem formulation to qubits on the QPU is known as minor embedding."
 
-- An alternative prototype coherent realization with Rydberg atoms :cite:`Glaetzle_2017`
+- See also an alternative yet prototype coherent realization with Rydberg atoms :cite:`Glaetzle_2017`
 
-:draft:`More about the physical realization and the difference to the Gate Model implementation soon...`
-[#implementation]_
-
-:draft:`<notes>`
-
-From :cite:`Krantz_2019`:
-
-    "**Longitudinal coupling** is an important type of interaction,
-    because it can generate entanglement without energy exchange.
-    Moreover, it is found a necessary ingredient in the application of
-    quantum annealing, where certain hard combinatorial optimization
-    problems can be modeled by the Ising Hamiltonian [...] and
-    finding its ground state would solve this problem."
-
-    "In some applications, such as for quantum annealing, both **longitudinal
-    and transverse couplings** are desired (:math:`\sigma_z \sigma_z` coupling for mapping
-    the problem and :math:`\sigma_x \sigma_x` coupling for enhancing the annealing
-    performance) and require independent control."
-
-:draft:`</notes>`
+For more details about the architecture and control see the notes below [#implementation]_ [#hardware]_.
 
 .. ---------------------------------------------------------------------------
   
@@ -119,11 +111,10 @@ Quantum Advantage
     We found that for problem instances involving nearly 1000 binary variables, quantum annealing significantly outperforms its classical counterpart, simulated annealing. It is more than 108 times faster than simulated annealing running on a single core. [...]
     While these results are intriguing and very encouraging, there is more work ahead to turn quantum enhanced optimization into a practical technology. The design of next generation annealers must facilitate the embedding of problems of practical relevance. For instance, we would like to increase the density and control precision of the connections between the qubits as well as their coherence."
 
-- :draft:`To digest:`
-  `IARPA Quantum Enhanced Optimization <https://www.iarpa.gov/index.php/research-programs/qeo>`_,
+- `IARPA Quantum Enhanced Optimization <https://www.iarpa.gov/index.php/research-programs/qeo>`_,
   2021 summary :cite:`Lidar_2021` :cite:`Crosson_2021`
   
-  - "more-coherent quantum annealing" :cite:`Novikov_2018`, build at MIT Lincoln Laboratory,
+  - "More-coherent quantum annealing" :cite:`Novikov_2018`, build at MIT Lincoln Laboratory,
     while D-Wave hardware lacks sufficient coherence
   
   - Project superseded by the `DARPA’s Quantum Annealing Feasibility Study <https://www.darpa.mil/news-events/2020-05-11a>`_.
@@ -179,5 +170,21 @@ See also general section about :ref:`intro/computing/state:State of the Art` of 
 
     `QPU Solver Datasheet <https://docs.dwavesys.com/docs/latest/c_qpu_annealing.html>`_
     :cite:`DWave_2021`
+
+.. [#hardware]
+
+    General considerations about the coupling :cite:`Krantz_2019`:
+
+    "**Longitudinal coupling** is an important type of interaction,
+    because it can generate entanglement without energy exchange.
+    Moreover, it is found a necessary ingredient in the application of
+    quantum annealing, where certain hard combinatorial optimization
+    problems can be modeled by the Ising Hamiltonian [...] and
+    finding its ground state would solve this problem."
+
+    "In some applications, such as for quantum annealing, both **longitudinal
+    and transverse couplings** are desired (:math:`\sigma_z \sigma_z` coupling for mapping
+    the problem and :math:`\sigma_x \sigma_x` coupling for enhancing the annealing
+    performance) and require independent control."
 
 .. ---------------------------------------------------------------------------
