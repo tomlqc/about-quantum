@@ -42,3 +42,7 @@ But the power of quantum computing is not restricted to these simulations.
     This estimation relies on classical simulations of typically a lattice of 7 x 7 qubits
     :cite:`Boixo_2018`.
     It is practically the same then the 40 qubits named above.
+    
+    In Google's 2019 quantum supremacy demonstration :cite:`Arute_2019` it is also a number of 43 qubits
+    that is given as the current maximum number of qubits to be simulated on the Jülich supercomputer:
+    "Above this size, there is not enough random access memory (RAM) to store the quantum state".

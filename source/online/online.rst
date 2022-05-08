@@ -4,7 +4,7 @@ Online Resources
 
 Online Resources about Quantum Science, especially about Quantum Computing.
 
-.. note:: This list of resources reflects my knowledge as in **March 2021**.
+.. note:: This list of resources reflects my knowledge as in **March 2022**.
 
 .. ---------------------------------------------------------------------------
 
@@ -115,7 +115,7 @@ See also the overview article by R. LaRose in the Quantum Journal :cite:`LaRose_
 .. ---------------------------------------------------------------------------
 
 Python Packages
------------------
+---------------
 
 Python packages that I have played with:
 

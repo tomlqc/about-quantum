@@ -65,27 +65,80 @@ Optimization Problems
 Hardware
 --------
 
-- Adiabatic quantum computers are made of a lattice of interconnected qubits [#topology]_.
-  The qubits are not fully connected, what represents a limitation for the hamiltonians
-  that can be described. Thus the topology i.e. the connection pattern is of great importance.
+- | Adiabatic quantum computers are made of a lattice of interconnected qubits [#topology]_.
+    The qubits are not fully connected, what represents a limitation for the hamiltonians
+    that can be described. Thus the topology i.e. the connection pattern is of great importance.
+
+- The D-Wave architecture:
+
+  - The original architecture as described in 2010 :cite:`Harris_2010`
+  - "Qubit physical layer not separated from classical control layer" :cite:`Lidar_2021`
 
 - To map any *Binary Quadratic Model* the specificity of the hardware topology must be considered.
   To make the best use of it, a strategy called **minor embedding** [#embedding]_ optimizes this mapping.
   
     "The process of mapping variables in the problem formulation to qubits on the QPU is known as minor embedding."
 
-- :draft:`More about the physical realization and the difference to the Gate Model implementation soon...`
-  [#implementation]_
+- An alternative prototype coherent realization with Rydberg atoms :cite:`Glaetzle_2017`
+
+:draft:`More about the physical realization and the difference to the Gate Model implementation soon...`
+[#implementation]_
+
+:draft:`<notes>`
+
+From :cite:`Krantz_2019`:
+
+    "**Longitudinal coupling** is an important type of interaction,
+    because it can generate entanglement without energy exchange.
+    Moreover, it is found a necessary ingredient in the application of
+    quantum annealing, where certain hard combinatorial optimization
+    problems can be modeled by the Ising Hamiltonian [...] and
+    finding its ground state would solve this problem."
+
+    "In some applications, such as for quantum annealing, both **longitudinal
+    and transverse couplings** are desired (:math:`\sigma_z \sigma_z` coupling for mapping
+    the problem and :math:`\sigma_x \sigma_x` coupling for enhancing the annealing
+    performance) and require independent control."
+
+:draft:`</notes>`
 
 .. ---------------------------------------------------------------------------
   
-Miscellaneous
--------------
+Quantum Advantage
+-----------------
 
-- :ref:`intro/computing/state:State of the Art`
-- A review: *Adiabatic Quantum Computation* :cite:`Albash_2018`
-- *Readiness* :cite:`PerdomoOrtiz_2019` (?)
+- **A review:** *Adiabatic Quantum Computation* :cite:`Albash_2018`
+
+  - AQC equivalent to the circuit model (and of course requires full coherence)
+  - "We finally devote considerable space to Stoquastic AQC, the setting of most AQC work to date, where we discuss obstructions to success and their possible resolutions." :draft:`(de facto D-Wave hardware (?))`
+  
+- `When can Quantum Annealing win? <https://ai.googleblog.com/2015/12/when-can-quantum-annealing-win.html>`_,
+  2016 :cite:`Denchev_2016`
+  
+    "During the last two years, the Google Quantum AI team has made progress in understanding the physics governing quantum annealers. [...]
+    We found that for problem instances involving nearly 1000 binary variables, quantum annealing significantly outperforms its classical counterpart, simulated annealing. It is more than 108 times faster than simulated annealing running on a single core. [...]
+    While these results are intriguing and very encouraging, there is more work ahead to turn quantum enhanced optimization into a practical technology. The design of next generation annealers must facilitate the embedding of problems of practical relevance. For instance, we would like to increase the density and control precision of the connections between the qubits as well as their coherence."
+
+- :draft:`To digest:`
+  `IARPA Quantum Enhanced Optimization <https://www.iarpa.gov/index.php/research-programs/qeo>`_,
+  2021 summary :cite:`Lidar_2021` :cite:`Crosson_2021`
+  
+  - "more-coherent quantum annealing" :cite:`Novikov_2018`, build at MIT Lincoln Laboratory,
+    while D-Wave hardware lacks sufficient coherence
+  
+  - Project superseded by the `DARPA’s Quantum Annealing Feasibility Study <https://www.darpa.mil/news-events/2020-05-11a>`_.
+
+- "Demonstration of a scaling advantage for a quantum annealer over simulated annealing", 2018 :cite:`Albash_2018b`:
+
+    "[We] establish the first example of a scaling advantage for an experimental quantum annealer over classical simulated annealing. [...]
+    However, we do not find evidence for a quantum speedup: SQA exhibits the best scaling for annealing algorithms by a significant margin. This is a finding of independent interest, since we associate SQA’s advantage with its ability to transverse energy barriers in the semiclassical energy landscape by mimicking tunneling.
+    "
+
+- :draft:`To investigate:` *Readiness* :cite:`PerdomoOrtiz_2019` (?)
+
 - Applications: SAT-Problem :cite:`Farhi_2000`, Quantum Chemistry :cite:`Kassal_2011`
+
+See also general section about :ref:`intro/computing/state:State of the Art` of Quantum Computing.
 
 .. ===========================================================================
 

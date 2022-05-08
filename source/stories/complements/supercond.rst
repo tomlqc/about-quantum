@@ -9,8 +9,16 @@ Superconducting Circuits
 
 "Anharmonic oscillators (AHOs) constructed from superconducting circuit element".
 
+    - :draft:`Details about qubit control in` :cite:`Krantz_2019`
+    - D. Single-qubit gates, Fig. 12:
+      microwave drive coaxial line
+    - E. The iSWAP two-qubit gate in [flux] tunable qubits:
+      local magnetic field to tune the transition frequencies of each of coupled qubits
+    - G. Two-qubit gates using only microwaves:
+      with fixed-frequency qubits, less sensitive to flux noise
+
 - review paper: engineer's guide :cite:`Krantz_2019`, state of play :cite:`Kjaergaard_2020`
-- more (?): :cite:`Gambetta_2017`
+- about building logical qubits: :cite:`Gambetta_2017`
 
 
 - coupling resonators (CR) for implementing two-qubit gates,

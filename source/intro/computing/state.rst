@@ -58,6 +58,10 @@ State of the Art
   - | About optimization problems:
       `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
       :cite:`Ratke_2021`
+      
+  -  | About quantum annealing:
+       `When can Quantum Annealing win? <https://ai.googleblog.com/2015/12/when-can-quantum-annealing-win.html>`_
+       :cite:`Denchev_2016` (2016), see also :ref:`stories/complements/adiabatic:Quantum Advantage` of AQC.
 
 - Roadmaps:
   
