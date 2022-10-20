@@ -3,7 +3,11 @@ Photonics
 ---------
 
 - in implementation by
-  `Xanadu <https://www.xanadu.ai/>`_, `PsiQuantum <https://www.psiquantum.com/>`_
+  `Xanadu <https://www.xanadu.ai/>`_ (ca),
+  `PsiQuantum <https://www.psiquantum.com/>`_ (us),
+  `Q.ANT <https://qant.de/en/technology/>`_ (de),
+  `QuiX <https://www.quixquantum.com/>`_ (nl)
+
 
 :draft:`My notes from QCE21` :cite:`QCE21_Pfister`
 

@@ -3,9 +3,12 @@ Superconducting Circuits
 ========================
 
 - implemented by
-  `Google <https://quantumai.google/>`_,
-  `IBM <https://www.ibm.com/quantum-computing/>`_,
-  `Rigetti <https://www.rigetti.com/>`_
+  `Google <https://quantumai.google/>`_ (us),
+  `IBM <https://www.ibm.com/quantum-computing/>`_ (us),
+  `Rigetti <https://www.rigetti.com/>`_ (us),
+  `qci <https://quantumcircuits.com>`_ (us),
+  `IQM <https://meetiqm.com>`_ (de)
+
 
 "Anharmonic oscillators (AHOs) constructed from superconducting circuit element".
 

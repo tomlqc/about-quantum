@@ -3,8 +3,9 @@ Trapped Ions
 ============
 
 - implemented by
-  `Honeywell <https://www.honeywell.com/us/en/company/quantum>`_,
-  `IonQ <https://www.ionq.com/>`_
+  `Quantinuum <https://www.quantinuum.com>`_ (us|uk) (formerly `Honeywell <https://www.honeywell.com/us/en/company/quantum>`_),
+  `IonQ <https://www.ionq.com/>`_ (us)
+
 
 Ions can be trapped by electromagnetic forces, either in an oscillating quadripole electric field [#Paul]_ or
 in a combination of an electric and a magnetic field.

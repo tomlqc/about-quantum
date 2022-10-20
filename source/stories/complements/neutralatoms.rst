@@ -2,7 +2,12 @@
 Neutral Atoms
 -------------
 
-- in still very academic implementation by `Pasqal <https://pasqal.io/>`_
+- implemented by
+  `Pasqal <https://pasqal.io/>`_ (fr),
+  `planqc <https://planqc.eu/>`_ (de),
+  `atom computing <https://atom-computing.com/>`_ (us),
+  `QuEra <https://www.quera.com/>`_ (us)
+
 
 About **Neutral Atoms in an Optical Lattice**.
 
