@@ -52,6 +52,10 @@ About Quantum Mechanics and Quantum Computing:
   * `Qiskit Textbook <https://qiskit.org/textbook/preface.html>`_ -
     Qiskit manual that also covers physical models and quantum algorithms.
 
+- `Educational resources <https://quantumai.google/education>`_ by Google Quantum AI
+
+  * Tutorials, educational videos (`"What is a quantum computer?" <https://www.youtube.com/watch?v=k-21vRCC0RM>`_)
+
 - `QuTiP User Guide <http://qutip.org/docs/latest/guide/guide.html>`_ - an academic software package
 
   Although just a manual to QuTiP, contents many details about physical models
