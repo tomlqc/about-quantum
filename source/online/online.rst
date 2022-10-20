@@ -29,7 +29,8 @@ About Quantum Mechanics and Quantum Computing:
   <https://www.quantum-inspire.com/kbase/introduction-to-quantum-computing>`_
   by `QuTech <https://qutech.nl>`_
   
-  An overview with videos from the `QuTech Academy <https://qutechacademy.nl/>`_.
+  An overview with videos from the `QuTech Academy <https://qutechacademy.nl/>`_:
+  `Quantum Library <https://www.youtube.com/playlist?list=PL5jmbd6SJYnMOKxsKdsdLlIcnM_Ad-Tgj>`_ on YouTube.
   The QuTech Academy also offers online courses on `edX <https://www.edx.org/school/delftx>`_
   about hardware, architecture and algorithms.
   

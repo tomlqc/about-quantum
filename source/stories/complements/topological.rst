@@ -39,3 +39,11 @@ Advances and setbacks
 .. [#Majorana]
 
     About Ettore Majorana's contributions to physics, read :cite:`Wilczek_2009`.
+
+-----
+
+**Further learning:**
+
+- Online course
+  `Topology in Condensed Matter: Tying Quantum Knots <https://www.edx.org/course/topology-in-condensed-matter-tying-quantum-knots>`_
+  on `edX <https://www.edx.org/school/delftx>`_ by the Delft University of Technology (TU Delft).
