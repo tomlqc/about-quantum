@@ -90,7 +90,10 @@ Hardware
   
     "The process of mapping variables in the problem formulation to qubits on the QPU is known as minor embedding."
 
-- See also an alternative yet prototype coherent realization with Rydberg atoms :cite:`Glaetzle_2017`
+- | See also an alternative yet prototype coherent realization with Rydberg atoms :cite:`Glaetzle_2017`.
+
+- See also the "quantum annealing architecture with all-to-all connectivity from local interactions"
+  (LHZ architecture) :cite:`Lechner_2015` implemented by `ParityQC <https://parityqc.com/parityqc-architecture>`_.
 
 For more details about the architecture and control see the notes below [#implementation]_ [#hardware]_.
 
