@@ -96,6 +96,7 @@ A selection of software and platforms for quantum computing:
   
 - `Amazon Braket <https://docs.aws.amazon.com/braket/>`_ -
   Run quantum algorithms on Rigetti or D-Wave hardware or on a AWS simulator.
+  See `pricing <https://aws.amazon.com/de/braket/pricing/>`_ (!).
 
 - `QuTech QuantumInspire <https://www.quantum-inspire.com/>`_ -
   Run quantum algorithms on simulators or hardware backends.
@@ -107,6 +108,9 @@ Tutorials:
   `Chemistry <https://quantum-computing.ibm.com/lab/docs/iql/chemistry>`_,
   `Optimization <https://quantum-computing.ibm.com/lab/docs/iql/optimization>`_,
   `Finance <https://quantum-computing.ibm.com/lab/docs/iql/finance-labs>`_
+
+- `Xanadu Quantum Codebook <https://codebook.xanadu.ai>`_:
+  "The Codebook is an experimental, exercise-based introduction to quantum computing. Rather than just reading a textbook or tutorial, or executing some pre-written code cells, the Codebook is an active learning resource in which you will learn by doing."
 
 Additional software resources:
 

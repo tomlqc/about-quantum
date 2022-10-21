@@ -5,6 +5,11 @@ Topological Quantum Computer
 Introduction
 ------------
 
+*Background:*
+
+- *Topological Defects and Phase Transitions*, Nobel Lecture 2016 :cite:`Kosterlitz2016`
+- *Topological Phase Transitions and Topological Phases of Matter* :cite:`NobelPhysics2016`
+
 *To investigate and summarize:*
 
 - *A Short Introduction to Topological Quantum Computation* :cite:`Lahtinen_2017`.

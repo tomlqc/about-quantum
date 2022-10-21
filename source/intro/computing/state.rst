@@ -41,27 +41,42 @@ State of the Art
       "randomized compiling" :cite:`QCE21_Emerson`
     - error correction
 
-- :ref:`intro/computing/algo:Quantum Supremacy`:
+- :ref:`intro/computing/algo:Quantum Supremacy` / Quantum Advantage`:
 
   - | Google's 2019 *Quantum Supremacy* claim with 53 qubits :cite:`Arute_2019` for an academic problem.
 
-  - Estimate of the number of qubits to achieve *Quantum Supremacy* :cite:`Dalzell_2020`
+  - Estimate of the number of qubits to achieve *Quantum Supremacy* (2020) :cite:`Dalzell_2020`
 
       "An IQP circuit with 208 qubits, a QAOA circuit with 420 qubits,
       and a boson sampling circuit with 98 photons
       each would require at least one century to be simulated using a classical simulation algorithm"
-
-  - | About quantum chemistry:
-      *Gate-count estimates for performing quantum chemistry on small quantum computers?*
+  
+  - | Focus beyond Quadratic Speedups for Error-Corrected Quantum Advantage (2021) :cite:`Babbush_2021`
+  
+      "We discuss conditions under which it would be possible for a modest fault-tolerant quantum computer
+      to realize a runtime advantage by executing a quantum algorithm with only a small polynomial speedup
+      over the best classical alternative. [...]
+      We conclude that quadratic speedups will not enable quantum advantage on early generations
+      of such fault-tolerant devices unless there is a significant improvement in how we realize quantum error correction."
+  
+  - | About **quantum chemistry**:
+      *Gate-count estimates for performing quantum chemistry on small quantum computers?* (2014)
       :cite:`Wecker_2014`
 
-  - | About optimization problems:
-      `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
+  - | About **quantum machine learning**:
+      *Quantum advantage in learning from experiments* (2022) :cite:`Huang_2022`
+  
+  - | About **optimization problems**:
+      `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_ (2021)
       :cite:`Ratke_2021`
       
-  -  | About quantum annealing:
-       `When can Quantum Annealing win? <https://ai.googleblog.com/2015/12/when-can-quantum-annealing-win.html>`_
-       :cite:`Denchev_2016` (2016), see also :ref:`stories/complements/adiabatic:Quantum Advantage` of AQC.
+  - | About **quantum annealing**:
+      `When can Quantum Annealing win? <https://ai.googleblog.com/2015/12/when-can-quantum-annealing-win.html>`_
+      :cite:`Denchev_2016` (2016), see also :ref:`stories/complements/adiabatic:Quantum Advantage` of AQC.
+  
+  - | About **boson sampling**:
+      *Quantum computational advantage with a programmable photonic processor* (2022) :cite:`Madsen_2022`
+      (`YouTube <https://www.youtube.com/watch?v=bnX57EjvFVQ>`_)
 
 - Roadmaps:
   
