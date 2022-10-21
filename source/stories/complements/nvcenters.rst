@@ -3,7 +3,8 @@ NV Centers
 ==========
 
 - in implementation by
-  `Quantum Brilliance <https://quantumbrilliance.com/>`_ (au|de)
+  `Quantum Brilliance <https://quantumbrilliance.com/>`_ (au|de),
+  `SaxonQ <https://saxonq.com>`_ (de)
 
 
 Nitrogen-vacancy centers in diamonds.
