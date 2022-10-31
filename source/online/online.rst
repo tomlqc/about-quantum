@@ -128,12 +128,16 @@ Python Packages
 
 Python packages that I have played with:
 
-- `Qiskit <https://qiskit.org/>`_ -
-  "Qiskit is an open source SDK for working with quantum computers
+- `Qiskit <https://qiskit.org/>`_ (IBM) -
+  "Qiskit is an open source **SDK** for working with quantum computers
   at the level of pulses, circuits and application modules."
 - `QuTiP <http://qutip.org/>`_ -
   "Quantum Toolbox in Python, QuTiP is open-source software for simulating
-  the dynamics of open quantum systems."
+  the dynamics of **open quantum systems**."
+- `PennyLane <https://pennylane.ai/>`_ (Xanadu) -
+  "A cross-platform Python library for **differentiable programming** of quantum computers. Train a quantum computer the same way as a neural network."
+- `Strawberry Fields <https://strawberryfields.ai/>`_ (Xanadu) -
+  "A cross-platform Python library for simulating and executing programs on **quantum photonic hardware**."
 
 Python packages that I am planning to play with:
 
