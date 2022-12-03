@@ -7,6 +7,9 @@ Machine Learning
 - *Circuit-centric quantum classifiers* :cite:`Schuld_2020`
 - see also *Quantum Computing and Machine Learning* :cite:`Fawaz_2021`
 
+- Learning by coding: `PennyLane QML Demos <https://pennylane.ai/qml/demos_qml.html>`_.
+
+
 :draft:`Recently read:`
 
 - *Is quantum advantage the right goal for quantum machine learning?* :cite:`Schuld_2022`
