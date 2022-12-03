@@ -41,6 +41,7 @@ and a guide on how to learn more about it.
     intro/intro
     stories/complements/complements
     stories/background/background
+    reviews/reviews
 
 .. toctree::
     :hidden:
@@ -184,6 +185,12 @@ Background
   Quantum Many-Body Physics |
   Group Theory |
   Combinatorial Optimization
+
+
+Reviews
+----------
+
+* **Research:** :ref:`reviews/google:Google Quantum AI`
 
 
 Learn more
