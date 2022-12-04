@@ -8,6 +8,87 @@ Google Quantum AI
   I focussed on three areas: quantum chemistry, quantum optimization together with QML,
   and quantum advantage. - December 12, 2022
 
+.. contents::
+    :local:
+
+-----
+
+.. ---------------------------------------------------------------------------
+
+Quantum Advantage
+-----------------
+
+- | Mohseni et al., **Commercialize Quantum Technologies in Five Years**, 2017,
+    `research.google:45919 <https://research.google/pubs/pub45919>`_.
+
+- | Boixo et al., **Characterizing Quantum Supremacy in Near-Term Devices**, 2018,
+    `research.google:46227 <https://research.google/pubs/pub46227>`_.
+
+- | Markov et al., **Quantum Supremacy Is Both Closer and Farther than It Appears**, 2018,
+    `research.google:47252 <https://research.google/pubs/pub47252>`_.
+
+- | Arute et al., **Quantum Supremacy using a Programmable Superconducting Processor**, 2019,
+    `research.google:48651 <https://research.google/pubs/pub48651>`_.
+
+  - report of quantum supremacy on the task of **sampling the output of a pseudo-random quantum circuit**,
+    that takes about 200 seconds on the **53-qubit** Sycamore superconducting processor
+    while classical state-of-the-art classical algorithms would take 10.000 years.
+  - "Up to 43 qubits, we use a Schrödinger algorithm, which simulates the evolution of the full quantum state;
+    the Jülich supercomputer (with 100,000 cores, 250 terabytes) runs the largest cases. Above this size,
+    there is not enough random access memory (RAM) to store the quantum state. For larger qubit numbers,
+    we use a hybrid Schrödinger–Feynman algorithm running on Google data centres to compute
+    the amplitudes of individual bitstrings. [...]
+    Although it is more memory-efficient, the Schrödinger–Feynman algorithm becomes **exponentially
+    more computationally expensive** with increasing circuit depth."
+  - "We have performed random quantum circuit sampling in polynomial time using a physically realizable quantum processor
+    (with sufficiently low error rates), yet no efficient method is known to exist for classical computing machinery."
+  
+- | Mi et al., **Information scrambling in quantum circuits**, 2021,
+    `research.google:50297 <https://research.google/pubs/pub50297>`_ :cite:`Mi_2021`.
+
+  - "Interaction in quantum systems can spread initially localized quantum information into the many
+    degrees of freedom of the entire system. Understanding this process, known as **quantum scrambling**,
+    is the key to resolving various conundrums in physics."
+  - "We show that while operator spreading is captured by an efficient classical model,
+    operator entanglement requires exponentially scaled computational resources to simulate.
+    These results open the path to studying complex and practically relevant physical observables
+    with near-term quantum processors."
+  - "Analogous to classical chaos, scrambling manifests itself as a **“butterfly effect”**,
+    wherein a local perturbation is rapidly amplified over time. [...]
+    Quantum scrambling is enabled by two different mechanisms: operator spreading and operator entanglement."
+  - "entanglement in the space of quantum operators is the key to computational complexity of quantum observable."
+  - :draft:`To read again :)`
+
+- | Babbush et al., **Focus Beyond Quadratic Speedups for Error-Corrected Quantum Advantage**, 2021,
+    `research.google:49747 <https://research.google/pubs/pub49747>`_.
+
+  - "We conclude that **quadratic speedups will not enable quantum advantage** on early generations of such fault-tolerant devices
+    unless there is a significant improvement in how we realize quantum error correction. [...]
+    find that quartic speedups look significantly more practical."
+  - The central issue is that quantum error correction and the device operation time introduce significant constant factor
+    slowdowns to the algorithm runtime.
+  - The comparison with parallel classical resources is particularly damning for quantum computing,
+    and unfortunately many quadratic quantum speedups (especially those leveraging amplitude amplification)
+    apply to problems that are highly parallelizeable.
+
+- | McClean et al., **What the foundations of quantum computer science teach us about chemistry**, 2021,
+    `research.google:50415 <https://research.google/pubs/pub50415>`_ :cite:`McClean_2021`.
+
+  - "Leveraging results that quantum computers cannot outpace the physical world, we build to the controversial stance that some chemical problems are best viewed as problems for which no algorithm can deliver their solution in general, known in computer science as undecidable problems. This has implications for the predictive power of thermodynamic models and topics like the ergodic hypothesis. However, we argue that this perspective is not defeatist, but rather helps shed light on the success of existing chemical models like transition state theory, molecular orbital theory, and thermodynamics as models that benefit from data.
+  - :draft:`To read again :)`
+
+- | Huang et al., **Quantum advantage in learning from experiments**, 2022,
+    `research.google:50941 <https://research.google/pubs/pub50941>`_ :cite:`Huang_2022`.
+
+  - The first demonstration of a **provable exponential advantage in learning about quantum systems**
+    that is robust even on today's noisy hardware.
+  - Combines quantum computing and quantum sensing to squeeze out more accuracy when measurement quantum systems.
+  - Recipe: Entangle the multiple samples of the measurement (by transducing data from a physical system to a stable quantum memory)
+    and process by a quantum agent: quantum PCA, quantum learning.
+  - experiments with up to 40 superconducting qubits and 1300 quantum gates
+  
+- See also Tazhigulov (2022) :cite:`Tazhigulov_2022` about reaching quantum advantage for modelling (real) physical problems.
+
 .. ---------------------------------------------------------------------------
 
 Quantum Chemistry
