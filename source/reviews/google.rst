@@ -5,8 +5,8 @@ Google Quantum AI
   Today I wanted to get an insight into Google's research activities,
   and I reviewed the publicly available research publications since 2017
   as listed on `Quantum AI <https://quantumai.google/research/publications>`_.
-  I focussed on three areas: quantum chemistry, quantum optimization together with QML,
-  and quantum advantage. - December 12, 2022
+  I focussed on three areas: quantum advantage, quantum chemistry,
+  quantum computation (linear system solvers, QAOA, QML). - December 12, 2022
 
 .. contents::
     :local:
@@ -57,7 +57,7 @@ Quantum Advantage
     wherein a local perturbation is rapidly amplified over time. [...]
     Quantum scrambling is enabled by two different mechanisms: operator spreading and operator entanglement."
   - "entanglement in the space of quantum operators is the key to computational complexity of quantum observable."
-  - :draft:`To read again :)`
+  - :draft:`To read again ;)`
 
 - | Babbush et al., **Focus Beyond Quadratic Speedups for Error-Corrected Quantum Advantage**, 2021,
     `research.google:49747 <https://research.google/pubs/pub49747>`_.
@@ -75,7 +75,7 @@ Quantum Advantage
     `research.google:50415 <https://research.google/pubs/pub50415>`_ :cite:`McClean_2021`.
 
   - "Leveraging results that quantum computers cannot outpace the physical world, we build to the controversial stance that some chemical problems are best viewed as problems for which no algorithm can deliver their solution in general, known in computer science as undecidable problems. This has implications for the predictive power of thermodynamic models and topics like the ergodic hypothesis. However, we argue that this perspective is not defeatist, but rather helps shed light on the success of existing chemical models like transition state theory, molecular orbital theory, and thermodynamics as models that benefit from data.
-  - :draft:`To read again :)`
+  - :draft:`To read again ;)`
 
 - | Huang et al., **Quantum advantage in learning from experiments**, 2022,
     `research.google:50941 <https://research.google/pubs/pub50941>`_ :cite:`Huang_2022`.
@@ -199,5 +199,57 @@ Algorithms
   - Both classical and quantum resource estimates suggest that simulation of CYP models at scales large enough
     to balance dynamic and multiconfigurational electron correlation has the **potential to be a quantum advantage problem** and
     emphasizes the important interplay between classical computations and quantum algorithms development for chemical simulation.
+
+.. ---------------------------------------------------------------------------
+
+Quantum Computation
+-------------------
+
+Linear System Solvers
+^^^^^^^^^^^^^^^^^^^^^
+
+- | Costa et al., **Optimal Scaling Quantum Linear Systems Solver via Discrete Adiabatic Theorem**, 2022,
+    `research.google:50899 <https://research.google/pubs/pub50899>`_.
+
+  - ...
+
+QAOA
+^^^^
+
+- | Rieffel et al., **XY-mixers: analytical and numerical results for QAOA**, 2020,
+    `research.google:49033 <https://research.google/pubs/pub49033>`_.
+
+  - ...
+
+- | McClean et al., **Low-Depth Mechanisms for Quantum Optimization**, 2021,
+    `research.google:49421 <https://research.google/pubs/pub49421>`_.
+
+  - ...
+
+- | Cerezo et al., **Variational Quantum Algorithms**, 2021,
+    `research.google:49853 <https://research.google/pubs/pub49853>`_.
+
+  - ...
+
+QML
+^^^
+
+- | Verdon et al., **Learning to learn with quantum neural networks via classical neural networks**, 2019,
+    `research.google: <https://research.google/pubs/pub>`_.
+
+  - ...
+
+- | Broughton et al., **TensorFlow Quantum: A Software Framework for Quantum Machine Learning**, 2020,
+    `research.google:49371 <https://research.google/pubs/pub49371>`_.
+
+  - ...
+
+- | Huang et al., **Power of data in quantum machine learning**, 2021,
+    `research.google:49725 <https://research.google/pubs/pub49725>`_.
+
+  - This paper is about **learning quantum models**.
+  - Data can elevate classical [machine learning] models to rival quantum models, even when the quantum circuits generating the data are hard to compute classically.
+  - Following these constructions, in numerical experiments, we find that a variety of common quantum models in the literature perform similarly or worse than classical ML on both classical and quantum datasets due to a small geometric difference.
+  - With the large geometric difference endowed by the projected quantum model, we are able to construct engineered datasets to demonstrate large prediction advantage over common classical ML models
 
 .. ---------------------------------------------------------------------------
