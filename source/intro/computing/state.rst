@@ -87,9 +87,10 @@ State of the Art
   
 - Balanced Opinions:
   
-  - "Quantum Computing: A Bubble Ready to Burst?" :cite:`Brant_2020`,
-  - "Will Quantum Computing Ever Live Up to Its Hype?" :cite:`Horgan_2021`
-  - "Quantum computing has a hype problem" :cite:`DasSarma_2022`
+  - "Quantum Computing: A bubble ready to burst?", Nov-11-2020 :cite:`Brant_2020`,
+  - "Will Quantum Computing ever live up to its hype?", Apr-20-2021 :cite:`Horgan_2021`
+  - "Quantum computing has a hype problem", Mar-28-2022 :cite:`DasSarma_2022`
+  - "Quantum Computing will change our lives. But be patient, please", Dec-14-2022, :cite:`Shankland_2022`
 
 -----
 
