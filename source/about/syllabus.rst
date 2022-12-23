@@ -6,6 +6,9 @@ Syllabus
 *My personal experience in learning about Quantum Science:
 a learning path for how to learn from Quantum Mechanics up to Quantum Computing.*
 
+Liftoff
+=======
+
 I started with:
 
 - *Quantum Mechanics* by Basdevant & Dalibard :cite:`Basdevant2005`.
@@ -26,22 +29,29 @@ that I attended [#fguest]_ in Winter 2020/2021:
 
 This set the basis for understanding more advanced articles,
 as the ones listed in :ref:`biblio/biblio:Review Papers` and :ref:`biblio/biblio:Articles`.
-I recommend especially:
-
-- *A quantum engineer’s guide to superconducting qubits* by Krantz *et al.* :cite:`Krantz_2019`
-- *Quantum simulation* by I. Georgesco *et al.* :cite:`Georgescu_2014`
-- *Simulating chemistry using quantum computers* by I. Kassal *et al.* :cite:`Kassal_2011`.
-
-And to continue the journey and keep up-to-date:
-
-- IBM's *Qiskit Summer School 2020*'s
-  `Introduction to Quantum Computing and Quantum Hardware <https://qiskit.org/learn/intro-qc-qh/>`_
-- `IEEE Quantum Week 2021 <https://qce.quantum.ieee.org/>`_
 
 Finally I strongly recommend this great and entertaining introduction:
 
 - `Quantum Country <https://quantum.country/>`_
   by Andy Matuschak and Michael Nielsen.
+
+
+Cruise
+======
+
+Some review papers that I especially recommend:
+
+- *A quantum engineer’s guide to superconducting qubits* by Krantz *et al.* :cite:`Krantz_2019`
+- *Quantum simulation* by I. Georgesco *et al.* :cite:`Georgescu_2014`
+- *Simulating chemistry using quantum computers* by I. Kassal *et al.* :cite:`Kassal_2011`.
+
+Trainings and tutorials to continue the journey and keep up-to-date:
+
+- `IEEE Quantum Week 2021 <https://qce.quantum.ieee.org/>`_
+- IBM's *Qiskit Summer School 2020*'s
+  `Introduction to Quantum Computing and Quantum Hardware <https://qiskit.org/learn/intro-qc-qh/>`_
+
+:draft:`Many updates pending...`
 
 -----
 
