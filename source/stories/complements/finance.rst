@@ -1,6 +1,6 @@
 
-Monte Carlo
-===========
+Finance
+=======
 
 *Some resources about use cases in finance, to investigate:*
 
