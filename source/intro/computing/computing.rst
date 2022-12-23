@@ -13,4 +13,3 @@ Quantum Computing
     algo
     apps
     realization
-    state

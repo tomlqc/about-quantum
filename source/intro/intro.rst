@@ -12,3 +12,4 @@ An introduction to Quantum Technology.
     computing/computing
     simulation/simulation
     communication/communication
+    outlook/outlook

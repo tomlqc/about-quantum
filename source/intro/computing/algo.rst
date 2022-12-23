@@ -133,7 +133,7 @@ Quantum Supremacy
   - *todo:* A list of problems solved more efficiently on quantum computers.
   - *todo:* Where can we expect an exponential speedup?
 
-- For estimations about the required hardware, see :ref:`intro/computing/state:State of the Art`.
+- For estimations about the required hardware, see :ref:`intro/outlook/state:State of the Art`.
 
 .. ---------------------------------------------------------------------------
 

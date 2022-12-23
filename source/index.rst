@@ -95,8 +95,7 @@ An Introduction
   :ref:`intro/computing/noise:Noise & Errors` |
   :ref:`intro/computing/algo:Algorithms` |
   :ref:`intro/computing/apps:Applications` |
-  :ref:`intro/computing/realization:Realization` |
-  :ref:`intro/computing/state:State of the Art`
+  :ref:`intro/computing/realization:Realization`
 
 * **Quantum Simulation:**
   :ref:`intro/simulation/simulate:Simulate Quantum Systems` |
@@ -105,6 +104,9 @@ An Introduction
 
 * **Quantum Communication:**
   :ref:`Teleportation & Cryptography <intro/communication/communication:Quantum Communication>`
+
+* **Outlook:**
+  :ref:`intro/outlook/state:State of the Art`
 
 
 Complements

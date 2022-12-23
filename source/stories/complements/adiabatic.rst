@@ -132,7 +132,7 @@ Quantum Advantage
 
 - Applications: SAT-Problem :cite:`Farhi_2000`, Quantum Chemistry :cite:`Kassal_2011`
 
-See also general section about :ref:`intro/computing/state:State of the Art` of Quantum Computing.
+See also general section about :ref:`intro/outlook/state:State of the Art` of Quantum Computing.
 
 .. ===========================================================================
 
