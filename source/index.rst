@@ -194,6 +194,7 @@ Reviews
 ----------
 
 * **Research:** :ref:`reviews/google:Google Quantum AI`
+* **Focus:** :ref:`reviews/kernels:Quantum Kernels`
 
 
 Learn more
