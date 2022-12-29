@@ -191,10 +191,14 @@ Background
 
 
 Reviews
-----------
+-------
 
-* **Research:** :ref:`reviews/google:Google Quantum AI`
-* **Focus:** :ref:`reviews/kernels:Quantum Kernels`
+* **Conferences:**
+  :ref:`reviews/ieee_qce21:IEEE QCE21`
+* **Research:**
+  :ref:`reviews/google:Google Quantum AI`
+* **Focus:**
+  :ref:`reviews/kernels:Quantum Kernels`
 
 
 Learn more
