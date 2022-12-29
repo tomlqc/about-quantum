@@ -46,3 +46,11 @@ Three papers by Givi, Pittsburgh:
 .. rubric:: Miscellaneous
 
 * *Quantum algorithm to approximate the mean* :cite:`Brassard_2011` (by Brassard, see BB84)
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/apps:Applications`
+

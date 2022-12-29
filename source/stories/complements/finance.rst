@@ -19,3 +19,10 @@ Finance
   | see also
     `TechHQ
     <https://techhq.com/2021/05/financial-markets-could-be-using-quantum-computing-within-5-years-says-goldman-sachs/>`_
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/apps:Applications`

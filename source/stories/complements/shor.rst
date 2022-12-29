@@ -180,3 +180,10 @@ We still need some technological breakthrough...
     But the FT and the QFT achieve two different goals:
     while the FT returns the :math:`N` coefficients as numbers,
     the QFT generates a superposition of states whose amplitudes are the Fourier coefficients.
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/apps:Applications`

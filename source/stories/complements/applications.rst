@@ -10,7 +10,7 @@ Applications
     mlearn
     classical
     shor
+    finance
     condmatter
     chemistry
     materials
-    finance

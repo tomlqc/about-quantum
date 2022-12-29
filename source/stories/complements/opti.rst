@@ -175,3 +175,10 @@ My notes about `Pranav Gokhale <https://pranavgokhale.com/>`_'s talk at QCE21 :c
   `videos <https://www.youtube.com/playlist?list=PLn2GetlnOf-sdGdmCa_P35iC64KlH_pHo>`_,
   about mapping combinatorial optimization problems onto quantum computers,
   QAOA and AQC.
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/apps:Applications`

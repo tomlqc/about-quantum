@@ -100,3 +100,9 @@ Variational Quantum Eigensolver
 * *Quantum Information and Computation for Chemistry* :cite:`Olson_2017`,
   a National Science Foundation workshop report.
 
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/computing/computing:Quantum Computing` »
+:ref:`intro/computing/apps:Applications`

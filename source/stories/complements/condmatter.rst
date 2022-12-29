@@ -87,3 +87,10 @@ See also:
 * About BEC: *Making, probing and understanding Bose-Einstein condensates* :cite:`Ketterle_1999`
 
 .. ---------------------------------------------------------------------------
+
+-----
+
+Complements:
+:ref:`intro/intro:An Introduction` »
+:ref:`intro/simulation/simulation:Quantum Simulation` »
+:ref:`intro/simulation/apps:Applications`

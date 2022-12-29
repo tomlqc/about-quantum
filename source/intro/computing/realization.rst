@@ -2,7 +2,9 @@
 Realization
 ===========
 
-**Physical implementations**
+**Physical implementations**,
+from which the most relevant are described in the complementing section about
+:ref:`stories/complements/realization:Realization`, include: 
 
 - NMR
 - QED
