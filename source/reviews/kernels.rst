@@ -169,9 +169,17 @@ Further readings
     It is an important **challenge to find quantum kernels that provide an advantage in the classification of real-world data**. We introduce a class of quantum kernels that can be used for data with a group structure.
   
 - |	Liu et al., **A rigorous and robust quantum speed-up in supervised machine learning**, 2021,
-    arXiv:2010.02174, doi:10.1038/s41567-021-01287-z.
+    `arXiv:2010.02174 <https://arxiv.org/abs/2010.02174>`_,
+    `doi:10.1038/s41567-021-01287-z <https://doi.org/doi:10.1038/s41567-021-01287-z>`_.
     
   - Proposes a machine learning problem based on discrete logarithm which is assumed to be hard for any classical machine learning algorithm.
   - QKSVM is proven to provide a speed up over classical methods for certain specific input data classes.
-  
+
+- | Abbas et al., **The power of quantum neural networks**, 2021,
+    `arXiv:2011.00027 <https://arxiv.org/abs/2011.00027>`_,
+    `doi:10.1038/s43588-021-00084-1 <https://doi.org/10.1038/s43588-021-00084-1>`_.
+
+  - Expressibility for quantum and classical models in terms of Fisher information
+  - Quantum neural networks can show resilience to barren plateaus.
+
 .. ---------------------------------------------------------------------------
