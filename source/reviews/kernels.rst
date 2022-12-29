@@ -23,27 +23,34 @@ Quantum Kernels
 Summary
 -------
 
-Following summary is my main take away from IBM qiskit's
+This summary is my main take away from IBM qiskit's
 `Quantum Machine Learning course <https://learn.qiskit.org/course/machine-learning/introduction>`_.
+This is why most of the links refer to this qiskit course.
 
-In quantum machine learning,
+In quantum machine learning, one **first set of methods** implements
 `parameterized quantum circuits <https://learn.qiskit.org/course/machine-learning/parameterized-quantum-circuits>`_
-tend to be used for two things:
+that can be used for two things:
 
 #. To encode data, where the parameters are determined by the data being encoded.
 #. As a quantum model, where the parameters are determined by an optimization process.
 
+Thus the circuits are used to generate the separating hyperplane.
+
 `Training quantum circuits <https://learn.qiskit.org/course/machine-learning/training-quantum-circuits>`_
-is performed using Quantum Natural Gradient that uses the Quantum Fisher Information
+can be performed using Quantum Natural Gradient that uses the Quantum Fisher Information
 to adapt the steepest descent direction.
 
-In Havlicek (2019), the authors propose a family of
-`quantum feature maps <https://learn.qiskit.org/course/machine-learning/quantum-feature-maps-kernels>`_
-that are conjectured to be hard to simulate classically, and can be implemented as short-depth circuits on near-term quantum devices. Qiskit implements these as the `PauliFeatureMap <https://qiskit.org/documentation/stubs/qiskit.circuit.library.PauliFeatureMap.html>`_.
+The **second class of methods** makes use of quantum circuits to estimate kernels.
+
+The quantum kernels can be integrated in two ways:
 
 #. Application 1: Feature map is known, but is classically intractable. This is demonstrated with the hybrid algo combining quantum feature map and classical SVM.
 #. Application 2: We want to optimize a parametrized quantum feature map to minimize classification error. This technique is called kernel alignment.
    See also the `Quantum kernel trainer tutorial <https://qiskit.org/documentation/machine-learning/tutorials/08_quantum_kernel_trainer.html>`_.
+
+In Havlicek (2019), the authors propose a family of
+`quantum feature maps <https://learn.qiskit.org/course/machine-learning/quantum-feature-maps-kernels>`_
+that are conjectured to be hard to simulate classically, and can be implemented as short-depth circuits on near-term quantum devices. Qiskit implements these as the `PauliFeatureMap <https://qiskit.org/documentation/stubs/qiskit.circuit.library.PauliFeatureMap.html>`_.
 
 Insightful PennyLane tutorials:
 
@@ -68,9 +75,18 @@ References
     `arXiv:1804.11326 <https://arxiv.org/abs/1804.11326>`_,
     `doi:10.1038/s41586-019-0980-2 <https://www.nature.com/articles/s41586-019-0980-2>`_.
 
-  - methods for data encoding
-  - kernel based training is shown to find better or equally good quantum models than variational circuit training,
-    using less quantum processing
+  - Two methods of classification are presented:
+
+    - *Quantum variational classification:* a circuit implements the classification task directly
+      i.e. generates the separating hyperplane.
+      The data itself as well as optimization parameters are used to parametrize the circuit.
+    - *Quantum kernel estimation:* the quantum circuit is used to implement the kernel,
+      while the classification is performed using a classical SVM.
+
+  - The method for data encoding is described in detail and introduces a family of feature maps,
+    whose overlap is conjectured to be hard to estimate on a classical computer.
+  - Kernel based training is shown to find better or equally good quantum models than variational circuit training,
+    using less quantum processing.
 
 - | Schuld & Killoran, **Quantum machine learning in feature Hilbert spaces**, 2019,
     arXiv:1803.07128, doi:10.1103/PhysRevLett.122.040504.
