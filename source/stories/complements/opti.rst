@@ -4,13 +4,18 @@ Combinatorial Optimization
 
 Heuristic quantum algorithms to solve combinatorial optimization problems
 
-There is currently no general statement about the complexity
+There is currently no conclusive general statement about the complexity
 of either the *Quantum Annealing Algorithm*
 or the *Variational Quantum Algorithm*.
 
 About the current state of the art:
 `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
 :cite:`Ratke_2021`
+
+.. contents:: In this section
+    :local:
+
+-----
 
 .. ---------------------------------------------------------------------------
 
@@ -123,46 +128,30 @@ Example: Routing Problems
 
 :draft:`Discretize time, add capacity as constraint...`
 
+
 .. ---------------------------------------------------------------------------
 
-Recent results
---------------
+Embedding
+---------
 
-My notes about `Pranav Gokhale <https://pranavgokhale.com/>`_'s talk at QCE21 :cite:`QCE21_Gokhale`:
+The discrete optimization problems must be mapped on the QUBO formalism,
+and then the QUBO itself must be mapped to the hardware,
+what is referred to as "embedding":
+the main obstacle is the limited connectivity of the hardware,
+and the problem's connectivity graph has to be "embedded" on the hardware.
+This makes it necessary to group several physical qubits together to form one logical qubits.
 
-- initial optimism:
+In the case of a fully connected QUBO, the number of logical qubits that 
+can be mapped on a specific hardware may be significantly smaller than the 
+number of physical qubits.
 
-    - *A Quantum Approximate Optimization Algorithm* :cite:`Farhi_2014`:
-      QAOA applied to a bound occurence constraint problem,
-      [v1] beats the best known classical algorithm, but [v2] classical algo. have been improved ever since
-    - *Quantum Supremacy through the QAOA* :cite:`Farhi_2016` 
+.. ---------------------------------------------------------------------------
 
-- but more recently:
+Outlook
+-------
 
-    - *QAOA for Max-Cut requires hundreds of qubits for quantum speed-up* :cite:`Guerreschi_2019` ->
-      classical :math:`\textrm{akmaxsat}` in seconds while QAOA in days (for sparse graphs)
-    - *Classical and Quantum Bounded Depth Approximate Algorithm* :cite:`Hastings_2019` ->
-      local classical MAX-3-LIN-2 scales better then QAOA
-    - *Bounds on approximating Max kXOR with quantum and classical local algorithms* :cite:`Marwaha_2021` ->
-      QAOA beats classical algorithms, but very far away from "Parisi limit" theoretical benchmark
+- See :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` at IEEE QCE21.
 
-- noise issue:
-
-    - *Noise-Induced Barren Plateaus in VQAs* :cite:`Wang_2021`, 
-      -> increasing the circuit depth makes **gradients vanish** for points more far away from solution
-    - *Quantifying the impact of precision errors on QAOA* :cite:`Quiroz_2021` 
-
-- optimism on **dense (hyper)graphs**:
-
-    - :math:`\textrm{akmaxsat}`'s runtime increases exponentially with graph density
-    - *Optimized fermionic SWAP networks [...] for QAOA* :cite:`Hashim_2021` 
-
-- more optimism:
-
-    - *The QAOA and the Sherrington-Kirkpatrick Model at Infinite Size* :cite:`Farhi_2021` ->
-      from depth p = 11 on, advantage (?)
-    - *Obstacles to State Preparation and Variational Optimization from Symmetry Protection*, IBM/TUM (Alexander Kliesch, Robert Koenig) :cite:`Bravyi_2020` ->
-      run **QAOA recursively** on subgraphs
 
 .. ===========================================================================
 

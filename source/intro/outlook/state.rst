@@ -32,7 +32,7 @@ State of the Art
   - | currently *Variational Quantum Algorithms* or *Quantum Annealing*:
     
     - see :ref:`intro/computing/algo:Quantum algorithms`,
-      also :ref:`stories/complements/opti:Recent results` in QAOA.
+      also :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` in QAOA.
     
   - Challenges:
     

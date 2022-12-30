@@ -117,10 +117,10 @@ Complements
   :ref:`stories/complements/mlearn:Machine Learning` |
   :ref:`stories/complements/classical:Classical Physics` |
   :ref:`stories/complements/shor:Breaking RSA` |
+  Finance |
   :ref:`stories/complements/condmatter:Condensed-Matter Physics` |
   :ref:`stories/complements/chemistry:Quantum Chemistry` |
-  Materials Science |
-  Finance
+  Materials Science
 
 * **Realization:**
   :ref:`stories/complements/entanglement:Entanglement` |

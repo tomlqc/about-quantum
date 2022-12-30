@@ -73,6 +73,8 @@ Outlook
   - Link connecting quantum circuits to neural tangent kernels and random Fourier features
   - Compute gradients of quantum circuits using the technique of parameter-shift rule
 
+- See :ref:`reviews/ieee_qce21:Quantum Kernel Machines` at IEEE QCE21.
+
 -----
 
 Courses and Tutorials
