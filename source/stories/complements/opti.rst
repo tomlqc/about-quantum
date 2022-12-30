@@ -67,7 +67,8 @@ Selected topics:
 * Discrete non-binary variables can be treated as *one-hot* variables
   (see `D-Wave's "Reformulating a Problem" <https://docs.dwavesys.com/docs/latest/handbook_reformulating.html>`_
   :cite:`DWave_2021`)
-  i.e. by adding a penalty such that (with :math:`n` the number of the variable's possible values)
+  what makes it necessary to add a penalty such that
+  (with :math:`n` the number of the variable's possible values)
 
     .. math:: P = \alpha \left( \sum_{i=1}^{n} x_i - 1 \right)
 
@@ -144,6 +145,36 @@ This makes it necessary to group several physical qubits together to form one lo
 In the case of a fully connected QUBO, the number of logical qubits that 
 can be mapped on a specific hardware may be significantly smaller than the 
 number of physical qubits.
+
+The required connectivity is nicely represented by the "QUBO matrix".
+
+Let's take the example of the TSP as stated above.
+We have seen that the QUBO formulation scales with :math:`N^2` where :math:`N` is the number of places to visit.
+The natural index for the variable was given by the pair :math:`v,i`
+but we may express it by a single index :math:`\xi` in the range of :math:`N^2`.
+The QUBO matrix is the representation of the coefficients in the quadratic expression of the Hamiltonian:
+the terms :math:`Q_{\xi, \eta}` of the matrix are the coefficients in front of the terms
+:math:`x_{\xi} x_{\eta}`.
+
+The qubits in the Quantum Annealer hardware form an Ising model.
+The one-to-one correspondence between QUBO and Ising model formulation is nicely 
+described in the `myQML documentation <https://myqlm.github.io/index.html>`_'s
+section about `Formulating combinatorial problem
+<https://myqlm.github.io/combinatorial_optimization_intro.html#formulating-combinatorial-problems>`_.
+The strength of the coupling between two qubits :math:`\xi` and :math:`\eta` is directly proportional
+to the term :math:`Q_{\xi, \eta}` of the QUBO.
+
+We can see from the TSP Hamiltonian that the connectivity is not only due to the terms related to the edge weights,
+but that the penalty terms introduce a full connectivity because of the square of the sum of all variables.
+For that reason the TSP will scale much worse than :math:`N^2` on real quantum hardware as it will require
+many physical qubits for just a few logical ones.
+
+The embedding procedure as required on D-Wave system's is referred to as
+`minor-embedding <https://docs.ocean.dwavesys.com/en/stable/concepts/embedding.html>`_.
+The limitation described above is also mentioned by Weinberg :cite:`Weinberg_2022`:
+
+    One should recognize that the **5000-qubit processor** cannot handle a problem of 5000 binary variables. The embedding requires multiple hardware qubits to be programmed as a logical node to represent each logical variable. For a fully-connected logical problem, one in which every binary variable interacts with all the others, one can only embed such a fully-connected problem of approximately **180 logical binary variables**. Many problems of practical interest are not fully-connected logically, so larger problem sizes of hundreds of binary variables can often be embedded.
+
 
 .. ---------------------------------------------------------------------------
 
