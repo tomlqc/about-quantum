@@ -2,11 +2,18 @@
 Combinatorial Optimization
 ==========================
 
-Heuristic quantum algorithms to solve combinatorial optimization problems
+Mostly heuristic quantum algorithms to solve combinatorial optimization problems.
 
 There is currently no conclusive general statement about the complexity
 of either the *Quantum Annealing Algorithm*
 or the *Variational Quantum Algorithm*.
+
+The use of quantum algorithms is strongly limited by the hardware:
+both in terms of noise, especially for the gate-based hardware, and
+because of the limited connectivity between qubits, especially for quantum annealers,
+that significantly increases the number of physical qubits required to map many
+optimization problems (see
+:ref:`stories/complements/adiabatic:Hardware Embedding`).
 
 About the current state of the art:
 `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
@@ -19,16 +26,24 @@ About the current state of the art:
 
 .. ---------------------------------------------------------------------------
 
-Quantum Annealing Algorithm 
----------------------------
+Grover Algorithm
+----------------
 
-Optimization by *Adiabatic Evolution* :cite:`Farhi_2000` solves *Quadratic Unconstrained Binary Optimization* (**QUBO**) problems,
-and is implemented on an :ref:`stories/complements/adiabatic:Adiabatic Quantum Computer`.
+The
+:ref:`Grover Algorithm <intro/computing/algo:Grover>`
+offers a way to perform a "brute-force" search for the optimal solution,
+but it provides only a quadratic speedup
+i.e. NP problems will remain hard to solve,
+and it requires an error-corrected hardware.
 
 .. ---------------------------------------------------------------------------
 
 Variational Quantum Algorithm
 -----------------------------
+
+Variational quantum algorithms are a new class of algorithms that provides
+a heuristic for solving optimization problems in the NISQ era,
+but their overall performance and scaling has yet to be evaluated.
 
 *Quantum Approximate Optimization Algorithm* (**QAOA**) :cite:`Farhi_2014`
 
@@ -50,6 +65,16 @@ Selected resources:
 
 .. ---------------------------------------------------------------------------
 
+Quantum Annealing Algorithm 
+---------------------------
+
+Optimization by *Adiabatic Evolution* :cite:`Farhi_2000` solves *Quadratic Unconstrained Binary Optimization* (**QUBO**) problems,
+and is implemented on an :ref:`stories/complements/adiabatic:Adiabatic Quantum Computer`.
+
+It is also a heuristic approach to solve optimization problems.
+
+.. ---------------------------------------------------------------------------
+
 Reformulating Problems
 ----------------------
 
@@ -61,6 +86,9 @@ in order to be described by qubits.
 
 * *Equality constraints* are formulated as **penalty** terms,
   while for *inequality constraints* **slack variables** may be introduced.
+
+On quantum annealers, the QUBO needs to be mapped on the Ising model implemented by the hardware, see
+:ref:`stories/complements/adiabatic:Hardware Embedding`.
 
 Selected topics:
 
@@ -129,59 +157,12 @@ Example: Routing Problems
 
 :draft:`Discretize time, add capacity as constraint...`
 
-
-.. ---------------------------------------------------------------------------
-
-Embedding
----------
-
-The discrete optimization problems must be mapped on the QUBO formalism,
-and then the QUBO itself must be mapped to the hardware,
-what is referred to as "embedding":
-the main obstacle is the limited connectivity of the hardware,
-and the problem's connectivity graph has to be "embedded" on the hardware.
-This makes it necessary to group several physical qubits together to form one logical qubits.
-
-In the case of a fully connected QUBO, the number of logical qubits that 
-can be mapped on a specific hardware may be significantly smaller than the 
-number of physical qubits.
-
-The required connectivity is nicely represented by the "QUBO matrix".
-
-Let's take the example of the TSP as stated above.
-We have seen that the QUBO formulation scales with :math:`N^2` where :math:`N` is the number of places to visit.
-The natural index for the variable was given by the pair :math:`v,i`
-but we may express it by a single index :math:`\xi` in the range of :math:`N^2`.
-The QUBO matrix is the representation of the coefficients in the quadratic expression of the Hamiltonian:
-the terms :math:`Q_{\xi, \eta}` of the matrix are the coefficients in front of the terms
-:math:`x_{\xi} x_{\eta}`.
-
-The qubits in the Quantum Annealer hardware form an Ising model.
-The one-to-one correspondence between QUBO and Ising model formulation is nicely 
-described in the `myQML documentation <https://myqlm.github.io/index.html>`_'s
-section about `Formulating combinatorial problem
-<https://myqlm.github.io/combinatorial_optimization_intro.html#formulating-combinatorial-problems>`_.
-The strength of the coupling between two qubits :math:`\xi` and :math:`\eta` is directly proportional
-to the term :math:`Q_{\xi, \eta}` of the QUBO.
-
-We can see from the TSP Hamiltonian that the connectivity is not only due to the terms related to the edge weights,
-but that the penalty terms introduce a full connectivity because of the square of the sum of all variables.
-For that reason the TSP will scale much worse than :math:`N^2` on real quantum hardware as it will require
-many physical qubits for just a few logical ones.
-
-The embedding procedure as required on D-Wave system's is referred to as
-`minor-embedding <https://docs.ocean.dwavesys.com/en/stable/concepts/embedding.html>`_.
-The limitation described above is also mentioned by Weinberg :cite:`Weinberg_2022`:
-
-    One should recognize that the **5000-qubit processor** cannot handle a problem of 5000 binary variables. The embedding requires multiple hardware qubits to be programmed as a logical node to represent each logical variable. For a fully-connected logical problem, one in which every binary variable interacts with all the others, one can only embed such a fully-connected problem of approximately **180 logical binary variables**. Many problems of practical interest are not fully-connected logically, so larger problem sizes of hundreds of binary variables can often be embedded.
-
-
 .. ---------------------------------------------------------------------------
 
 Outlook
 -------
 
-- See :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` at IEEE QCE21.
+- See my notes about :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` at IEEE QCE21.
 
 
 .. ===========================================================================
