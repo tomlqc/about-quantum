@@ -121,19 +121,13 @@ VQE
 
 .. ---------------------------------------------------------------------------
 
-Quantum Supremacy
+Quantum Advantage
 -----------------
 
-:draft:`Draft`
-
-- Quantum Supremacy (Google) vs. Quantum Advantage (IBM)`.
-
-- For what problems:
-
-  - *todo:* A list of problems solved more efficiently on quantum computers.
-  - *todo:* Where can we expect an exponential speedup?
-
-- For estimations about the required hardware, see :ref:`intro/outlook/state:State of the Art`.
+For **estimations of the required hardware** and
+**claims of quantum advantage**,
+see :ref:`intro/outlook/state:Quantum Advantage` in the
+:ref:`intro/outlook/state:State of the Art` section.
 
 .. ---------------------------------------------------------------------------
 
