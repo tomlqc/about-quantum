@@ -106,6 +106,7 @@ An Introduction
   :ref:`Teleportation & Cryptography <intro/communication/communication:Quantum Communication>`
 
 * **Outlook:**
+  :ref:`intro/outlook/guess:What to Expect` |
   :ref:`intro/outlook/state:State of the Art`
 
 
@@ -172,7 +173,7 @@ Background
   Rotating Wave Approximation
 
 * **Conceptual:**
-  Young Double-Slit Experiment |
+  :ref:`Double-Slit Experiment <stories/background/young_slit:Young Double-Slit Experiment>` |
   :ref:`stories/background/EPR_experiments:EPR Experiments` |
   Non-locality & Contextuality |
   Conterfactuals
@@ -183,11 +184,11 @@ Background
   Glossary
 
 * **Related Subjects:**
-  Atomic Physics |
-  Quantum Chemistry |
-  Quantum Many-Body Physics |
-  Group Theory |
-  Combinatorial Optimization
+  :ref:`stories/background/atomic_physics:Atomic Physics` |
+  :ref:`stories/background/quantum_chemistry:Quantum Chemistry` |
+  :ref:`stories/background/many_body:Quantum Many-Body Physics` |
+  :ref:`stories/background/group_theory:Group Theory` |
+  :ref:`stories/background/combi_opti:Combinatorial Optimization`
 
 
 Reviews
