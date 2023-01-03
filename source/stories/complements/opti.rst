@@ -146,23 +146,14 @@ and we simply add a second term to the previous Hamiltonian
     H_B =
     B \sum_{(uv) \in E} W_{uv} \sum_{j=1}^N x_{u,j} x_{v,j+1}
 
-Example: Routing Problems
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-:draft:`About how to consider time and capacity:`
-
-* *Quantum Annealing of Vehicle Routing Problem with Time, State and Capacity* :cite:`Hirotaka_2019`
-
-* *Formulating and Solving Routing Problems on Quantum Computers* :cite:`Harwood_2021` :cite:`QCE21_Trenev`
-
-:draft:`Discretize time, add capacity as constraint...`
-
 .. ---------------------------------------------------------------------------
 
 Outlook
 -------
 
 - See my notes about :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` at IEEE QCE21.
+- See also about early applications in industry:
+  :ref:`reviews/industry_opti:Optimization in Industry`.
 
 
 .. ===========================================================================

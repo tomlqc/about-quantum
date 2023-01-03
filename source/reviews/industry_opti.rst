@@ -5,10 +5,15 @@ Optimization in Industry
   Is quantum computing already in use in industry for solving optimization problems? -
   January, 2023
 
+:draft:`On going review...`
+
 .. contents::
     :local:
 
 -----
+
+.. `arXiv: <https://arxiv.org/abs/>`_
+.. `doi: <https://doi.org/>`_
 
 .. ---------------------------------------------------------------------------
 
@@ -45,5 +50,19 @@ Published 2021/2022
 
 .. ---------------------------------------------------------------------------
 
-.. `arXiv: <https://arxiv.org/abs/>`_
-.. `doi: <https://doi.org/>`_
+Routing Problems
+----------------
+
+:draft:`About how to consider time and capacity:`
+
+* Hirotaka et al.,
+  **Quantum Annealing of Vehicle Routing Problem with Time, State and Capacity**, 2019
+  :cite:`Hirotaka_2019`
+
+* Harwood et al.,
+  **Formulating and Solving Routing Problems on Quantum Computers**, 2021
+  :cite:`Harwood_2021` :cite:`QCE21_Trenev`
+
+:draft:`Discretize time, add capacity as constraint...`
+
+.. ---------------------------------------------------------------------------
