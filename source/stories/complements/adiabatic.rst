@@ -144,6 +144,13 @@ but that the penalty terms introduce a full connectivity because of the square o
 For that reason the TSP will scale much worse than :math:`N^2` on real quantum hardware as it will require
 many physical qubits for just a few logical ones.
 
+Lucas :cite:`Lucas_2014` tells us that only few classes can be easily embedded:
+
+    Another simple class of mappings from NP problems to Ising models: **“covering” and “packing” problems**.
+    These are, by far, the most popular class of problems discussed in the AQO literature. As we mentioned
+    in the introduction, this is because this is the **only class of NP problems** (discussed in this paper)
+    for which it is **easy to embed** the problem via a graph which is not complete (or close to complete)
+
 The embedding procedure as required on D-Wave system's is referred to as
 `minor-embedding <https://docs.ocean.dwavesys.com/en/stable/concepts/embedding.html>`_.
 The limitation described above is also mentioned by Weinberg :cite:`Weinberg_2022`:
