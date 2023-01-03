@@ -2,7 +2,7 @@
 Finance
 =======
 
-*Some resources about use cases in finance, to investigate:*
+:draft:`Some resources about use cases in finance, to investigate.`
 
 * `Use cases for financial services
   <https://www.ibm.com/thought-leadership/institute-business-value/report/exploring-quantum-financial>`_,
