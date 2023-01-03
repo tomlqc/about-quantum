@@ -77,7 +77,7 @@ But what happens if we measure an other observable, i.e. in an other basis?
 [#twolevels]_ Imagine we consider a two-level system with the energy levels :math:`E_0, \, E_1`,
 with :math:`\hbar \Omega = E_0 - E_1`,
 and the initial state 
-:math:`\ket{\psi(t)} = \ket{+} = \frac{1}{\sqrt{2}} \left( \ket{0} + \ket{1} \right)`.
+:math:`\ket{\psi(0)} = \ket{+} = \frac{1}{\sqrt{2}} \left( \ket{0} + \ket{1} \right)`.
 
 This state's evolution is given as (the absolute phase can be left out):
 
