@@ -20,7 +20,7 @@ Quantum Chemistry
 
 - | **Digital Simulation**:
 
-  - **Exact** Eigensolver, *A quantum algorithm providing exponential speed increase* :cite:`Abrams_1999`
+  - :ref:`stories/complements/chemistry:Exact Quantum Eigensolver` (see below)
   
   - **Approximate** :ref:`stories/complements/chemistry:Variational Quantum Eigensolver` (see below)
 
@@ -28,6 +28,19 @@ Quantum Chemistry
 
   - *Analogue quantum chemistry simulation* :cite:`ArguelloLuengo_2019`,
     with ultracold atoms in optical lattices and cavity quantum electrodynamics
+
+.. ---------------------------------------------------------------------------
+
+Exact Quantum Eigensolver
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- | Abrams et al., **A quantum algorithm providing exponential speed increase**, 1999 :cite:`Abrams_1999`
+
+  - **Abstract:**
+    We describe a new polynomial time quantum algorithm that uses the quantum fast Fourier transform to find eigenvalues and eigenvectors of a local Hamiltonian, and that can be applied in cases (commonly found in ab initio physics and chemistry problems) for which all known classical algorithms require exponential time. Applications of the algorithm to specific problems are considered, and we find that classically intractable and interesting problems from atomic physics may be solved with between 50 and 100 quantum bits.
+
+  - Thus provides an exponential speedup over classical algorithms
+    but requires **error-corrected** (logical) qubits.
 
 .. ---------------------------------------------------------------------------
 

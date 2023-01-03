@@ -56,7 +56,7 @@ with the `D-Wave QPU <https://docs.dwavesys.com/docs/latest/handbook_problems.ht
 
 .. ---------------------------------------------------------------------------
 
-Outlook
+Summary
 -------
 
 - | The most promising use of QML i.e. where the chance of successfull uses is the highest,

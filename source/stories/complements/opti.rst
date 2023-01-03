@@ -4,21 +4,6 @@ Combinatorial Optimization
 
 Mostly heuristic quantum algorithms to solve combinatorial optimization problems.
 
-There is currently no conclusive general statement about the complexity
-of either the *Quantum Annealing Algorithm*
-or the *Variational Quantum Algorithm*.
-
-The use of quantum algorithms is strongly limited by the hardware:
-both in terms of noise, especially for the gate-based hardware, and
-because of the limited connectivity between qubits, especially for quantum annealers,
-that significantly increases the number of physical qubits required to map many
-optimization problems (see
-:ref:`stories/complements/adiabatic:Embedding`).
-
-About the current state of the art:
-`Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
-:cite:`Ratke_2021`
-
 .. contents:: In this section
     :local:
 
@@ -148,10 +133,31 @@ and we simply add a second term to the previous Hamiltonian
 
 .. ---------------------------------------------------------------------------
 
-Outlook
+Summary
 -------
 
+- The Grover algorithm provides only a quadratic speedup over classical exhaustive search.
+  This doesn't make intractable problems solvable. It also requires error-correction and
+  therefore many physical qubits for few logical ones.
+
+- There is currently no conclusive general statement about the complexity
+  of either the *Quantum Annealing Algorithm*
+  or the *Variational Quantum Algorithm*.
+  These may successfully serve as a new heuristic but this still has to be demonstrated.
+
+- The use of quantum algorithms is strongly limited by the hardware:
+  both in terms of noise, especially for the gate-based hardware, and
+  because of the limited connectivity between qubits, especially for quantum annealers,
+  that significantly increases the number of physical qubits required to map many
+  optimization problems (see
+  :ref:`stories/complements/adiabatic:Embedding`).
+
+- About the current state of the art:
+  `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
+  :cite:`Ratke_2021`
+
 - See my notes about :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` at IEEE QCE21.
+
 - See also about early applications in industry:
   :ref:`reviews/industry_opti:Optimization in Industry`.
 
