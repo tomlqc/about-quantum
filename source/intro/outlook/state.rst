@@ -2,6 +2,11 @@
 State of the Art
 ================
 
+.. contents::
+    :local:
+
+-----
+
 Hardware
 --------
 
@@ -53,6 +58,9 @@ Also refered to as **Quantum Supremacy** e.g. by Google.
 The term **Quantum Advantage** was preferred by IBM.
 
 - | Google's 2019 *Quantum Supremacy* claim with 53 qubits :cite:`Arute_2019` for an academic problem.
+
+- | More from Google AI Quantum Research in the dedicated section:
+    :ref:`reviews/google:Quantum Advantage`
 
 - Estimate of the number of qubits to achieve *Quantum Supremacy* (2020) :cite:`Dalzell_2020`
 
