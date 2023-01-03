@@ -81,7 +81,7 @@ The term **Quantum Advantage** was preferred by IBM.
     
 - | About **quantum annealing**:
     `When can Quantum Annealing win? <https://ai.googleblog.com/2015/12/when-can-quantum-annealing-win.html>`_
-    :cite:`Denchev_2016` (2016), see also :ref:`stories/complements/adiabatic:Quantum Advantage` of AQC.
+    :cite:`Denchev_2016` (2016), see also :ref:`stories/complements/adiabatic:State of the art` of AQC.
 
 - | About **boson sampling**:
     *Quantum computational advantage with a programmable photonic processor* (2022) :cite:`Madsen_2022`

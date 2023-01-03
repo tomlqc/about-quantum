@@ -13,7 +13,7 @@ both in terms of noise, especially for the gate-based hardware, and
 because of the limited connectivity between qubits, especially for quantum annealers,
 that significantly increases the number of physical qubits required to map many
 optimization problems (see
-:ref:`stories/complements/adiabatic:Hardware Embedding`).
+:ref:`stories/complements/adiabatic:Embedding`).
 
 About the current state of the art:
 `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
@@ -88,7 +88,7 @@ in order to be described by qubits.
   while for *inequality constraints* **slack variables** may be introduced.
 
 On quantum annealers, the QUBO needs to be mapped on the Ising model implemented by the hardware, see
-:ref:`stories/complements/adiabatic:Hardware Embedding`.
+:ref:`stories/complements/adiabatic:Embedding`.
 
 Selected topics:
 

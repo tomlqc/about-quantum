@@ -89,7 +89,7 @@ Hardware
 - | The problematic sensitivity to noise of the above described design is due to the
     "qubit physical layer not separated from classical control layer" :cite:`Lidar_2021`.
     This leads to a not fully coherent mode of operation of current quantum annealers, 
-    as described together with **"more-coherent" architectures** in the next section :ref:`stories/complements/adiabatic:Quantum Advantage`.
+    as described together with **"more-coherent" architectures** in the next section :ref:`stories/complements/adiabatic:State of the art`.
 
 - To map any *Binary Quadratic Model* the specificity of the hardware topology must be considered.
   To make the best use of it, a strategy called **minor embedding** [#embedding]_ optimizes this mapping.
@@ -105,8 +105,8 @@ For more details about the architecture and control see the notes below [#implem
 
 .. ---------------------------------------------------------------------------
 
-Hardware Embedding
-------------------
+Embedding
+---------
 
 The discrete optimization problems must be mapped on the QUBO formalism,
 and then the QUBO itself must be mapped to the hardware,
@@ -152,8 +152,8 @@ The limitation described above is also mentioned by Weinberg :cite:`Weinberg_202
 
 .. ---------------------------------------------------------------------------
   
-Quantum Advantage
------------------
+State of the art
+----------------
 
 - **A review:** *Adiabatic Quantum Computation* :cite:`Albash_2018`
 
