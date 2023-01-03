@@ -14,16 +14,7 @@ Learning about Quantum 2.0
 
 A basic introduction to Quantum Technology,
 and a guide on how to learn more about it.
-
-.. note::
-
-    This site is still under development.
-    Stories may be incomplete or still a draft,
-    the overall structure may change too.
-    
-    Started as both a personal cheatsheet and an annotated bibliography,
-    these pages are continuously evolving.
-    **Visit frequently to watch the progress!**
+:draft:`Work in progress!` [#WIP]_
 
 .. include:: qutex.rst
 
@@ -198,10 +189,10 @@ Reviews
   :ref:`reviews/ieee_qce21:IEEE QCE21`
 * **Research:**
   :ref:`reviews/google:Google Quantum AI`
-* **Focus:**
-  :ref:`reviews/kernels:Quantum Kernels`
 * **Applications:**
   :ref:`reviews/industry_opti:Optimization in Industry`
+* **Special Topics:**
+  :ref:`reviews/kernels:Quantum Kernels`
 
 
 Learn more
@@ -216,3 +207,19 @@ Learn more
 Read also about the :ref:`Story <about/story:The Story>` behind these notes. 
 
 .. ---------------------------------------------------------------------------
+
+-----
+
+.. [#WIP]
+
+   Work in progress...
+
+.. note::
+
+    This site is still under development.
+    Stories may be incomplete or still a draft,
+    the overall structure may change too.
+    
+    Started as both a personal cheatsheet and an annotated bibliography,
+    these pages are continuously evolving.
+    **Visit frequently to watch the progress!**

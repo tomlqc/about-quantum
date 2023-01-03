@@ -8,5 +8,5 @@ Reviews
 
     ieee_qce21
     google
-    kernels
     industry_opti
+    kernels
