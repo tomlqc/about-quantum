@@ -2,7 +2,7 @@
 Circuit Gates
 =============
 
-Implementation.
+:draft:`Examples of how to realize circuit gates.`
 
 - Intro: Rabi pulses to generate any possible rotation in the Bloch sphere (NMR).
 

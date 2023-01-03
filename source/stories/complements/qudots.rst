@@ -6,7 +6,7 @@ Quantum Dots
   `Intel <https://www.intel.com/content/www/us/en/research/quantum-computing.html>`_
   :cite:`Russell_2020`, :cite:`Clarke_2020`
 
-Electron spin qubits in semiconductors.
+**Electron spin qubits in semiconductors**.
 
 - seminal paper :cite:`Loss_1998`
 - foundry-fabricated quantum dots :cite:`Ansaloni_2020` (Copenhagen/CEA), hot chips :cite:`Petit_2020` (TU-Delft)

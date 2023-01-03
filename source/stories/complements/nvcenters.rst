@@ -7,7 +7,7 @@ NV Centers
   `SaxonQ <https://saxonq.com>`_ (de)
 
 
-Nitrogen-vacancy centers in diamonds.
+**Nitrogen-vacancy centers in diamonds**.
 
 - *Single defect centres in diamond: A review* :cite:`Jelezko_2006`.
 

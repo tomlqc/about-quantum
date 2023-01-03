@@ -8,7 +8,8 @@ Trapped Ions
   `eleQtron <https://www.eleqtron.com/>`_ (de)
 
 
-Ions can be trapped by electromagnetic forces, either in an oscillating quadripole electric field [#Paul]_ or
+**Ions** can be **trapped by electromagnetic forces**,
+either in an oscillating quadripole electric field [#Paul]_ or
 in a combination of an electric and a magnetic field.
 While the ions have different internal states, they are also subject to vibrational modes.
 Two **internal states** can be selected to from a qubit, while the **vibrational modes** can be used
