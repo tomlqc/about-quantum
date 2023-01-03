@@ -15,7 +15,10 @@ While in the other physical implementations of quantum computer
 "the quantum information is encoded in natural microscopic quantum systems,
 superconducting qubits are macroscopic in size and lithographically defined" :cite:`Krantz_2019`.
 
-- | early (seminal?) papers by Vion et al. :cite:`Vion_2002` and Koch et al. :cite:`Koch_2007`
+- | milestone papers:
+    Vion et al. :cite:`Vion_2002`,
+    Koch et al. :cite:`Koch_2007`,
+    Rigetti & Devoret :cite:`Rigetti_2010`
 
 - | **review paper:** engineer's guide :cite:`Krantz_2019`, state of play :cite:`Kjaergaard_2020`
 

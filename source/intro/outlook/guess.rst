@@ -5,8 +5,9 @@ What to expect
 Preskill's summary
 ------------------
 
-John Preskill is one of the leading professor's in quantum computing, and 
-I would like to cite a few of his statements about the potential of QC.
+`John Preskill <http://theory.caltech.edu/~preskill/>`_
+is one of the leading professor's in quantum computing, and 
+I would like to quote a few of his statements about the potential of QC.
 In my opinion, this makes a very good summary of what to expect.
 
 These quotes are taken from the
