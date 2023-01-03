@@ -200,6 +200,8 @@ Reviews
   :ref:`reviews/google:Google Quantum AI`
 * **Focus:**
   :ref:`reviews/kernels:Quantum Kernels`
+* **Applications:**
+  :ref:`reviews/industry_opti:Optimization in Industry`
 
 
 Learn more
