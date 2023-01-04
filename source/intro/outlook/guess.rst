@@ -2,6 +2,8 @@
 What to expect
 ==============
 
+.. ---------------------------------------------------------------------------
+
 Preskill's summary
 ------------------
 
@@ -50,3 +52,6 @@ of Preskill's
     What can we do with, say, < 100 qubits, depth < 100? We need a dialog between quantum algorithm experts and application users.
 
     **Maybe we’ll get lucky ...**
+
+.. ---------------------------------------------------------------------------
+

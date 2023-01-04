@@ -128,6 +128,11 @@ Published 2021/2022
     suitable mapping for the generalized paint shop problem
     is another task for the future."
 
+.. ---------------------------------------------------------------------------
+
+Researchers about Optimization
+------------------------------
+
 A critical viewpoint from IBM researchers:
 
 - | Davis et al.,

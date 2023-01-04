@@ -28,7 +28,8 @@ Quantum Advantage
     `research.google:47252 <https://research.google/pubs/pub47252>`_.
 
 - | Arute et al., **Quantum Supremacy using a Programmable Superconducting Processor**, 2019,
-    `research.google:48651 <https://research.google/pubs/pub48651>`_.
+    `research.google:48651 <https://research.google/pubs/pub48651>`_
+    :cite:`Arute_2019`.
 
   - report of quantum supremacy on the task of **sampling the output of a pseudo-random quantum circuit**,
     that takes about 200 seconds on the **53-qubit** Sycamore superconducting processor
@@ -44,7 +45,8 @@ Quantum Advantage
     (with sufficiently low error rates), yet no efficient method is known to exist for classical computing machinery."
   
 - | Mi et al., **Information scrambling in quantum circuits**, 2021,
-    `research.google:50297 <https://research.google/pubs/pub50297>`_ :cite:`Mi_2021`.
+    `research.google:50297 <https://research.google/pubs/pub50297>`_
+    :cite:`Mi_2021`.
 
   - "Interaction in quantum systems can spread initially localized quantum information into the many
     degrees of freedom of the entire system. Understanding this process, known as **quantum scrambling**,
@@ -72,13 +74,15 @@ Quantum Advantage
     apply to problems that are highly parallelizeable.
 
 - | McClean et al., **What the foundations of quantum computer science teach us about chemistry**, 2021,
-    `research.google:50415 <https://research.google/pubs/pub50415>`_ :cite:`McClean_2021`.
+    `research.google:50415 <https://research.google/pubs/pub50415>`_
+    :cite:`McClean_2021`.
 
   - "Leveraging results that quantum computers cannot outpace the physical world, we build to the controversial stance that some chemical problems are best viewed as problems for which no algorithm can deliver their solution in general, known in computer science as undecidable problems. This has implications for the predictive power of thermodynamic models and topics like the ergodic hypothesis. However, we argue that this perspective is not defeatist, but rather helps shed light on the success of existing chemical models like transition state theory, molecular orbital theory, and thermodynamics as models that benefit from data.
   - :draft:`To read again ;)`
 
 - | Huang et al., **Quantum advantage in learning from experiments**, 2022,
-    `research.google:50941 <https://research.google/pubs/pub50941>`_ :cite:`Huang_2022`.
+    `research.google:50941 <https://research.google/pubs/pub50941>`_
+    :cite:`Huang_2022`.
 
   - The first demonstration of a **provable exponential advantage in learning about quantum systems**
     that is robust even on today's noisy hardware.
@@ -98,7 +102,8 @@ Experiments
 ^^^^^^^^^^^
 
 - | O'Malley et al., **Scalable Quantum Simulation of Molecular Energies**, 2016,
-    `research.google:44815 <https://research.google/pubs/pub44815>`_ :cite:`OMalley_2016`.
+    `research.google:44815 <https://research.google/pubs/pub44815>`_
+    :cite:`OMalley_2016`.
   
   - first electronic structure calculation performed on a quantum computer *without exponentially costly precompilation*,
     on an array of **3 superconducting qubits** to compute the energy surface of molecular hydrogen
@@ -108,7 +113,8 @@ Experiments
   - results within chemical accuracy of the numerically exact result
 
 - | Hempel et al., **Quantum Chemistry Calculations on a Trapped-Ion Quantum Simulator**, 2018,
-    `research.google:46839 <https://research.google/pubs/pub46839>`_ :cite:`Hempel_2018`.
+    `research.google:46839 <https://research.google/pubs/pub46839>`_
+    :cite:`Hempel_2018`.
   
   - experimental implementation of the variational quantum eigensolver algorithm
     to calculate the molecular ground-state energies of two simple molecules -
@@ -122,7 +128,8 @@ Experiments
     in reducing number of required measurements, for reducing the circuit depth
 
 - | Arute et al., **Hartree-Fock on a Superconducting Qubit Quantum Computer**, 2020,
-    `research.google:49057 <https://research.google/pubs/pub49057>`_ :cite:`Arute_2020`.
+    `research.google:49057 <https://research.google/pubs/pub49057>`_
+    :cite:`Arute_2020`.
   
   - quantum modelling of the binding energy of
     :math:`{\rm H}_6`, :math:`{\rm H}_8`, :math:`{\rm H}_{10}` and :math:`{\rm H}_{12}` chains
@@ -132,7 +139,8 @@ Experiments
     using error-mitigation strategies based on :math:`N`-representability 
 
 - | Tazhigulov et al., **Simulating Challenging Correlated Molecules and Materials on the Sycamore Quantum Processor**, 2022,
-    `research.google:51198 <https://research.google/pubs/pub51198>`_ :cite:`Tazhigulov_2022`.
+    `research.google:51198 <https://research.google/pubs/pub51198>`_
+    :cite:`Tazhigulov_2022`.
   
   - "With strong quantum advantage demonstrated in artificial tasks, **we examine how such advantage translates
     into modeling physical problems**, and in particular, strongly correlated electronic structure."
@@ -164,7 +172,8 @@ Algorithms
   - applied to simulation of the FeMoco molecule (relevant to Nitrogen fixation)
 
 - | O'Brien et al., **Efficient Quantum Computation of Molecular Forces and Other Energy Gradients**, 2021,
-    `research.google:50837 <https://research.google/pubs/pub50837>`_ :cite:`OBrien_2019`.
+    `research.google:50837 <https://research.google/pubs/pub50837>`_
+    :cite:`OBrien_2019`.
 
   - introduces new quantum algorithms for computing molecular energy derivatives
     with significantly lower complexity than prior methods
@@ -211,38 +220,62 @@ Linear System Solvers
 - | Costa et al., **Optimal Scaling Quantum Linear Systems Solver via Discrete Adiabatic Theorem**, 2022,
     `research.google:50899 <https://research.google/pubs/pub50899>`_.
 
-  - ...
+  - "Recently, several approaches to solving linear systems on a quantum computer have been formulated
+    in terms of the quantum adiabatic theorem for a continuously varying Hamiltonian. [...]
+    Here, we prove a rigorous form of the adiabatic theorem
+    that bounds the error in terms of the spectral gap for intrinsically discrete-time evolutions. In combination
+    with the qubitized quantum walk, our discrete adiabatic theorem gives a speed-up for all adiabatic algorithms."
+  
+  - Provides an overview table over
+    "The history of the lowest-scaling algorithms for solving linear systems of equations on a quantum computer."
 
-QAOA
-^^^^
+Variational Quantum Algorithms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - | Rieffel et al., **XY-mixers: analytical and numerical results for QAOA**, 2020,
     `research.google:49033 <https://research.google/pubs/pub49033>`_.
 
-  - ...
+  - "This work explores strategies for enforcing hard constraints by using XY-hamiltonians as the mixer."
 
 - | McClean et al., **Low-Depth Mechanisms for Quantum Optimization**, 2021,
-    `research.google:49421 <https://research.google/pubs/pub49421>`_.
+    `research.google:49421 <https://research.google/pubs/pub49421>`_
+    :cite:`McClean_2021b`.
 
-  - ...
-
+  - "In this work, we develop intuitive constructions for a large class of these [optimization] algorithms based on connections to simple dynamics of quantum systems, quantum walks, and classical continuous relaxations. We focus on developing a language and tools connected with kinetic energy on a graph for understanding the physical mechanisms of success and failure to guide algorithmic improvement.
+    This physical language, in combination with uniqueness results related to unitarity, allow us to identify some potential pitfalls from kinetic energy fundamentally opposing the goal of optimization. [...]
+    Kinetic energy and graph Laplacian perspectives provide new insights to common initialization and optimal solutions in QAOA as well as new methods for more effective layerwise training. [...]
+    Connections to classical methods of continuous extensions, homotopy methods, and iterated rounding suggest new directions for research in quantum optimization."
+  
 - | Cerezo et al., **Variational Quantum Algorithms**, 2021,
-    `research.google:49853 <https://research.google/pubs/pub49853>`_.
+    `research.google:49853 <https://research.google/pubs/pub49853>`_
+    :cite:`Cerezo_2021`.
 
-  - ...
+  - "VQAs have now been proposed for essentially all applications that researchers have envisioned
+    for quantum computers, and they appear to the best hope for obtaining quantum advantage."
 
+  - Provides an overview of *ansätze* (e.g. *hardware efficient*, *variational hamiltonian*, *unitary coupled cluster* etc.), gradient evaluation, optimizers, applications (chemistry and materials science, optimization, mathematical solvers, machine learning).
+  
+  - Lists challenges faced by VQA: trainability (*barren plateaus*), efficiency, accuracy.
+  
+  - "QAOA may be a good candidate VQA to find usage in the fault-tolerant era,
+    albeit with caveats about the overhead."
+  
 QML
 ^^^
 
 - | Verdon et al., **Learning to learn with quantum neural networks via classical neural networks**, 2019,
     `research.google: <https://research.google/pubs/pub>`_.
 
-  - ...
+  - "One such challenge is finding good parameter initialization heuristics that ensure rapid and consistent convergence to local minima of the parameterized quantum circuit landscape. In this work, we train classical neural networks to assist in the quantum learning process, also know as meta-learning, to rapidly find approximate optima in the parameter landscape for several classes of quantum variational algorithms."
 
 - | Broughton et al., **TensorFlow Quantum: A Software Framework for Quantum Machine Learning**, 2020,
     `research.google:49371 <https://research.google/pubs/pub49371>`_.
 
-  - ...
+  - "We introduce TensorFlow Quantum (TFQ), an open source library for the rapid prototyping
+    of hybrid quantum-classical models for classical or quantum data. [...]
+    We illustrate TFQ functionalities via several basic applications including supervised learning for quantum
+    classification, quantum control, simulating noisy quantum circuits, and quantum approximate optimization.
+    Moreover, we demonstrate how one can apply TFQ to tackle advanced quantum learning tasks [...]."
 
 - | Huang et al., **Power of data in quantum machine learning**, 2021,
     `research.google:49725 <https://research.google/pubs/pub49725>`_.
