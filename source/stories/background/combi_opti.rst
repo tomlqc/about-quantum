@@ -25,3 +25,9 @@ Combinatorial Optimization
 - | ... [`wikipedia <https://en.wikipedia.org/wiki/Branch_and_bound>`_]
   | **branch and bound**
 
+.. rubric:: Misceallaneous
+
+- | Gonçalves et al.,
+    **Biased random-key genetic algorithms for combinatorial optimization**, 2011,
+    `doi:10.1007/s10732-010-9143-1 <https://doi.org/10.1007/s10732-010-9143-1>`_,
+    :cite:`Goncalves_2011`

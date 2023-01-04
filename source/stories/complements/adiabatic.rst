@@ -188,7 +188,21 @@ State of the art
     However, we do not find evidence for a quantum speedup: SQA exhibits the best scaling for annealing algorithms by a significant margin. This is a finding of independent interest, since we associate SQA’s advantage with its ability to transverse energy barriers in the semiclassical energy landscape by mimicking tunneling.
     "
 
-- :draft:`To investigate:` *Readiness* :cite:`PerdomoOrtiz_2019` (?)
+- | Perdomo et al.,
+    **Readiness of Quantum Optimization Machines for Industrial Applications**, 2019
+    :cite:`PerdomoOrtiz_2019`
+  
+  - "In this work we present a comprehensive benchmarking study on a concrete application,
+    namely the diagnosis of faults in digital circuits, referred in the main text as CCFD." [...]
+    "More specifically, we provide insights on the performance of QA in the context of the CCFD instances
+    by performing an asymptotic scaling analysis involving five different approaches:
+    QA experiments on the DW2X compared to three classical (SA, PTICM, and a CCFD-tailored SAT-based solver),
+    and extensive QMC simulations."
+  
+  - "We show that both, SQA and the DW2X have a limited quantum speedup by showing
+    a scaling advantage over SA." [...]
+    "These results confirm the presence of quantum tunneling in the DW2X; a quantum speedup restricted
+    to sequential algorithms similar to the Google Inc. study on the weak-strong clusters instance."
 
 - Applications: SAT-Problem :cite:`Farhi_2000`, Quantum Chemistry :cite:`Kassal_2011`
 

@@ -153,8 +153,12 @@ Summary
   :ref:`stories/complements/adiabatic:Embedding`).
 
 - About the current state of the art:
-  `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
-  :cite:`Ratke_2021`
+  
+  - `Where is the quantum advantage? <https://blog.xa0.de/post/Where-is-the-quantum-advantage%3F/>`_
+    :cite:`Ratke_2021`
+  
+  - See also the :ref:`stories/complements/adiabatic:State of the art` of adiabatic quantum computing,
+    especially the need to improve the coherence of current quantum annealers.
 
 - See my notes about :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` at IEEE QCE21.
 
