@@ -160,11 +160,13 @@ Summary
   - See also the :ref:`stories/complements/adiabatic:State of the art` of adiabatic quantum computing,
     especially the need to improve the coherence of current quantum annealers.
 
+  - There are some tentatives of early applications in industry, but there cannot be considered more then
+    proof of concepts, see :ref:`reviews/industry_opti:Optimization in Industry` and especially
+    Yarkoni's paper :cite:`Yarkoni_2022` that gives a good overview of quantum annealing.
+    No general conclusion can be made about the performance of quantum annealing compared to
+    classical algorithms and about the problems best suited for it.
+
 - See my notes about :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` at IEEE QCE21.
-
-- See also about early applications in industry:
-  :ref:`reviews/industry_opti:Optimization in Industry`.
-
 
 .. ===========================================================================
 

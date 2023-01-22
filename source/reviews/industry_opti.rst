@@ -68,6 +68,30 @@ Published 2021/2022
   
   - "**The QUBO-SA solver is found to be the least competitive, and the least scalable.**"
 
+- | Yarkoni et al.,
+    **Quantum annealing for industry applications: introduction and review**, 2022,
+    `arXiv:2112.07491 <https://arxiv.org/abs/2112.07491>`_
+    `doi:10.1088/1361-6633/ac8c54 <https://doi.org/10.1088/1361-6633/ac8c54>`_
+    :cite:`Yarkoni_2022`
+    
+   - A very **recommendable introduction to Quantum Annealing**:
+     theoretical foundation, hardware, QUBO, embedding etc.
+   
+   - Details about two real-world optimization applications:
+     **traffic-flow optimization** and **scheduling and logistics**
+     (job shop and paint shop scheduling, vehicle routing).
+     The solutions make use of hybrid-algorithms because of the limited capacity of current hardware.
+   
+   - "In conclusion, all presented methodologies to address traffic flow optimization problems are based
+     on assumptions that make them far from faithfully representing real-world problem challenges.
+     However, QA processors have been proven to be valuable tools to address simplified formulations
+     and show high potential [...]."
+    
+   - "Currently, the scheduling-type problems that can be solved on current and near-term QA
+     hardware are already somewhat realistic and not too far away from real-world applications. "
+    
+   - Other applications are also addressed: Quantum Simulation, QML, Finance.
+
 - | Fernandez-Campoamor et al.,
     **Community Detection in Electrical Grids Using Quantum Annealing**, 2021,
     `arXiv:2112.08300 <https://arxiv.org/abs/2112.08300>`_ - E.ON, TUM

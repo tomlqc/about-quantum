@@ -174,14 +174,6 @@ State of the art
     We found that for problem instances involving nearly 1000 binary variables, quantum annealing significantly outperforms its classical counterpart, simulated annealing. It is more than 108 times faster than simulated annealing running on a single core. [...]
     While these results are intriguing and very encouraging, there is more work ahead to turn quantum enhanced optimization into a practical technology. The design of next generation annealers must facilitate the embedding of problems of practical relevance. For instance, we would like to increase the density and control precision of the connections between the qubits as well as their coherence."
 
-- `IARPA Quantum Enhanced Optimization <https://www.iarpa.gov/index.php/research-programs/qeo>`_,
-  2021 summary :cite:`Lidar_2021` :cite:`Crosson_2021`
-  
-  - "More-coherent quantum annealing" :cite:`Novikov_2018`, build at MIT Lincoln Laboratory,
-    while D-Wave hardware lacks sufficient coherence
-  
-  - Project superseded by the `DARPA’s Quantum Annealing Feasibility Study <https://www.darpa.mil/news-events/2020-05-11a>`_.
-
 - "Demonstration of a scaling advantage for a quantum annealer over simulated annealing", 2018 :cite:`Albash_2018b`:
 
     "[We] establish the first example of a scaling advantage for an experimental quantum annealer over classical simulated annealing. [...]
@@ -204,7 +196,27 @@ State of the art
     "These results confirm the presence of quantum tunneling in the DW2X; a quantum speedup restricted
     to sequential algorithms similar to the Google Inc. study on the weak-strong clusters instance."
 
-- Applications: SAT-Problem :cite:`Farhi_2000`, Quantum Chemistry :cite:`Kassal_2011`
+- | Yarkoni et al.,
+    **Quantum annealing for industry applications: introduction and review**, 2022
+    :cite:`Yarkoni_2022`
+    
+   - A very **recommendable introduction to Quantum Annealing**:
+     theoretical foundation, hardware, QUBO, embedding etc.
+     
+   - Early applications are still to be seen as proof of concepts.
+     
+   - For more details see :ref:`reviews/industry_opti:Optimization in Industry`.
+
+- | Some more details about possible applications:
+    SAT-Problem :cite:`Farhi_2000`, Quantum Chemistry :cite:`Kassal_2011`
+
+- `IARPA Quantum Enhanced Optimization <https://www.iarpa.gov/index.php/research-programs/qeo>`_,
+  2021 summary :cite:`Lidar_2021` :cite:`Crosson_2021`
+  
+  - "More-coherent quantum annealing" :cite:`Novikov_2018`, build at MIT Lincoln Laboratory,
+    while D-Wave hardware lacks sufficient coherence
+  
+  - Project superseded by the `DARPA’s Quantum Annealing Feasibility Study <https://www.darpa.mil/news-events/2020-05-11a>`_.
 
 See also general section about :ref:`intro/outlook/state:State of the Art` of Quantum Computing.
 
