@@ -4,7 +4,7 @@ Breaking RSA
 
 .. include:: ../../qutex.rst
 
-Let's sketch the Shor algorithm!
+Let's sketch the **Shor algorithm**!
 
 .. contents::
     :local:
@@ -136,10 +136,11 @@ is to factor the modulus :math:`n`."
 
 .. ---------------------------------------------------------------------------
 
-Quantum Circuit
----------------
+Conclusion
+----------
 
-How many qubits will we need for this task?
+The Shor algorithm has a proven capacity of breaking the RSA cryptosystem
+in polynomial time. But how many qubits will we need for this task?
 
 The `NIST recommends
 <https://doi.org/10.6028/NIST.SP.800-57pt3r1>`_
@@ -175,8 +176,8 @@ We still need some technological breakthrough...
     has a complexity of :math:`O(N^2)`,
     and the Fast Fourier Transform (FFT) scales with :math:`O(N \log{N})`.
     
-    Thus the QFT could be seen as an exponential speedup compared to the FFT,
-    as :math:`O(N \log{N}) = O(2^n n)`.
+    Thus one could imagine that the QFT would represent an exponential speedup
+    compared to the FFT, as :math:`O(N \log{N}) = O(2^n n)`.
     But the FT and the QFT achieve two different goals:
     while the FT returns the :math:`N` coefficients as numbers,
     the QFT generates a superposition of states whose amplitudes are the Fourier coefficients.

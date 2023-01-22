@@ -25,8 +25,8 @@ Hardware
     e.g. avoid defects introducting splitting of levels :cite:`QCE21_Reagor`
   - connectivity of qubits:
     strong impact on performance,
-    but simple ladder connectivity may be good enough for current hardware :cite:`Holmes_2020`
-    :cite:`QCE21_Matsuura`
+    (but simple ladder connectivity may be good enough for current hardware :cite:`Holmes_2020`
+    :cite:`QCE21_Matsuura`)
   - data I/O: performance of loading classical data, faster read out (measurements) :cite:`QCE21_Matsuura`
   - control electronics:
     "Reduce the wiring: move the controller to cryogenic temperature (4K) - cryogenic CMOS"
@@ -48,7 +48,7 @@ Software
   - *quantum compiler* (LLVM): optimization of qubit usage,
     "mapping & scheduling" :cite:`QCE21_Clarke`,
     "randomized compiling" :cite:`QCE21_Emerson`
-  - error correction
+  - **Error correction**
 
 
 Quantum Advantage
