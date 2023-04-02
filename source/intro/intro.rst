@@ -6,7 +6,7 @@ An Introduction
 An introduction to Quantum Technology.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     quantum2/quantum2
     computing/computing

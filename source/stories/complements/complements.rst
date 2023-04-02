@@ -6,7 +6,7 @@ Complements
 Complements to the introduction.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     applications
     realization

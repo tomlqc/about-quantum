@@ -6,7 +6,7 @@ Background
 A few more stories about selected topics in Quantum Science.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     
     basics
     advanced
