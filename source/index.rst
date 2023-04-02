@@ -122,7 +122,8 @@ Complements
   :ref:`stories/complements/iontrap:Trapped Ions` |
   :ref:`stories/complements/supercond:Superconducting Circuits` |
   :ref:`stories/complements/qudots:Quantum Dots` |
-  :ref:`stories/complements/nvcenters:NV Centers`
+  :ref:`stories/complements/nvcenters:NV Centers` |
+  Error Correction
 
 * **Illustration:**
   :ref:`stories/complements/bloch_sphere:Bloch Sphere` |
