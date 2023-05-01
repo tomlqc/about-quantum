@@ -7,6 +7,7 @@ Google Quantum AI
   as listed on `Quantum AI <https://quantumai.google/research/publications>`_.
   I focussed on three areas: quantum advantage, quantum chemistry,
   quantum computation (linear system solvers, QAOA, QML). - December 12, 2022
+  (updated Apr 30, 2023)
 
 .. contents::
     :local:
@@ -284,5 +285,24 @@ QML
   - Data can elevate classical [machine learning] models to rival quantum models, even when the quantum circuits generating the data are hard to compute classically.
   - Following these constructions, in numerical experiments, we find that a variety of common quantum models in the literature perform similarly or worse than classical ML on both classical and quantum datasets due to a small geometric difference.
   - With the large geometric difference endowed by the projected quantum model, we are able to construct engineered datasets to demonstrate large prediction advantage over common classical ML models
+
+Error Correction
+^^^^^^^^^^^^^^^^
+
+- | Google Quantum AI, **Suppressing quantum errors by scaling a surface code logical qubit**, 2023,
+    `ai.googleblog.com <https://ai.googleblog.com/2023/02/suppressing-quantum-errors-by-scaling.html>`_,
+    `QEC milestone <https://quantumai.google/qecmilestone>`_
+    :cite:`GoogleQuantumAI_2023`.
+
+  - experimentally demonstrated prototype of quantum error correction
+    i.e. error rate of logical qubit is lower for a code involving more physical qubits than the reference
+    "We want the higher protection offered by QEC to outweigh the increased opportunities for errors as we increase the number of qubits."
+  - uses a 9-qubit distance-5 (d = 5) **surface code**
+  - "“Data” qubits on the vertices make up the logical qubit, while “measure” qubits at the center of each square are used for so-called “stabilizer measurements.” These measurements tell us whether the qubits are all the same, as desired, or different, signaling that an error occurred, without actually revealing the value of the individual data qubits."
+  - error-correction using **two different decoders**: 
+    belief-matching, an efficient combination of belief propagation and minimum-weight perfect matching ;
+    and tensor network decoding, a slow but accurate approximate maximum-likelihood decoder.
+  - "Our target remains achieving logical error rates of 1 in 106 or lower per cycle of QEC."
+
 
 .. ---------------------------------------------------------------------------

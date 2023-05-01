@@ -34,22 +34,16 @@ Errors can be cast four different types (according to
 - **Measurement:**
   The measurement process itself is prone to errors.
 
+Using Quantum Computing will not be possible without
+significantly reducing the noise level and will require an efficiently implemented
+:ref:`stories/complements/qec:Error Correction`.
+
+
 :draft:`More to explore:`
-
-- Quantum Error Correction, :cite:`Nielsen2010` section 10.3,
-
-- Fault-tolerant Algorithms, :cite:`Nielsen2010` section 10.6,
 
 - Randomized Benchmarking :cite:`QCE21_Clarke`:
 
   - apply random series of rotations in sphere,
     go back to :math:`\ket{0}` (or :math:`\ket{1}`) and check recovery .
-
-- Error mitigation :cite:`QCE21_Gambetta`,
-  e.g. using Richardson extrapolation :cite:`Temme_2017`
-
-- :draft:`Recent advances:`
-
-  - *Dynamically Generated Logical Qubits* :cite:`Hastings_2021`
 
 .. ---------------------------------------------------------------------------

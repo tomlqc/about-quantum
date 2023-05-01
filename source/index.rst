@@ -117,13 +117,13 @@ Complements
 * **Realization:**
   :ref:`stories/complements/entanglement:Entanglement` |
   :ref:`stories/complements/gates:Circuit Gates` |
+  :ref:`stories/complements/qec:Error Correction` |
   :ref:`stories/complements/photonics:Photonics` |
   :ref:`stories/complements/neutralatoms:Neutral Atoms` |
   :ref:`stories/complements/iontrap:Trapped Ions` |
   :ref:`stories/complements/supercond:Superconducting Circuits` |
   :ref:`stories/complements/qudots:Quantum Dots` |
-  :ref:`stories/complements/nvcenters:NV Centers` |
-  Error Correction
+  :ref:`stories/complements/nvcenters:NV Centers`
 
 * **Illustration:**
   :ref:`stories/complements/bloch_sphere:Bloch Sphere` |

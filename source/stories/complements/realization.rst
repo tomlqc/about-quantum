@@ -8,6 +8,7 @@ Realization
 
     entanglement
     gates
+    qec
     photonics
     neutralatoms
     iontrap
