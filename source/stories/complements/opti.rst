@@ -30,11 +30,15 @@ Variational quantum algorithms are a new class of algorithms that provides
 a heuristic for solving optimization problems in the NISQ era,
 but their overall performance and scaling has yet to be evaluated.
 
-*Quantum Approximate Optimization Algorithm* (**QAOA**) :cite:`Farhi_2014`
+The *Quantum Approximate Optimization Algorithm* (**QAOA**) :cite:`Farhi_2014`
+is an iterative hybrid algorithm using a quantum circuit to evaluate the expecation value
+of the energy of a parametrized state for the hamiltonian representing the optimization problem,
+while the parameters are optimized using a classical algorithm to minimize this energy.
 
-- :draft:`to detail: the hybrid procedure...`
-
-- :draft:`about the relation between Adiabatic Evolution and QAOA`
+It can be shown that the QAOA is an approximation of the
+:ref:`stories/complements/opti:Quantum Annealing Algorithm`
+obtained by discretizing the adiabatic process i.e. by trotterization of the time evolution
+of the system under the changing hamiltonian.
 
 .. comment - https://math.stackexchange.com/questions/1768999/notation-square-brackets-with-a-unique-scalar
 
@@ -47,6 +51,10 @@ Selected resources:
 
 * "`The living QAOA reference <https://marwahaha.github.io/qaoa-reference/>`_" :cite:`Marwaha_2021_blog`:
   a great collection of references to papers with very useful comments.
+  
+* The qiskit tutorial
+  `Solving combinatorial optimization problems using QAOA <https://learn.qiskit.org/course/ch-applications/solving-combinatorial-optimization-problems-using-qaoa#Constructing%20Hamiltonian>`_ :cite:`QiskitTextbook`
+  describes the construction of the hamiltonian and the principle of QAOA [#notation]_.
 
 .. ---------------------------------------------------------------------------
 
@@ -55,8 +63,14 @@ Quantum Annealing Algorithm
 
 Optimization by *Adiabatic Evolution* :cite:`Farhi_2000` solves *Quadratic Unconstrained Binary Optimization* (**QUBO**) problems,
 and is implemented on an :ref:`stories/complements/adiabatic:Adiabatic Quantum Computer`.
+It is based on the idea of setting a quantum system in its ground state
+(the hamiltonian is chosen for having a known ground state),
+and to slowly and smoothly transform this initial hamiltonian into the problem hamiltonian.
+If the process is sufficiently slow, the system will remain in its ground state.
 
-It is also a heuristic approach to solve optimization problems.
+It is a heuristic approach to solve optimization problems, as there is no general result
+about the required time or number of finite steps to transform the hamiltonian for the
+algorithm to work properly.
 
 .. ---------------------------------------------------------------------------
 
@@ -179,6 +193,14 @@ Summary
   `videos <https://www.youtube.com/playlist?list=PLn2GetlnOf-sdGdmCa_P35iC64KlH_pHo>`_,
   about mapping combinatorial optimization problems onto quantum computers,
   QAOA and AQC.
+
+-----
+
+.. [#notation]
+
+    The notation :math:`[n]` used in the qiskit tutorial represents the set
+    :math:`\{1,2,…,x\}`,
+    see `Notation: square brackets with a unique scalar? <https://math.stackexchange.com/questions/1768999/notation-square-brackets-with-a-unique-scalar>`_
 
 -----
 
