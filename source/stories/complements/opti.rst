@@ -179,6 +179,9 @@ Summary
     Yarkoni's paper :cite:`Yarkoni_2022` that gives a good overview of quantum annealing.
     No general conclusion can be made about the performance of quantum annealing compared to
     classical algorithms and about the problems best suited for it.
+  
+  - Poggel :cite:`Poggel_2022` presents strategies for solving optimization problems with QC, this include
+    hybrid algorithms, encoding and decomposition methods among others.
 
 - See my notes about :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` at IEEE QCE21.
 
