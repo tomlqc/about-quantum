@@ -20,7 +20,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Learning about Quantum 2.0'
-copyright = '2021, Thomas Germain'
+copyright = '2021-2023, Thomas Germain'
 author = 'Thomas Germain'
 
 
