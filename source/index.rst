@@ -193,7 +193,8 @@ Reviews
 * **Applications:**
   :ref:`reviews/industry_opti:Optimization in Industry`
 * **Special Topics:**
-  :ref:`reviews/kernels:Quantum Kernels`
+  :ref:`reviews/kernels:Quantum Kernels` |
+  :ref:`reviews/qbm:Quantum Boltzmann Machines`
 
 
 Learn more

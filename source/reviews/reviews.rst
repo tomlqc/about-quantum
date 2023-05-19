@@ -10,3 +10,4 @@ Reviews
     google
     industry_opti
     kernels
+    qbm
