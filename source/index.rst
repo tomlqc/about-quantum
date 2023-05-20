@@ -194,7 +194,7 @@ Reviews
   :ref:`reviews/industry_opti:Optimization in Industry`
 * **Special Topics:**
   :ref:`reviews/kernels:Quantum Kernels` |
-  :ref:`reviews/qbm:Quantum Boltzmann Machines`
+  :ref:`reviews/qbm:Quantum Generative Models`
 
 
 Learn more
