@@ -40,7 +40,7 @@ Software
 
 - | currently *Variational Quantum Algorithms* or *Quantum Annealing*:
   
-  - see :ref:`intro/computing/algo:Quantum algorithms`,
+  - see :ref:`intro/computing/algo:Algorithms`,
     also :ref:`reviews/ieee_qce21:Quantum Approximate Optimization` in QAOA.
   
 - Challenges:
