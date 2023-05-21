@@ -42,13 +42,19 @@ Literature: RBM
 Literature: QBM
 ---------------
 
+- | Ventura et al., **Quantum associative memory**, 2000,
+    `arXiv:quant-ph/9807053 <https:arxiv.org/abs/quant-ph/9807053>`_,
+    `doi:10.1016/S0020-0255(99)00101-2 <https://doi.org/10.1016/S0020-0255(99)00101-2>`_ -
+    
+  - ...
+
 - | Adachi et Henderson, **Application of Quantum Annealing to Training of Deep Neural Networks**, 2015,
     `arXiv:1510.06356 <https://arxiv.org/abs/1510.06356>`_ -
     Lockheed Martin.
   
   - "We investigated an alternative approach that estimates model expectations of Restricted Boltzmann Machines using samples from a D-Wave quantum annealing machine. [alternative to Contrastive Divergence]".
 
-- | Amin et al., **Quantum Boltzmann Machine**, 2016,
+- | :yellow:`Amin et al.`, **Quantum Boltzmann Machine**, 2016,
     `pdf:10.1103/PhysRevX.8.021050 <https://journals.aps.org/prx/pdf/10.1103/PhysRevX.8.021050>`_,
     `arXiv:1601.02036 <https://arxiv.org/abs/1601.02036>`_,
     `doi:10.1103/PhysRevX.8.021050 <https://doi.org/10.1103/PhysRevX.8.021050>`_ -

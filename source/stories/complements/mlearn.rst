@@ -2,16 +2,37 @@
 Machine Learning
 ================
 
-:draft:`Reviews:`
-
-- *Quantum machine learning* (2017) :cite:`Biamonte_2017`
-- Mangini, Quantum computing models for artificial neural networks, 2021,
-  doi:10.1209/0295-5075/134/10002.
-
 .. contents:: In this section
     :local:
 
 -----
+
+
+.. ---------------------------------------------------------------------------
+
+Introduction
+------------
+
+- | Biamonte et al., *Quantum machine learning*, 2017 :cite:`Biamonte_2017`
+  
+  - "If small quantum information processors can produce statistical patterns that are computationally difficult to be produced by a classical computer, then perhaps they can also recognize patterns that are equally difficult to recognize classically."
+  
+  - "The notion of a quantum speedup depends on whether one takes a formal computer science perspective—which demands mathematical proofs—or a perspective based on what can be done with realistic, finite-size devices—which requires solid statistical evidence of a scaling advantage over some finite range of problem sizes. For the case of quantum machine learning, the best possible performance of classical algorithms isn’t always known. This is similar to the case of Shor’s polynomial-time quantum algorithm for integer factorization: no subexponential-time classical algorithm has been found, but the possibility is not provably ruled out."
+  - "The required resources of classical machine learning algorithms are mostly quantified by numerical experimentation. The resource requirements of quantum machine learning algorithms are likely to be similarly difficult to quantify in practice. "
+  - Theoretical exponential speedups have been derived,
+    based mainly on the speedup for underlying linear algebra problems
+    (see :ref:`intro/computing/algo:HHL`), that show some prohibitive caveats for practical use.
+  - Many algorithms require quantum random access memory (qRAM).
+  - Deep quantum learning can be implemented form of quantum Boltzmann machines,
+    and it can be implemented on a quantum annealer.
+    "Quantum computers can accelerate Boltzmann training by providing improved ways of sampling"
+    by using quantum coherence.
+  - Promising is to use QML for quantum data.
+
+- | Mangini et al., *Quantum computing models for artificial neural networks*, 2021 :cite:`Mangini_2021`
+  
+  - :draft:`to summarize...`
+
 
 .. ---------------------------------------------------------------------------
 
@@ -54,6 +75,8 @@ See also about Sampling for *Restricted Boltzmann Machines* (RBM)
 with the `D-Wave QPU <https://docs.dwavesys.com/docs/latest/handbook_problems.html#machine-learning>`_
 :cite:`DWave_2021` (:ref:`stories/complements/adiabatic:Adiabatic Quantum Computer`).
 
+See more details in :ref:`reviews/qbm:Quantum Generative Models`.
+
 .. ---------------------------------------------------------------------------
 
 Summary
@@ -62,7 +85,7 @@ Summary
 - | The most promising use of QML i.e. where the chance of successfull uses is the highest,
     is for :ref:`reviews/kernels:Learning about quantum systems`.
 
-- | The question that I raise: **Where in real (classical) life do data sets occur
+- | The question that I raise about Quantum Kernels: **Where in real (classical) life do data sets occur
     that require a classically non-tractable feature map to be accurately classified?**
 
 - *Is quantum advantage the right goal for quantum machine learning?* :cite:`Schuld_2022`
