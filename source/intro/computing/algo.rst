@@ -9,7 +9,7 @@ Algorithms
 Complexity classes
 ------------------
 
-- Refresher:
+- :draft:`Refresher:`
   **P**, **NP**, **PSPACE**, :cite:`Nielsen2010` section 3.2.4,
 
 - *Quantum computational complexity* :cite:`Nielsen2010` section 4.5.5
@@ -17,21 +17,19 @@ Complexity classes
 
 .. ---------------------------------------------------------------------------
 
-Quantum algorithms
-------------------
+Overview
+--------
 
-- Overview
+- *Quantum algorithms: an overview* :cite:`Montanaro_2016`
 
-  - *Quantum algorithms: an overview* :cite:`Montanaro_2016`
+- an extensive list in `Quantum Algorithm Zoo <https://quantumalgorithmzoo.org/>`_ :cite:`Jordan_2021`
 
-  - an extensive list in `Quantum Algorithm Zoo <https://quantumalgorithmzoo.org/>`_ :cite:`Jordan_2021`
+- a review about *Variational Quantum Algorithms* :cite:`Cerezo_2021`
 
-  - a review about *Variational Quantum Algorithms* :cite:`Cerezo_2021`
-  
-  - :draft:`... oracles ...`
+- :draft:`Define oracles...`
 
-  - see also about the *expressiveness* of **parametrized quantum circuit** (PQC)
-    *ansatzes* :cite:`QCE21_Bennink`
+- see also about the *expressiveness* of **parametrized quantum circuit** (PQC)
+  *ansatzes* :cite:`QCE21_Bennink`
 
 - Examples described in this section
 
@@ -44,6 +42,12 @@ Quantum algorithms
     :ref:`intro/computing/algo:QAOA` |
     :ref:`intro/computing/algo:VQE`
 
+.. ---------------------------------------------------------------------------
+
+Pure Quantum Algorithms
+-----------------------
+
+"Pure" quantum in contrast to hybrid quantum-classical algorithms, they require **error-correction**.
 
 Shor
 ^^^^
@@ -98,6 +102,13 @@ HHL
   
 * See also *Hybrid quantum linear equation algorithm* :cite:`Lee_2019`
 
+.. ---------------------------------------------------------------------------
+
+Variational Quantum Algorithms
+------------------------------
+
+Hybrid quantum-classical algorithms, they are designed to work also on **NISQ** hardware
+and tolerate some amount of noise. The classical part is an optimization task.
 
 QAOA
 ^^^^
