@@ -9,7 +9,7 @@ Quantum Generative Models
 
 :draft:`Work in progress...`
 
-.. implement on circ, qiskit, pennylane?
+.. template
 
     - | , ****, ,
         `arXiv: <https://arxiv.org/abs/>`_

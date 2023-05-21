@@ -40,9 +40,6 @@ It can be shown that the QAOA is an approximation of the
 obtained by discretizing the adiabatic process i.e. by trotterization of the time evolution
 of the system under the changing hamiltonian.
 
-.. comment - https://math.stackexchange.com/questions/1768999/notation-square-brackets-with-a-unique-scalar
-
-
 Selected resources:
 
 * *QAOA: Performance, Mechanism, and Implementation on Near-Term Devices* :cite:`Zhou_2020`
@@ -55,6 +52,25 @@ Selected resources:
 * The qiskit tutorial
   `Solving combinatorial optimization problems using QAOA <https://learn.qiskit.org/course/ch-applications/solving-combinatorial-optimization-problems-using-qaoa#Constructing%20Hamiltonian>`_ :cite:`QiskitTextbook`
   describes the construction of the hamiltonian and the principle of QAOA [#notation]_.
+
+And about recent algorithmic improvements:
+
+- | Matsuo et al.,
+    *Problem-specific Parameterized Quantum Circuits of the VQE Algorithm for Optimization Problems*, 2020, 
+    arXiv:2006.05643.
+
+- | Glos et al., *Space-efficient binary optimization for variational quantum computing*, 2022,
+    doi:10.1038/s41534-022-00546-y.
+
+- :draft:`add references to bib`
+
+And finally a recenct critical viewpoint:
+
+- | Anschuetz and Kiani, *Quantum variational algorithms are swamped with traps*, 2022,
+    `pdf:s41467-022-35364-5 <https://www.nature.com/articles/s41467-022-35364-5.pdf>`_,
+    `doi:10.1038/s41467-022-35364-5 <https://doi.org/10.1038/s41467-022-35364-5>`_ -
+  
+  - :draft:`summarize...`
 
 .. ---------------------------------------------------------------------------
 

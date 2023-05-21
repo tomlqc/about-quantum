@@ -39,6 +39,14 @@ Introduction
     The geometric difference between models :cite:`Huang_2021` is of use too, and motivated to project
     the data on just a subspace of the whole Hilbert space.
 
+A critical viewpoint:
+
+- | Aaronson, *QML algorithms: read the fine print*, 2015,
+    `pdf:qml <https://scottaaronson.com/papers/qml.pdf>`_,
+    `doi:10.1038/nphys3272 <https://doi.org/10.1038/nphys3272>`_ -
+  
+  - :draft:`summarize...`
+
 .. ---------------------------------------------------------------------------
 
 Variational Classification
@@ -68,6 +76,8 @@ The quantum kernels can be integrated in two ways:
 #. Application 2: We want to optimize a parametrized quantum feature map to minimize classification error. This technique is called kernel alignment.
 
 See more details in :ref:`reviews/kernels:Quantum Kernels`.
+
+See also :ref:`reviews/ieee_qce21:Quantum Kernel Machines` at IEEE QCE21.
 
 .. ---------------------------------------------------------------------------
 
@@ -100,8 +110,6 @@ Summary
   - Quantum machine learning models are kernel methods (see dedicated paper)
   - Link connecting quantum circuits to neural tangent kernels and random Fourier features
   - Compute gradients of quantum circuits using the technique of parameter-shift rule
-
-- See :ref:`reviews/ieee_qce21:Quantum Kernel Machines` at IEEE QCE21.
 
 -----
 
