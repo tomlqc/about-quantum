@@ -9,6 +9,9 @@ p.caption, h3 {
 .red {
     color: red;
 }
+.yellow {
+    background-color: yellow;
+}
 .draft {
     color: goldenrod;
 }

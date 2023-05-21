@@ -76,6 +76,7 @@ ogp_image = 'https://www.about-quantum.com/about-quantum_logo_og.png'
 
 rst_prolog = """
 .. role:: red
+.. role:: yellow
 .. role:: draft
 .. role:: supnote
 .. |citation| replace:: :supnote:`[citation needed]`
