@@ -17,7 +17,7 @@ Quantum Generative Models
       
       - ...
 
-.. contents::
+.. contents:: In this section
     :local:
 
 -----

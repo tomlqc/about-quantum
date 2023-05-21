@@ -13,7 +13,7 @@ Quantum Kernels
   In this review I have summarized the main concepts around **Supervised Learning** with **Quantum Kernels**,
   since it is fundamental to much of the current quantum machine learning research. - November 6, 2022
 
-.. contents::
+.. contents:: In this section
     :local:
 
 -----
