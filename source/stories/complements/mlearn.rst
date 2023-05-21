@@ -31,8 +31,13 @@ Introduction
 
 - | Mangini et al., *Quantum computing models for artificial neural networks*, 2021 :cite:`Mangini_2021`
   
-  - :draft:`to summarize...`
-
+  - Covers quantum networks incl. quantum perceptron models, kernel methods, generative models (QBM, QGAN, QCBM),
+    QCNN, quantum dissipative networks and trainability (barren plateaus, optimization routines)
+  - optimization: backpropagation is difficult to implement, so classical optimizers are used,
+    while the *parameter-shift* rule may elegantly provide gradients.
+  - about the data: needs metrics such as effective dimension, Fisher information may be useful for this tasks.
+    The geometric difference between models :cite:`Huang_2021` is of use too, and motivated to project
+    the data on just a subspace of the whole Hilbert space.
 
 .. ---------------------------------------------------------------------------
 
